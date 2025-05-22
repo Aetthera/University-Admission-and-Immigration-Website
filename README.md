@@ -8,6 +8,8 @@ A full-stack web application that simplifies university admissions and academic 
 
 https://www.notion.so/University-Admission-and-Immigration-Website-1f8898f0b51880a2bf08f82ae0d1880d?pvs=4
 
+https://v3.tailwindcss.com/docs/font-size
+
 
 ## 👥 Team Members
 * Karim Farag - Frontend Developer / Backend Developer
