@@ -13,6 +13,7 @@ export default function Hero() {
         <h1 className="text-6xl font-bold text-gray-800 mb-4 mt-[6vh] pb-10 pl-[15vh]">
           Lorem Ipsum
         </h1>
+        
 
         {/* Sub text */}
         <p className="text-lg text-gray-700 mb-6 justify-left pl-[15vh]" style={{ maxWidth: '500px' }}>
