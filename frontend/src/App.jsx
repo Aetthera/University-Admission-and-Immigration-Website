@@ -2,6 +2,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/heroSection';
 import CustomerReview from './components/customerReview';
+import Performance from './components/Performance';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       </div>
       <div>
         <CustomerReview />
+      </div>
+      <div>
+        <Performance/>
       </div>
       <Footer />
     </>
