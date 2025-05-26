@@ -10,10 +10,10 @@ export default function Hero() {
       <div className="relative max-w-7xl h-[60vh] w-full px-6 py-16 bg-gray-200/60 backdrop-md rounded-[4vw] shadow-lg text-left">
         
         {/* Header text */}
-        <h1 className="text-6xl font-bold text-gray-800 mb-4 mt-[6vh] pb-10 pl-[15vh]">
+        <h1 className="text-1xl font-bold text-gray-800 mb-4 mt-[6vh] pb-10 pl-[15vh]">
           Lorem Ipsum
         </h1>
-        
+
 
         {/* Sub text */}
         <p className="text-lg text-gray-700 mb-6 justify-left pl-[15vh]" style={{ maxWidth: '500px' }}>

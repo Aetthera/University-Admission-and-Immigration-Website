@@ -25,7 +25,7 @@ export default function Performance() {
       <div className='flex space-x-8 top-20 pt-60'>
 
         {/* Circle 1 */}
-        <div className='w-[215px] h-[215px] rounded-full bg-white border-[2px] border-blue-600 text-center '>
+        <div className='w-[215px] h-[215px] rounded-full bg-white border-[2px] border-[#256DB2] text-center '>
 
             {/* Client Satisfaction */}
 
@@ -40,7 +40,7 @@ export default function Performance() {
         </div>
 
         {/* Circle 2 */}
-        <div className='w-[215px] h-[215px] rounded-full bg-white border-[2px] border-blue-600 text-center'>
+        <div className='w-[215px] h-[215px] rounded-full bg-white border-[2px] border-[#256DB2] text-center'>
 
             {/* Ongoing Cases */}
             <h1 className='relative text-black pt-[60px] font-montserrat font-semibold'>
@@ -55,7 +55,7 @@ export default function Performance() {
         </div>
 
         {/* Circle 3 */}
-        <div className='relative w-[215px] h-[215px] rounded-full bg-[#256DB2] border-[2px] border-blue-600 -mt-[150px] text-center '>
+        <div className='relative w-[215px] h-[215px] rounded-full bg-[#256DB2] border-[2px] border-[#256DB2] -mt-[150px] text-center '>
 
             {/* Succeeded */}
             <h1 className='relative text-white pt-[60px] font-montserrat font-semibold'>
@@ -70,7 +70,7 @@ export default function Performance() {
         </div>
 
         {/* Circle 4 */}
-        <div className='w-[215px] h-[215px] rounded-full bg-white border-[2px] border-blue-600 text-center justify-center items-center'>
+        <div className='w-[215px] h-[215px] rounded-full bg-white border-[2px] border-[#256DB2] text-center justify-center items-center'>
             
             {/* Immigration Consultation to Canada */}
             <h1 className='relative text-black pt-[60px] font-montserrat font-semibold'>

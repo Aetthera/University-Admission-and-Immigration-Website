@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/heroSection';
 import CustomerReview from './components/customerReview';
 import Performance from './components/Performance';
+import ContactUs from './components/ContactUs'
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       </div>
       <div>
         <Performance/>
+      </div>
+      <div>
+        <ContactUs/>
       </div>
       <Footer />
     </>
