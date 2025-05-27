@@ -1,5 +1,5 @@
 import Person from '../assets/person.png';
-import Vector1 from '../assets/Vector1.png';
+import Vector1 from '../assets/lineAroundPerson.png';
 
 export default function GetConsultation() {
   return (

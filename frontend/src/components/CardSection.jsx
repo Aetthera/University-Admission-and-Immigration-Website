@@ -2,9 +2,9 @@ import { FaRegSmile } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa6";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
-import Vector from "../assets/Vector.png";
+import Vector from "../assets/dottedLine.png";
 
-function FeatureCard({ icon: Icon, title, text }) {
+function FeatureCard({icon: Icon , title, text }) {
   return (
     <div className="group bg-blue-800/80 rounded-2xl p-6 w-72 min-h-[250px] relative flex flex-col items-start shadow-xl transition-all duration-300 hover:bg-white hover:scale-105 cursor-pointer">
       <div className="absolute -top-6 left-6 transition-all duration-300 bg-white text-blue-700 group-hover:bg-blue-600 group-hover:text-white rounded-full p-3 shadow">
