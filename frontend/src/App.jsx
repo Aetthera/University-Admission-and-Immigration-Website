@@ -12,24 +12,37 @@ function App() {
     <>
 
     <Header />
-    <GetConsultation />
-    <Footer />
-      <Header />
-      <div>
-        <Hero />
-      </div>
-      <div>
-        <CardSection />
-      </div>
-      <div>
-        <CustomerReview />
-      </div>
-      <div>
-        <Performance/>
-      </div>
-      <div>
-        <ContactUs/>
-      </div>
+
+    {/* Hero Section */}
+    <div>
+      <Hero/>
+    </div>
+
+    {/* Card Section */}
+    <div>
+      <CardSection/>
+    </div>
+
+    {/* Client Review Section */}
+    <div>
+      <CustomerReview/>
+    </div>
+
+    {/* Get Consultation Section */}
+    <div>
+      <GetConsultation/>
+    </div>
+
+    {/* Performance Section */}
+    <div>
+      <Performance/>
+    </div>
+
+    {/* Get in touch Section */}
+    <div>
+      <ContactUs/>
+    </div>
+
       <Footer />
     </>
   );
