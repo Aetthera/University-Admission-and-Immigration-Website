@@ -6,12 +6,13 @@ export default function BannerSearchSection() {
   return (
     <section className="w-full bg-white">
       {/* Image with text & search overlay */}
-      <div className="relative w-full max-w-[1440px] mx-auto">
+      <div className="relative w-full max-w-[1440px] mx-auto overflow-hidden border-0 shadow-none">
         {/* Plane Image */}
         <img
           src={planeBanner}
           alt="Plane Banner"
-          className="w-full h-auto object-cover"
+          className="w-full h-auto object-cover block border-0 outline-none ring-0 shadow-none"
+          draggable={false}
         />
 
         {/* Search Box Container */}

@@ -5,7 +5,8 @@ export default function Header() {
   return (
     //background of header
     <header className="w-full bg-white shadow">
-      <div className="flex items-center max-w-6xl mx-auto py-4 px-4 w-full">
+      <div className="flex items-center max-w-7xl mx-auto py-4 px-4 w-full">
+        
         {/* logo */}
         <div className="font-serif text-2xl font-bold flex items-end mr-6">
           <span className="text-blue-800 font-semibold">Immigration</span>

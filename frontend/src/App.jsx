@@ -3,6 +3,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BannerSearchSection from "./components/UniversitySelection/BannerSearchSection";
 import AdmissionProcess from "./components/UniversitySelection/AdmissionProcess";
+import NewsletterSection from "./components/UniversitySelection/NewsletterSection";
+import ContactUs from "./components/ContactUs";
+
 
 function App() {
   return (
@@ -10,6 +13,8 @@ function App() {
       <Header />
       <BannerSearchSection />
       <AdmissionProcess />
+      <NewsletterSection />
+      <ContactUs />
       <Footer />
     </div>
   );
