@@ -1,21 +1,21 @@
 import React from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
-import planeBanner from "../../assets/Banner-Uni-Search.png";
+import planeBanner from "../../assets/Banner-Uni-Search 1.png";
 
 export default function BannerSearchSection() {
   return (
-    <section className="w-full bg-white">
-      {/* Image with text & search overlay */}
-      <div className="relative w-full max-w-[1440px] mx-auto overflow-hidden border-0 shadow-none">
+    <section className="w-full bg-white overflow-hidden">
+      {/* Wrapper with no border and no outline */}
+      <div className="relative w-full max-w-[1440px] mx-auto overflow-hidden border-none outline-none shadow-none">
         {/* Plane Image */}
         <img
           src={planeBanner}
           alt="Plane Banner"
-          className="w-full h-auto object-cover block border-0 outline-none ring-0 shadow-none"
+          className="w-full h-auto object-cover block border-none outline-none ring-0 shadow-none select-none pointer-events-none"
           draggable={false}
         />
 
-        {/* Search Box Container */}
+        {/* Search Box */}
         <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 w-[90%] md:w-[85%] bg-white px-6 py-6 rounded-[40px] shadow-lg flex flex-wrap items-center justify-center gap-4">
           <h2 className="w-full text-center font-semibold text-gray-800 text-lg">
             Find What You’re Looking For

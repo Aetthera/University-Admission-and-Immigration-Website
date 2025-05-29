@@ -2,6 +2,8 @@ import React from "react";
 import redHalo from "../../assets/Vector.png";
 import blueHalo from "../../assets/Vector1.png";
 import curveLine from "../../assets/Layer_1.png";
+import blueHaloo from "../../assets/Vectorred.png";
+
 
 export default function AdmissionProcess() {
   const steps = [
@@ -36,7 +38,7 @@ export default function AdmissionProcess() {
   ];
 
   return (
-    <section className="relative w-full bg-white overflow-hidden py-16 px-4">
+    <section className="relative w-full bg-white overflow-hidden py-16 px-4 pb-0">
       {/* Background halos */}
       <img
         src={blueHalo}
@@ -47,6 +49,11 @@ export default function AdmissionProcess() {
         src={redHalo}
         className="absolute right-[5%] bottom-[5%] w-[30vw] max-w-[400px] opacity-30 z-0"
         alt="red halo"
+ />
+           <img
+              src={blueHaloo}
+              className="absolute left-[-3%] bottom-[1%] w-[50vw] max-w-[500px] opacity-30 z-0"
+              alt="red halo"
       />
 
       {/* Title */}
