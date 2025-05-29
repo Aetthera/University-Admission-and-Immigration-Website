@@ -42,12 +42,12 @@ export default function AdmissionProcess() {
       {/* Background halos */}
       <img
         src={blueHalo}
-        className="absolute right-[5%] top-[5%] w-[30vw] max-w-[400px] opacity-30 z-0"
+        className="absolute right-[-1%] top-[5%] w-[30vw] max-w-[800px] opacity-30 z-0"
         alt="blue halo"
       />
       <img
         src={redHalo}
-        className="absolute right-[5%] bottom-[5%] w-[30vw] max-w-[400px] opacity-30 z-0"
+        className="absolute right-[-1%] bottom-[5%] w-[30vw] max-w-[800px] opacity-30 z-0"
         alt="red halo"
  />
            <img
@@ -58,20 +58,20 @@ export default function AdmissionProcess() {
 
       {/* Title */}
       <div className="relative z-10 max-w-4xl mx-auto text-center mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
           Admission Process with <br /> Immigration Door
         </h2>
-        <p className="text-sm text-gray-600 mt-2">
-          We are with you every <br className="md:hidden" /> step of the way!
+        <p className="text-base text-gray-600 mt-2">
+          We are with you every <br  /> step of the way!
         </p>
       </div>
 
       {/* Line Image - moved below title and adjusted down */}
-     <div className="relative z-10 mt-[4rem] flex justify-center">
+     <div className="relative z-10 mt-[-1rem] flex justify-center">
   <img
     src={curveLine}
     alt="process line"
-    className="absolute w-[90%] max-w-[950px] left-1/2 -translate-x-1/2  top-[7rem]"
+    className="absolute w-[90%] max-w-[950px] left-1/2 -translate-x-1/2  top-[13.5rem]"
   />
 </div>
 
@@ -79,7 +79,7 @@ export default function AdmissionProcess() {
       
 
       {/* Steps */}
-      <div className="relative z-10 max-w-4xl mx-auto grid grid-cols-1 gap-16 px-6 pt-16">
+      <div className="relative z-10 max-w-4xl mx-auto grid grid-cols-1 gap-5 px-6 pt-16">
         {steps.map((step, index) => (
           <div
             key={index}
@@ -87,12 +87,12 @@ export default function AdmissionProcess() {
           >
             <div className="p-5 w-[90%] max-w-md">
 
-              <h3 className="text-3xl font-bold text-gray-800 mb-2">
+              <h3 className="text-6xl font-bold text-gray-800 mb-2">
                 {step.number}
-                <span className="text-base font-semibold ml-2">{step.title}</span>
+                <span className="text-2xl font-semibold ml-2">{step.title}</span>
               </h3>
-              <p className="text-sm text-gray-600 mb-3">{step.text}</p>
-              <button className="text-xs font-semibold bg-[#eaf2fc] text-blue-700 rounded-lg px-4 py-1">
+              <p className="text-xl  text-gray-600 mb-3">{step.text}</p>
+              <button className="text-base font-semibold bg-[#eaf2fc] text-blue-700 rounded-lg px-4 py-1">
                 {step.button}
               </button>
             </div>

@@ -5,7 +5,7 @@ import mailIllustration from "../../assets/illustration-mail.png";
 
 export default function NewsletterSection() {
   return (
- <section className="relative w-full bg-white pt-0 pb-16 px-6 overflow-hidden">
+ <section className="relative w-full bg-white mt-32 pt-0 pb-16 px-6 overflow-hidden">
 
       {/* Background halos */}
        <img
