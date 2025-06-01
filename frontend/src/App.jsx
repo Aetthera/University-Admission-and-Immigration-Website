@@ -1,50 +1,17 @@
-import Footer from './components/Footer';
-import Header from './components/Header';
-import CardSection from './components/CardSection';
-import GetConsultation from './components/GetConsultation';
-import Hero from './components/heroSection';
-import CustomerReview from './components/customerReview';
-import Performance from './components/Performance';
-import ContactUs from './components/ContactUs'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import UniversityList from "./pages/UniversityList";
+import UniversityDetails from "./pages/UniversityDetails";
 
 function App() {
   return (
-    <>
-
-    <Header />
-
-    {/* Hero Section */}
-    <div>
-      <Hero/>
-    </div>
-
-    {/* Card Section */}
-    <div>
-      <CardSection/>
-    </div>
-
-    {/* Client Review Section */}
-    <div>
-      <CustomerReview/>
-    </div>
-
-    {/* Get Consultation Section */}
-    <div>
-      <GetConsultation/>
-    </div>
-
-    {/* Performance Section */}
-    <div>
-      <Performance/>
-    </div>
-
-    {/* Get in touch Section */}
-    <div>
-      <ContactUs/>
-    </div>
-
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/universities" element={<UniversityList />} />
+        <Route path="/universities/:id" element={<UniversityDetails />} />
+      </Routes>
+    </Router>
   );
 }
 
