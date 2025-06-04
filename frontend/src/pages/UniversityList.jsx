@@ -1,4 +1,3 @@
-import universityData from '../data/world_universities_and_domains.json';
 import UniversityCard from "../components/UniversityCard"; // Make sure this component exists
 
 function UniversityList() {
