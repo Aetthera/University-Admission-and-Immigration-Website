@@ -4,7 +4,8 @@ import { MagnifyingGlassIcon, UserCircleIcon } from '@heroicons/react/24/solid';
 export default function Header() {
   return (
     //background of header
-    <header className="w-full bg-white shadow">
+      <header className="sticky top-0 z-50 w-full bg-white shadow">
+
       <div className="flex items-center max-w-7xl mx-auto py-4 px-4 w-full">
         
         {/* logo */}
