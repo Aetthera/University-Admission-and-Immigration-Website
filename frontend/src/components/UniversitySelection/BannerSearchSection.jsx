@@ -1,11 +1,11 @@
 import React from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
+import { motion } from "framer-motion";
 import planeBanner from "../../assets/Banner-Uni-Search 1.png";
 
 export default function BannerSearchSection() {
   return (
     <section className="w-full bg-white overflow-hidden">
-      {/* Wrapper with no border and no outline */}
       <div className="relative w-full max-w-[1440px] mx-auto overflow-hidden border-none outline-none shadow-none">
         {/* Plane Image */}
         <img
@@ -21,10 +21,13 @@ export default function BannerSearchSection() {
             Find What You’re Looking For
           </h2>
 
-          <input
+          {/* Animated Search Input */}
+          <motion.input
+            whileHover={{ borderColor: "#ef4444", scale: 1.02 }}
+            transition={{ duration: 0.3 }}
             type="text"
             placeholder="Search..."
-            className="flex-1 min-w-[150px] md:min-w-[200px] border-2 rounded-full px-4 py-2 border-red-500 focus:outline-none"
+            className="flex-1 min-w-[150px] md:min-w-[200px] border-2 border-red-500 rounded-full px-4 py-2 focus:outline-none"
           />
 
           <select className="min-w-[150px] border border-gray-300 rounded-full px-4 py-2 text-sm text-gray-700">
@@ -36,9 +39,14 @@ export default function BannerSearchSection() {
             <option>Select region</option>
           </select>
 
-          <button className="bg-gray-100 p-2 rounded-full hover:bg-gray-200 transition">
+          {/* Animated Icon Button */}
+          <motion.button
+            whileHover={{ scale: 1.2 }}
+            transition={{ type: "spring", stiffness: 300 }}
+            className="bg-gray-100 p-2 rounded-full hover:bg-gray-200 transition"
+          >
             <MagnifyingGlassIcon className="w-5 h-5 text-gray-600" />
-          </button>
+          </motion.button>
         </div>
       </div>
     </section>

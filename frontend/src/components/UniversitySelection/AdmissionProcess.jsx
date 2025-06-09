@@ -4,7 +4,6 @@ import blueHalo from "../../assets/Vector1.png";
 import curveLine from "../../assets/Layer_1.png";
 import blueHaloo from "../../assets/Vectorred.png";
 
-
 export default function AdmissionProcess() {
   const steps = [
     {
@@ -49,11 +48,11 @@ export default function AdmissionProcess() {
         src={redHalo}
         className="absolute right-[-1%] bottom-[5%] w-[30vw] max-w-[800px] opacity-30 z-0"
         alt="red halo"
- />
-           <img
-              src={blueHaloo}
-              className="absolute left-[-3%] bottom-[1%] w-[50vw] max-w-[500px] opacity-30 z-0"
-              alt="red halo"
+      />
+      <img
+        src={blueHaloo}
+        className="absolute left-[-3%] bottom-[1%] w-[50vw] max-w-[500px] opacity-30 z-0"
+        alt="blue halo"
       />
 
       {/* Title */}
@@ -62,21 +61,18 @@ export default function AdmissionProcess() {
           Admission Process with <br /> Immigration Door
         </h2>
         <p className="text-base text-gray-600 mt-2">
-          We are with you every <br  /> step of the way!
+          We are with you every <br /> step of the way!
         </p>
       </div>
 
-      {/* Line Image - moved below title and adjusted down */}
-     <div className="relative z-10 mt-[-1rem] flex justify-center">
-  <img
-    src={curveLine}
-    alt="process line"
-    className="absolute w-[90%] max-w-[950px] left-1/2 -translate-x-1/2  top-[13.5rem]"
-  />
-</div>
-
-
-      
+      {/* Line Image */}
+      <div className="relative z-10 mt-[-1rem] flex justify-center">
+        <img
+          src={curveLine}
+          alt="process line"
+          className="absolute w-[90%] max-w-[950px] left-1/2 -translate-x-1/2 top-[13.5rem]"
+        />
+      </div>
 
       {/* Steps */}
       <div className="relative z-10 max-w-4xl mx-auto grid grid-cols-1 gap-5 px-6 pt-16">
@@ -85,14 +81,13 @@ export default function AdmissionProcess() {
             key={index}
             className={`flex items-start ${index % 2 === 0 ? "justify-start" : "justify-end"}`}
           >
-            <div className="p-5 w-[90%] max-w-md">
-
+            <div className="p-5 w-[90%] max-w-md bg-transparent rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-blue-50 cursor-pointer">
               <h3 className="text-6xl font-bold text-gray-800 mb-2">
                 {step.number}
                 <span className="text-2xl font-semibold ml-2">{step.title}</span>
               </h3>
-              <p className="text-xl  text-gray-600 mb-3">{step.text}</p>
-              <button className="text-base font-semibold bg-[#eaf2fc] text-blue-700 rounded-lg px-4 py-1">
+              <p className="text-xl text-gray-600 mb-3">{step.text}</p>
+              <button className="text-base font-semibold bg-[#eaf2fc] text-blue-700 rounded-lg px-4 py-1 hover:bg-blue-200">
                 {step.button}
               </button>
             </div>
