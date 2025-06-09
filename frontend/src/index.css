@@ -60,6 +60,31 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Homepage Reviews */
+
+@keyframes scroll-x {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-x {
+  animation: scroll-x 30s linear infinite;
+}
+
+.review-scroll {
+  scrollbar-width: none;            /* Firefox */
+  -ms-overflow-style: none;        /* IE and Edge */
+}
+
+.review-scroll::-webkit-scrollbar {
+  display: none;                   /* Chrome, Safari, Opera */
+}
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
