@@ -1,38 +1,40 @@
-import Person from '../assets/person.png';
-import Vector1 from '../assets/lineAroundPerson.png';
+import SectionWrapper from './SectionWrapper';
+import Background from '../assets/consultation-background.png';
+import SmallArrowButton from './SmallArrowButton';
+import LongArrowButton from './LongArrowButton';
+import ConsultationImage from '../assets/consultation-immigration.jpg';
 
 export default function GetConsultation() {
-  return (
-    <section className="w-full min-h-[430px] bg-white flex flex-col md:flex-row items-center justify-between px-4 py-10 md:py-0 overflow-hidden relative">
+    return (
+        <section className="relative h-[100vh] w-full overflow-hidden">
 
-      {/* Left: Text */}
-      <div className="w-1/2 flex flex-col justify-start pl-[140px] mt-8 md:mt-0">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">Lorem Ipsum</h2>
-        <p className="text-gray-600 mb-4 max-w-[40vh]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <p className="text-gray-600 mb-6 max-w-lg">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
-        <div className="flex gap-4">
-          <button className="border border-red-700 text-black bg-white px-5 py-2 rounded-full hover:bg-blue-50 transition">More Info</button>
-          <button className="bg-red-500 text-white px-5 py-2 rounded-full hover:bg-red-600 transition">Get Consultation</button>
-        </div>
-      </div>
+            {/* Background image on the right (behind) */}
+            <div
+                className="absolute top-[1px] right-0 h-[99.99%] w-[100%] bg-cover bg-center z-0"
+                style={{ backgroundImage: `url(${ConsultationImage})` }}
+            ></div>
 
-      {/* Right: Vector & Person */}
-      <div className="w-1/2 relative flex items-end justify-end pr-[80px] min-h-[320px] ">
-        <img
-          src={Vector1}
-          alt="decorative vector"
-          className="absolute bottom-0 w-[280px] left-0 right-[100px] h-[760px] z-0  pointer-events-none select-none"
-        />
-        <img
-          src={Person}
-          alt="Person"
-          className="relative w-[300px] z-10 right-[100px] h-[760px] w-[560px]"
-        />
-      </div>
-    </section>
-  );
+            {/* Foreground content on the left (on top) */}
+            <div
+                className="absolute top-0 left-0 h-full w-full z-10 bg-contain bg-left bg-no-repeat"
+                style={{ backgroundImage: `url(${Background})` }}
+            >
+                <SectionWrapper className="flex flex-col justify-start items-start gap-10 py-[100px] !pl-[75px]">
+                    <h1 className="font-bold text-5xl">Lorem Ipsum</h1>
+
+                    <p className="max-w-[400px] text-base text-gray-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis ducimus vitae unde nisi eveniet fugit dolorem, est ea facere, doloribus minus labore repudiandae! Possimus magni aperiam sed odit magnam.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis ducimus vitae unde nisi eveniet fugit dolorem, est ea facere, doloribus minus labore repudiandae! Possimus magni aperiam sed odit magnam.<br /><br />
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis ducimus vitae unde nisi eveniet fugit dolorem, est ea facere, doloribus minus labore repudiandae! Possimus magni aperiam sed odit magnam.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis ducimus vitae unde nisi eveniet fugit dolorem, est ea facere, doloribus minus labore repudiandae! Possimus magni aperiam sed odit magnam.
+                    </p>
+
+                    <div className="flex flex-col justify-start items-start gap-2">
+                        <SmallArrowButton />
+                        <LongArrowButton />
+                    </div>
+                </SectionWrapper>
+            </div>
+        </section>
+    );
 }
