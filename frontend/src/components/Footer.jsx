@@ -20,7 +20,7 @@ export default function Footer() {
                 />
 
 
-                <div className="flex flex-wrap justify-between gap-x-12 pb-12 pt-8">
+                <div className="flex flex-wrap justify-between gap-x-12 pb-8 pt-8">
 
                     {/* logo + tagline */}
                     <div className="min-w-[180px] h-[200px] flex flex-col gap-3">
