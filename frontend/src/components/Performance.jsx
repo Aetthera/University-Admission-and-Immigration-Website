@@ -164,8 +164,8 @@ export default function Performance() {
 
     useEffect(() => {
         if (inView) {
-            setTriggerCounts(false); // reset first
-            setTimeout(() => setTriggerCounts(true), 10); // re-trigger count
+            setTriggerCounts(false);
+            setTimeout(() => setTriggerCounts(true), 10);
         }
     }, [inView]);
 
