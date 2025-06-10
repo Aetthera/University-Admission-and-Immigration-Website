@@ -1,12 +1,24 @@
 import { img } from "framer-motion/client";
 import { FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
 import CompanyLogo from '../assets/company_logo.png';
+import planeimg from '../assets/Layer_1.png';
 
 
 export default function Footer() {
     return (
         <footer className="w-full bg-[#333333] text-gray-300 pt-8 pb-4 border-t border-gray-700">
-            <div className="max-w-6xl mx-auto px-4">
+
+
+            <div className="relative max-w-6xl mx-auto px-4">
+
+
+                {/* Plane Image at Bottom Left */}
+                <img
+                    src={planeimg}
+                    alt="Plane"
+                    className="absolute top-[-150px] left-[-300px] w-[500px] h-auto"
+                />
+
 
                 <div className="flex flex-wrap justify-between gap-x-12 pb-12 pt-8">
 

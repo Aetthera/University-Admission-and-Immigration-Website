@@ -75,13 +75,6 @@ export default function ContactUs() {
                     </div>
                 </div>
             </div>
-
-            {/* Plane Image at Bottom Left */}
-    <img
-        src={planeimg}
-        alt="Paper plane illustration"
-        className="absolute bottom-0 left-[-40px] w-[500px] h-auto"
-    />
         </section>
     );
 }
