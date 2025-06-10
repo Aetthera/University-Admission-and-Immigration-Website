@@ -55,10 +55,10 @@ export default function CustomerReview() {
     });
 
     return (
-        <SectionWrapper id="customer-reviews">
+        <SectionWrapper id="h-[100vh] customer-reviews">
             <section
                 ref={ref}
-                className="h-[90vh] py-16 px-12 bg-white overflow-hidden flex flex-col justify-center gap-3"
+                className="h-[100vh] py-16 px-12 bg-white overflow-hidden flex flex-col justify-center gap-3"
             >
                 {/* Top Row */}
                 <div className="flex justify-between items-center">
