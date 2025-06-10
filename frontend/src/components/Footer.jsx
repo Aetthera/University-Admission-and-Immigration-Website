@@ -7,6 +7,7 @@ export default function Footer() {
     return (
         <footer className="w-full bg-[#333333] text-gray-300 pt-8 pb-4 border-t border-gray-700">
             <div className="max-w-6xl mx-auto px-4">
+
                 <div className="flex flex-wrap justify-between gap-x-12 pb-12 pt-8">
 
                     {/* logo + tagline */}
@@ -18,7 +19,7 @@ export default function Footer() {
 
                     </div>
 
-                    <div className="flex flex-row gap-12">
+                    <div className="flex flex-row justify-end gap-12 ">
                         {/* quick links */}
                         <div className="min-w-[150px]">
                             <h3 className="font-semibold mb-2 text-lg">Quick Links</h3>
@@ -42,7 +43,7 @@ export default function Footer() {
                         </div>
 
                         {/* socials */}
-                        <div className="min-w-[150px]">
+                        <div className="min-w-[100px]">
                             <h3 className="font-semibold mb-2 text-lg">Connect</h3>
                             <div className="flex space-x-4 text-xl">
                                 <a href="#" className="text-[#DE3F2E] hover:text-[#fff]"><FaTwitter /></a>
