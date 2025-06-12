@@ -1,7 +1,7 @@
 import React from "react";
 import redHalo from "../../assets/VectorRed.png";
 import blueHalo from "../../assets/VectorBlue.png";
-import mailIllustration from "../../assets/illustration-mail.png";
+import mailIllustration from "../../assets/illustration.png";
 
 export default function NewsletterSection() {
   return (
@@ -20,7 +20,7 @@ export default function NewsletterSection() {
       />
 
       {/* Main Content */}
-      <div className="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+      <div className="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-y- md:gap-x-[270px]">
         {/* Text + Input */}
         <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
@@ -47,7 +47,7 @@ export default function NewsletterSection() {
           <img
             src={mailIllustration}
             alt="Newsletter Illustration"
-            className="w-[260px] md:w-[400px] object-contain"
+            className="w-[280px] md:w-[450px] object-contain"
           />
         </div>
       </div>

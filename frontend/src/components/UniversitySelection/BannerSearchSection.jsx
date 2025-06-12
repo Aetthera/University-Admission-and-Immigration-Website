@@ -1,53 +1,59 @@
 import React from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
-import planeBanner from "../../assets/Banner-Uni-Search 1.png";
+import planeBanner from "../../assets/banner-img-v1.png";
 
 export default function BannerSearchSection() {
   return (
-    <section className="w-full bg-white overflow-hidden">
-      <div className="relative w-full max-w-[1440px] mx-auto overflow-hidden border-none outline-none shadow-none">
+    <section className="w-full bg-white overflow-hidden -mt-24">
+      <div className="relative w-full max-w-[1440px] mx-auto overflow-hidden border-none outline-none shadow-none mb-20">
         {/* Plane Image */}
         <img
           src={planeBanner}
           alt="Plane Banner"
-          className="w-full h-auto object-cover block border-none outline-none ring-0 shadow-none select-none pointer-events-none"
+          className="w-full max-h-[1200px]  object-contain object-left block border-none outline-none ring-0 shadow-none select-none pointer-events-none -translate-x-15 -translate-y-8 md:-translate-x-16 md:-translate-y-10 "
           draggable={false}
         />
 
         {/* Search Box */}
-        <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 w-[90%] md:w-[85%] bg-white px-6 py-6 rounded-[40px] shadow-lg flex flex-wrap items-center justify-center gap-4">
-          <h2 className="w-full text-center font-semibold text-gray-800 text-lg">
-            Find What You’re Looking For
-          </h2>
+         <div className="relative w-full flex justify-center">
+                   <div className="relative z-[50] mt-[-230px] bg-white rounded-[3vw] shadow-[0_0_60px_rgba(0,0,0,0.05)] px-6 py-5 pointer-events-auto w-[1200px] h-[170px]  md:translate-x-16   mx-auto">
+                        <p className="text-xl font-medium text-black mb-9 text-center">
+                            Find What You're Looking For
+                        </p>
 
-          {/* Animated Search Input */}
-          <motion.input
-            whileHover={{ borderColor: "#ef4444", scale: 1.02 }}
-            transition={{ duration: 0.3 }}
-            type="text"
-            placeholder="Search..."
-            className="flex-1 min-w-[150px] md:min-w-[200px] border-2 border-red-500 rounded-full px-4 py-2 focus:outline-none"
-          />
+                        <div className="flex flex-wrap gap-1 items-center justify-center">
+                            <div className="p-[2px] rounded-full bg-gradient-to-r from-[#256DB2] to-[#E53E3E] min-w-[300px] max-w-[500px] flex-grow">
+                                <input
+                                    type="text"
+                                    placeholder="Search..."
+                                    className="w-full h-[45px] px-5 rounded-full border-none outline-none bg-white text-gray-800"
+                                />
+                            </div>
 
-          <select className="min-w-[150px] border border-gray-300 rounded-full px-4 py-2 text-sm text-gray-700">
-            <option>Applications</option>
-            <option>Programs</option>
-          </select>
+                            <select className="h-[45px] w-[160px] px-4 rounded-full border border-gray-200 text-black bg-white font-medium appearance-none">
+                                <option>Applications</option>
+                                <option>Education</option>
+                                <option>Immigration</option>
+                            </select>
 
-          <select className="min-w-[150px] border border-gray-300 rounded-full px-4 py-2 text-sm text-gray-500">
-            <option>Select region</option>
-          </select>
+                            <select className="h-[45px] w-[160px] px-4 rounded-full border border-gray-200 text-gray-400 bg-white font-normal appearance-none">
+                                <option disabled selected>Select Region</option>
+                                <option>Canada</option>
+                                <option>UK</option>
+                            </select>
 
-          {/* Animated Icon Button */}
-          <motion.button
-            whileHover={{ scale: 1.2 }}
-            transition={{ type: "spring", stiffness: 300 }}
-            className="bg-gray-100 p-2 rounded-full hover:bg-gray-200 transition"
-          >
-            <MagnifyingGlassIcon className="w-5 h-5 text-gray-600" />
-          </motion.button>
-        </div>
+
+                            <button className="rounded-full bg-gray-100 w-11 h-11 px-2 flex items-center justify-center">
+                                <MagnifyingGlassIcon className="w-5 h-5 text-gray-400" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+       
+         
+        
       </div>
     </section>
   );

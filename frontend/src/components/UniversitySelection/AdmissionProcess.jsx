@@ -1,7 +1,7 @@
 import React from "react";
 import redHalo from "../../assets/Vector.png";
 import blueHalo from "../../assets/Vector1.png";
-import curveLine from "../../assets/Layer_1.png";
+import curveLine from "../../assets/Layer_12.png";
 import blueHaloo from "../../assets/Vectorred.png";
 
 export default function AdmissionProcess() {
@@ -37,7 +37,7 @@ export default function AdmissionProcess() {
   ];
 
   return (
-    <section className="relative w-full bg-white overflow-hidden py-16 px-4 pb-0">
+    <section className="relative w-full bg-white overflow-hidden py-16 px-4 pb-20 ">
       {/* Background halos */}
       <img
         src={blueHalo}
@@ -66,16 +66,16 @@ export default function AdmissionProcess() {
       </div>
 
       {/* Line Image */}
-      <div className="relative z-10 mt-[-1rem] flex justify-center">
+      <div className="relative z-10 mt-[2rem] flex justify-center">
         <img
           src={curveLine}
           alt="process line"
-          className="absolute w-[90%] max-w-[950px] left-1/2 -translate-x-1/2 top-[13.5rem]"
+          className="absolute w-[160%] max-w-[1150px] left-1/2 -translate-x-1/2 top-[12rem]"
         />
       </div>
 
       {/* Steps */}
-      <div className="relative z-10 max-w-4xl mx-auto grid grid-cols-1 gap-5 px-6 pt-16">
+      <div className="relative z-10 max-w-5xl mx-auto grid grid-cols-1 gap-6 px-6 pt-16">
         {steps.map((step, index) => (
           <div
             key={index}

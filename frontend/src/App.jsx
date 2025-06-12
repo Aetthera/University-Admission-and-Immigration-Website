@@ -9,15 +9,17 @@ import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <BannerSearchSection />
+  <div className="overflow-x-hidden bg-white">
+    <Header />
+    <BannerSearchSection />
+    <div >
       <AdmissionProcess />
-      <NewsletterSection />
-      <ContactUs />
-      <Footer />
     </div>
-  );
+    <NewsletterSection />
+    <ContactUs />
+    <Footer />
+  </div>
+);
 }
 
 export default App;
