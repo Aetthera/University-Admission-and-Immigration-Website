@@ -2,25 +2,26 @@ import React from "react";
 import redHalo from "../../assets/VectorRed.png";
 import blueHalo from "../../assets/VectorBlue.png";
 import mailIllustration from "../../assets/illustration.png";
-
 export default function NewsletterSection() {
   return (
- <section className="relative w-full bg-white mt-32 pt-0 pb-16 px-6 overflow-hidden">
-
+    <section className="relative w-full bg-white mt-32 pt-0 pb-16 overflow-hidden">
+      
       {/* Background halos */}
-       <img
-              src={blueHalo}
-              className="absolute left-[1%] top-[5%] w-[30vw] max-w-[600px] opacity-30 z-0"
-              alt="blue halo"
-            />
-            <img
-              src={redHalo}
-              className="absolute left-[5%] bottom-[5%] w-[30vw] max-w-[500px] opacity-30 z-0"
-              alt="red halo"
-      />
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <img
+          src={blueHalo}
+          className="absolute left-0 top-[5%] w-[30vw] max-w-[600px] opacity-30"
+          alt="blue halo"
+        />
+        <img
+          src={redHalo}
+          className="absolute left-[5%] bottom-[5%] w-[30vw] max-w-[500px] opacity-30"
+          alt="red halo"
+        />
+      </div>
 
-      {/* Main Content */}
-      <div className="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-y- md:gap-x-[270px]">
+      {/* Main Content*/}
+      <div className="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-y-8 md:gap-x-[270px] px-6">
         {/* Text + Input */}
         <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
@@ -35,8 +36,7 @@ export default function NewsletterSection() {
               placeholder="Your email"
               className="flex-grow px-4 py-3 text-sm focus:outline-none"
             />
-           <button className="px-8 py-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full hover:bg-gray-300 transition-all shadow-none border-none outline-none focus:outline-none">
-              
+            <button className="px-8 py-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full hover:bg-gray-300 transition-all shadow-none border-none outline-none focus:outline-none">
               Send
             </button>
           </div>

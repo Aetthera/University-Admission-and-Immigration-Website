@@ -2,26 +2,29 @@ import React from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import planeBanner from "../../assets/banner-img-v1.png";
+import SectionWrapper from "../SectionWrapper";
 
 export default function BannerSearchSection() {
   return (
     <section className="w-full bg-white overflow-hidden -mt-24">
-      <div className="relative w-full max-w-[1440px] mx-auto overflow-hidden border-none outline-none shadow-none mb-20">
+    
+       <div className="relative w-full overflow-visible mb-20">
         {/* Plane Image */}
         <img
           src={planeBanner}
           alt="Plane Banner"
-          className="w-full max-h-[1200px]  object-contain object-left block border-none outline-none ring-0 shadow-none select-none pointer-events-none -translate-x-15 -translate-y-8 md:-translate-x-16 md:-translate-y-10 "
+          className="w-full max-h-[1100px]  object-contain object-left block border-none outline-none ring-0 shadow-none select-none pointer-events-none -translate-x-15 -translate-y-8   md:-translate-x-16 md:-translate-y-10 "
           draggable={false}
         />
-
+</div>
         {/* Search Box */}
+     <SectionWrapper>
          <div className="relative w-full flex justify-center">
-                   <div className="relative z-[50] mt-[-230px] bg-white rounded-[3vw] shadow-[0_0_60px_rgba(0,0,0,0.05)] px-6 py-5 pointer-events-auto w-[1200px] h-[170px]  md:translate-x-16   mx-auto">
+                   <div className="relative z-[50] mt-[-280px] bg-white rounded-[3vw] shadow-[0_0_60px_rgba(0,0,0,0.05)] px-6 py-5 pointer-events-auto w-[1100px] h-[210px]  md:translate-x-[-10]    mx-auto">
                         <p className="text-xl font-medium text-black mb-9 text-center">
                             Find What You're Looking For
                         </p>
-
+  
                         <div className="flex flex-wrap gap-1 items-center justify-center">
                             <div className="p-[2px] rounded-full bg-gradient-to-r from-[#256DB2] to-[#E53E3E] min-w-[300px] max-w-[500px] flex-grow">
                                 <input
@@ -51,10 +54,7 @@ export default function BannerSearchSection() {
                     </div>
                 </div>
 
-       
-         
-        
-      </div>
+    </SectionWrapper>
     </section>
   );
 }
