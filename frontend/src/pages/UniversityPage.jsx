@@ -1,4 +1,8 @@
 import { UilLocationPoint, UilGlobe, UilGraduationCap, UilClipboardNotes } from '@iconscout/react-unicons';
+import { UilUsdCircle } from '@iconscout/react-unicons'
+import { UilCalendarAlt } from '@iconscout/react-unicons'
+import { UilMoneyInsert } from '@iconscout/react-unicons'
+
 import Header from '../components/Header';
 import Image1 from '../assets/Image for LaSalle College - Montreal.png';
 import Image2 from '../assets/Image for LaSalle College - Montreal2.png';
@@ -25,7 +29,7 @@ function UniversityPage() {
     ];
 
     return (
-        <section className="min-h-screen bg-white font-montserrat">
+        <section className="min-h-screen bg-[#FFFFFF] font-montserrat">
             {/* Global Site Header */}
             <Header />
 
@@ -95,26 +99,26 @@ function UniversityPage() {
             </div>
 
             {/* Section Tabs + Info Boxes */}
-            <div className="px-4 sm:px-6 lg:px-8 xl:px-10 pt-6 sm:pt-8 md:pt-10 max-w-7xl mx-auto">
+            <div className="mt-[10vh] px-4 sm:px-6 lg:px-8 xl:px-10 pt-6 sm:pt-8 md:pt-10 max-w-7xl mx-auto">
                 {/* Buttons Row */}
                 <div className="flex flex-wrap gap-2 mb-4 sm:mb-6">
-                    <button className="text-center bg-blue-100 border-2 rounded-full border-blue-200 px-3 py-1 hover:border-blue-300 transition-colors">
+                    <button className="text-black text-center bg-blue-100 border-2 rounded-full border-blue-200 px-3 py-1 hover:border-blue-300 transition-colors">
                         <p className="text-xs sm:text-sm font-medium">School Overview</p>
                     </button>
 
-                    <button className="text-center border-2 rounded-full border-blue-300 px-3 py-1 hover:border-blue-500 transition-colors">
+                    <button className=" bg-white text-black text-center border-2 rounded-full border-blue-300 px-3 py-1 hover:border-blue-500 transition-colors">
                         <p className="text-xs sm:text-sm font-medium">Programs</p>
                     </button>
 
-                    <button className="text-center border-2 rounded-full border-blue-300 px-3 py-1 hover:border-blue-500 transition-colors">
+                    <button className="  bg-white text-black text-center border-2 rounded-full border-blue-300 px-3 py-1 hover:border-blue-500 transition-colors">
                         <p className="text-xs sm:text-sm font-medium">Other</p>
                     </button>
                 </div>
 
                 {/* Info Boxes Grid */}
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
+                <div className=" grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
                     {/* Main Content */}
-                    <div className="lg:col-span-2 shadow-lg rounded-lg p-4 sm:p-6 bg-white">
+                    <div className="lg:col-span-2 shadow-lg rounded-lg p-4 sm:p-12 bg-white mt-12">
                         <div className='flex items-center gap-2 sm:gap-3 mb-4'>
                             <UilGraduationCap className='h-8 w-8 sm:h-10 sm:w-10' color='#4B77D1'/>
                             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">School Overview</h2>
@@ -146,24 +150,195 @@ function UniversityPage() {
                             </div>
                         </div>
 
-                        <p className='text-gray-500 text-xs sm:text-sm mt-6 italic'>Note: All students require a CAQ for their VISA application after obtaining their acceptance letter.</p>
+                        <p className='pb-20 text-gray-500 text-xs sm:text-sm mt-6 italic'>Note: All students require a CAQ for their VISA application after obtaining their acceptance letter.</p>
 
-                        <div className="w-full h-px bg-gray-300 my-6" />
 
                         <div className='flex items-center gap-2 sm:gap-3 mb-4'>
                             <UilClipboardNotes className='h-8 w-8 sm:h-10 sm:w-10' color='#4B77D1'/>
                             <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">Features</h2>
                         </div>
+                        <div className="w-full h-px bg-gray-300 my-6" />
+
+
+                        <div className='flex-cols text-center justify-center pb-6'>
+
+                            <div className="h-[6vh] p-[2px] bg-gradient-to-r from-red-300 to-transparent rounded-l-full rounded-r-[30px]">
+                                <div className="flex items-center h-full px-4 bg-white rounded-l-full rounded-r-[26px]">
+                                    <p className="text-gray-600 text-sm">Post graduate permit</p>
+                                </div>
+                            </div>
+
+                            <div className="h-[6vh] p-[2px] bg-gradient-to-r from-red-300 to-transparent rounded-l-full rounded-r-[30px]">
+                                <div className="flex items-center h-full px-4 bg-white rounded-l-full rounded-r-[26px]">
+                                    <p className="text-gray-600 text-sm">Co-op/Internship</p>
+                                </div>
+                            </div>
+
+                            <div className="h-[6vh] p-[2px] bg-gradient-to-r from-red-300 to-transparent rounded-l-full rounded-r-[30px]">
+                                <div className="flex items-center h-full px-4 bg-white rounded-l-full rounded-r-[26px]">
+                                    <p className="text-gray-600 text-sm">Work while studying</p>
+                                </div>
+                            </div>
+
+                            <div className="h-[6vh] p-[2px] bg-gradient-to-r from-red-300 to-transparent rounded-l-full rounded-r-[30px]">
+                                <div className="flex items-center h-full px-4 bg-white rounded-l-full rounded-r-[26px]">
+                                    <p className="text-gray-600 text-sm">Accomodation</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                            <div className='flex items-center pt-8 gap-2 sm:gap-3 mb-4'>
+                                <UilLocationPoint className='h-8 w-8 sm:h-10 sm:w-10' color='#4B77D1'/>
+                            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900">Location</h2>
+
+                        </div>
+                        <div className="w-full h-px bg-gray-300 my-6" />
+
+
+                        <div className="w-full h-[300px] rounded-lg overflow-hidden mt-10">
+
+                                <iframe
+                                    title="LaSalle College Map"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.017938503132!2d-73.58005028444105!3d45.49383893980313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a4f1e7a6ed9%3A0xd51a3f944362cfb!2sLaSalle%20College!5e0!3m2!1sen!2sca!4v1717531098796!5m2!1sen!2sca"
+                                    width="100%"
+                                    height="100%"
+                                    style={{ border: 0 }}
+                                    allowFullScreen=""
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                ></iframe>
+
+                            </div>
                         <div className="w-full h-px bg-gray-300" />
+
+                        
                     </div>
 
                     {/* Sidebar Boxes */}
                     <div className='flex flex-col gap-4 sm:gap-6'>
-                        {[1, 2, 3, 4, 5].map((box, index) => (
-                            <div key={index} className="bg-blue-100 rounded-lg p-4 sm:p-5 h-32 sm:h-36 flex items-center justify-center">
-                                <p className="text-gray-800">Information Box {box}</p>
+
+                    {/* Box 1: Post Graduate Permit */}
+                    <div className="bg-white flex flex-col rounded-[40px] shadow-lg p-4 sm:p-5 sm:p-5">
+                        <p className="text-gray-800 text-[20px] text-center">Details</p>
+                        <div className="w-full h-px bg-gray-300 my-2" />
+
+                        <div className="flex justify-between items-center text-md text-black px-2 py-2">
+                            <p className="whitespace-nowrap">Founded</p>
+                            <p className="whitespace-nowrap text-[20px]">1959</p>
+                        </div>
+
+                        <div className="flex justify-between items-center text-md text-black px-2 py-2">
+                            <p className="whitespace-nowrap">Insitution type</p>
+                            <p className="whitespace-nowrap text-[20px]">Private</p>
+                        </div>
+
+                        <div className="flex justify-between items-center text-md text-black px-2 py-2">
+                            <p className="whitespace-nowrap">Number of students</p>
+                            <p className="whitespace-nowrap text-[20px]">4000+</p>
+                        </div>
+                    </div>
+
+                    {/* Box 2: */}
+                    <div className="bg-white flex flex-col shadow-lg rounded-[40px] p-4 sm:p-5">
+                        <p className="text-gray-800 text-[20px] text-center">Duration & Cost</p>
+                        <div className="w-full h-px bg-gray-300 my-2" />
+
+                        <div className="flex items-center text-center mt-4">
+                            <UilUsdCircle className="text-blue-500 pr-4 h-[50px] justify-center mb-2" color='#4B77D1'/>
+                            <div className='text-start text-[20px]'>
+                                <p className="text-black">50$ CAD</p>
+                                <p className="text-gray-600 text-sm">Average Application Fee</p>
                             </div>
-                        ))}
+                        </div>
+
+                        <div className="flex items-center text-center mt-4">
+                            <UilCalendarAlt className="text-blue-500 pr-4 h-[50px] justify-center mb-2" color='#4B77D1'/>
+                            <div className='text-start text-[20px]'>
+                                <p className="text-black">One Year</p>
+                                <p className="text-gray-600 text-sm">Average Graduation Program</p>
+                            </div>
+                        </div>
+
+                        <div className="flex items-center text-center mt-4">
+                            <UilCalendarAlt className="text-blue-500 pr-4 h-[50px] justify-center mb-2" color='#4B77D1'/>
+                            <div className='text-start text-[20px]'>
+                                <p className="text-black">Two Year</p>
+                                <p className="text-gray-600 text-sm">Average Graduation Program</p>
+                            </div>
+                        </div>
+
+                        <div className="flex items-center text-center mt-4">
+                            <UilUsdCircle className="text-blue-500 pr-4 h-[50px] justify-center mb-2" color='#4B77D1'/>
+                            <div className='text-start text-[20px]'>
+                                <p className="text-black">$20,635.00 CAD / Year</p>
+                                <p className="text-gray-600 text-sm">Cost of living</p>
+                            </div>
+                        </div>
+
+                        <div className="flex items-center text-center mt-4">
+                            <UilMoneyInsert className="text-blue-500 pr-4 h-[50px] justify-center mb-2" color='#4B77D1'/>
+                            <div className='text-start text-[20px]'>
+                                <p className="text-black">$16,989.16 CAD / First Year</p>
+                                <p className="text-gray-600 text-sm">Average gross tuition</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Box 3: */}
+                    <div className="bg-white flex flex-col rounded-[40px] shadow-lg p-4 sm:p-5 sm:p-5">
+                        <p className="text-gray-800 text-[20px] text-center">Average time of acceptance</p>
+                        <div className="w-full h-px bg-gray-300 my-2" />
+
+                        <div className="flex justify-between items-center text-md text-black px-2 py-2">
+                            <p className="whitespace-nowrap">Jan - Apr</p>
+                            <p className="whitespace-nowrap text-[20px]">15 - 30 days</p>
+                        </div>
+
+                        <div className="flex justify-between items-center text-md text-black px-2 py-2">
+                            <p className="whitespace-nowrap">May - Aug</p>
+                            <p className="whitespace-nowrap text-[20px]">15 days</p>
+                        </div>
+
+                        <div className="flex justify-between items-center text-md text-black px-2 py-2">
+                            <p className="whitespace-nowrap">Sep - Dec</p>
+                            <p className="whitespace-nowrap text-[20px]">15 days</p>
+                        </div>
+                    </div>
+
+                    {/* Box 4: Campus Size */}
+                    <div className="bg-white flex flex-col rounded-[40px] shadow-lg p-4 sm:p-5 sm:p-5">
+                        <p className="text-gray-800 text-[20px] text-center">Popular deciplines</p>
+                        <div className="w-full h-px bg-gray-300 my-2" />
+
+                        <div className="flex justify-between items-center text-md text-black px-2 py-2">
+                            <p className="whitespace-nowrap">Buisness Management</p>
+                            <p className="whitespace-nowrap text-[20px]">35%</p>
+                        </div>
+
+                        <div className="flex justify-between items-center text-md text-black px-2 py-2">
+                            <p className="whitespace-nowrap">Arts</p>
+                            <p className="whitespace-nowrap text-[20px]">31%</p>
+                        </div>
+
+                        <div className="flex justify-between items-center text-md text-black px-2 py-2">
+                            <p className="whitespace-nowrap">Engineering , Technology</p>
+                            <p className="whitespace-nowrap text-[20px]">20%</p>
+                        </div>
+
+                        <div className="flex justify-between items-center text-md text-black px-2 py-2">
+                            <p className="whitespace-nowrap">Others</p>
+                            <p className="whitespace-nowrap text-[20px]">13%</p>
+                        </div>
+                    </div>
+
+                    {/* Box 5: Scholarships Available */}
+                    <div className="bg-white flex flex-col rounded-[40px] shadow-lg p-4 sm:p-5 sm:p-5">
+                        <p className="text-gray-800 text-[20px] text-center">Type of programs</p>
+                        <div className="w-full h-px bg-gray-300 my-2" />
+
+                    </div>
+
                     </div>
                 </div>
             </div>
