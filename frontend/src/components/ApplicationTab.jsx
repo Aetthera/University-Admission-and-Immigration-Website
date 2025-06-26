@@ -57,7 +57,7 @@ export default function ApplicationTab() {
         return () => document.removeEventListener("mousedown", handleClickOutside);
     }, []);
 
-    // Automatically activate Detail View when both university and program are selected
+    // Automatically activate Detail View only when both university and program are selected
     useEffect(() => {
         if (selectedUniversity && selectedProgram) {
             setActiveTab("detailView");
@@ -69,6 +69,12 @@ export default function ApplicationTab() {
 
     return (
 
+        <>
+
+        <p className="flex justify-center p-[60px] text-lg text-center">
+            Select your school and program <br/>to view your application details.
+        </p>
+        
         <section className="flex flex-col gap-5 min-h-[1000px] bg-white rounded-[40px] shadow-[0_10px_40px_rgba(0,0,0,0.05)]">
 
             {/* Top - Buttons options, mail & print */}
@@ -184,6 +190,8 @@ export default function ApplicationTab() {
 
 
         </section>
+        </>
+
 
     );
 }
