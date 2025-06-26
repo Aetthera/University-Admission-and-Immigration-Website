@@ -1,5 +1,5 @@
 // src/Preview.jsx
-import UniversitySelectorButton from "./components/UniversitySelectorButton"; // adjust path if needed
+import UniversitySelectorButton from "./components/DropDownButton"; // adjust path if needed
 import { useState } from "react";
 
 export default function Preview() {
