@@ -1,0 +1,12 @@
+{
+  "name": "Collège Lasalle",
+  "diplomaType": "DEC",
+  "address": "2000 St-Catherine, Montreal HR9 U9I",
+  "addressLink": "https://www.google.com/maps?q=2000+St-Catherine,+Montreal+HR9+U9I",
+  "schoolLink": "https://collegelasalle.com/details",
+  "tuition": 19812.0,
+  "semesters": 6,
+  "years": 2.5,
+  "startDate": "Jan 2025",
+  "endDate": "May 2027"
+}
