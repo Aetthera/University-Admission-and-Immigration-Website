@@ -228,7 +228,8 @@ export default function ApplicationTab() {
                 </div>
 
                 {/* PART 1 /// Bottom */}
-                <div className="flex flex-row justify-between items-center mx-[120px]">
+                <div className="flex flex-row justify-between items-center w-full max-w-6xl mx-auto px-[90px] pb-[40px]">
+
                     {/* Left - School Details */}
                     <div className="">
                         {!school ? (
@@ -257,7 +258,7 @@ export default function ApplicationTab() {
 
                 {/* PART 2 /// Progress Details */}
                 <div className="flex flex-col justify-center items-center">
-                    <h2 className="text-2xl font-semibold text-center">Progress Details</h2>
+                    <h2 className="text-3xl font-normal text-center">Progress Details</h2>
                     <ProgressDetails />
                 </div>
 

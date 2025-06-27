@@ -33,9 +33,9 @@ export default function ProgressDetails() {
 
             {/* Header */}
             <div className="flex justify-between text-left">
-                <div className="w-1/3 font-semibold">Steps</div>
-                <div className="w-1/3 text-center font-semibold">Date</div>
-                <div className="w-1/3 text-right font-semibold">Status</div>
+                <div className="w-1/3 font-roboto font-semibold">Steps</div>
+                <div className="w-1/3 text-center font-roboto font-semibold">Date</div>
+                <div className="w-1/3 text-right font-roboto font-semibold">Status</div>
             </div>
 
             {/* Steps */}
