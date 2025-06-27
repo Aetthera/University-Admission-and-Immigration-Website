@@ -6,6 +6,7 @@ import { Mail, Printer } from "lucide-react";
 import SchoolDetails from "./SchoolDetails";
 import ApplicationPreviewCard from "./ApplicationPreviewCard.jsx";
 import ProgressDetails from "./ProgressDetails";
+import FileUploader from "./FileUploader.jsx";
 
 export default function ApplicationTab() {
     const [universities, setUniversities] = useState([]);
@@ -21,6 +22,9 @@ export default function ApplicationTab() {
 
     const [school, setSchool] = useState(null);
     const [application, setApplication] = useState(null);
+
+    // File Uploader
+    const [uploadedFiles, setUploadedFiles] = useState([]);
 
 
     const containerRef = useRef();
@@ -97,7 +101,7 @@ export default function ApplicationTab() {
                 Select your school and program <br />to view your application details.
             </p>
 
-            <section className="flex flex-col gap-5 w-full min-h-[1000px] bg-white rounded-[40px] shadow-[0_10px_40px_rgba(0,0,0,0.05)]">
+            <section className="flex flex-col gap-5 w-full min-h-[1000px] bg-white rounded-[40px] shadow-[0_4px_30px_rgba(0,0,0,0.03)]">
 
                 {/* Top - Buttons options, mail & print */}
                 <div className="flex flex-row justify-between gap-1" ref={containerRef}>
@@ -263,6 +267,19 @@ export default function ApplicationTab() {
                 </div>
 
             </section>
+
+            <section className="flex flex-col gap-5 w-full min-h-[1000px] bg-white rounded-[40px] shadow-[0_4px_30px_rgba(0,0,0,0.03)] mt-3">
+
+                <div>
+                    <FileUploader
+                        onConfirmUpload={(file) =>
+                            setUploadedFiles((prev) => [...prev, file])
+                        }
+                    />
+                </div>
+
+            </section>
+
         </>
 
 
