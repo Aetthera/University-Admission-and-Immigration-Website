@@ -5,6 +5,7 @@ import BasicRoundedButton from "./BasicRoundedButton";
 import { Mail, Printer } from "lucide-react";
 import SchoolDetails from "./SchoolDetails";
 import ApplicationPreviewCard from "./ApplicationPreviewCard.jsx";
+import ProgressDetails from "./ProgressDetails";
 
 export default function ApplicationTab() {
     const [universities, setUniversities] = useState([]);
@@ -96,7 +97,7 @@ export default function ApplicationTab() {
                 Select your school and program <br />to view your application details.
             </p>
 
-            <section className="flex flex-col gap-5 min-h-[1000px] bg-white rounded-[40px] shadow-[0_10px_40px_rgba(0,0,0,0.05)]">
+            <section className="flex flex-col gap-5 w-full min-h-[1000px] bg-white rounded-[40px] shadow-[0_10px_40px_rgba(0,0,0,0.05)]">
 
                 {/* Top - Buttons options, mail & print */}
                 <div className="flex flex-row justify-between gap-1" ref={containerRef}>
@@ -227,7 +228,7 @@ export default function ApplicationTab() {
                 </div>
 
                 {/* PART 1 /// Bottom */}
-                <div className="flex flex-row justify-between items-center mx-[200px]">
+                <div className="flex flex-row justify-between items-center mx-[120px]">
                     {/* Left - School Details */}
                     <div className="">
                         {!school ? (
@@ -251,8 +252,14 @@ export default function ApplicationTab() {
 
                 </div>
 
+                {/* Separater */}
+                <div className="w-[90%] h-[2px] bg-gray-200 mx-auto my-10"></div>
+
                 {/* PART 2 /// Progress Details */}
-                <div></div>
+                <div className="flex flex-col justify-center items-center">
+                    <h2 className="text-2xl font-semibold text-center">Progress Details</h2>
+                    <ProgressDetails />
+                </div>
 
             </section>
         </>
