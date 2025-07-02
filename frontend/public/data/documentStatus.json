@@ -1,0 +1,20 @@
+[
+    {
+        "id": "doc1",
+        "applicationId": "app-001",
+        "label": "Passport",
+        "status": "uploaded"
+    },
+    {
+        "id": "doc2",
+        "applicationId": "app-001",
+        "label": "Transcript",
+        "status": "processing"
+    },
+    {
+        "id": "doc3",
+        "applicationId": "app-002",
+        "label": "Proof of Residence",
+        "status": "sent"
+    }
+]

@@ -7,6 +7,7 @@ import SchoolDetails from "./SchoolDetails";
 import ApplicationPreviewCard from "./ApplicationPreviewCard.jsx";
 import ProgressDetails from "./ProgressDetails";
 import FileUploader from "./FileUploader.jsx";
+import DocumentTable from "./DocumentTable.jsx";
 
 export default function ApplicationTab() {
     const [universities, setUniversities] = useState([]);
@@ -26,8 +27,11 @@ export default function ApplicationTab() {
     // File Uploader
     const [uploadedFiles, setUploadedFiles] = useState([]);
 
-
     const containerRef = useRef();
+
+    const handleDelete = (id) => {
+        setUploadedFiles((prev) => prev.filter((doc) => doc.id !== id));
+    };
 
     // Fetch universities
     useEffect(() => {
@@ -268,14 +272,29 @@ export default function ApplicationTab() {
 
             </section>
 
-            <section className="flex flex-col gap-5 w-full min-h-[1000px] bg-white rounded-[40px] shadow-[0_4px_30px_rgba(0,0,0,0.03)] mt-3">
+            <section className="flex flex-col items-center gap-5 w-full min-h-[1000px] bg-white rounded-[40px] shadow-[0_4px_30px_rgba(0,0,0,0.03)] mt-3">
 
-                <div>
+                <h1 className="w-full pl-[30px] pt-[30px] text-3xl">Related Documents</h1>
+
+                {/* Upload Files */}
+                <div className="flex w-[95%] h-[400px] mt-[10px]">
                     <FileUploader
-                        onConfirmUpload={(file) =>
-                            setUploadedFiles((prev) => [...prev, file])
+                        onConfirmUpload={(newDoc) =>
+                            setUploadedFiles((prev) => [...prev, newDoc])
                         }
                     />
+
+
+                </div>
+
+                <div className="w-[90%]">
+                    <DocumentTable
+                        documents={uploadedFiles}
+                        onDelete={(id) => {
+                            setUploadedFiles((prev) => prev.filter((doc) => doc.id !== id));
+                        }}
+                    />
+
                 </div>
 
             </section>
