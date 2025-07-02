@@ -279,9 +279,16 @@ export default function ApplicationTab() {
                 {/* Upload Files */}
                 <div className="flex w-[95%] h-[400px] mt-[10px]">
                     <FileUploader
-                        onConfirmUpload={(newDoc) =>
-                            setUploadedFiles((prev) => [...prev, newDoc])
-                        }
+                        onConfirmUpload={(newDoc) => {
+                            setUploadedFiles((prev) => {
+                                if (prev.length >= 10) {
+                                    alert("You can only upload a maximum of 10 files.");
+                                    return prev;
+                                }
+                                return [...prev, newDoc];
+                            });
+                        }}
+
                     />
 
 
