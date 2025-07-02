@@ -9,6 +9,7 @@ import { UilLocationPoint } from '@iconscout/react-unicons';
 import { UilExternalLinkAlt } from '@iconscout/react-unicons';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import Select from "react-select";
 
 export default function FilterUniSelection() {
   const [filters, setFilters] = useState({
@@ -32,8 +33,8 @@ export default function FilterUniSelection() {
     },
     tuitionMax: 120000,
     tuitionMin: 0,
-    discipline: "",
-    major: "",
+    discipline: [],
+    major: [],
     deadline: null,
   });
 
@@ -196,8 +197,8 @@ export default function FilterUniSelection() {
       },
       tuitionMax: 120000,
       tuitionMin: 0,
-      discipline: "",
-      major: "",
+      discipline: [],
+      major: [],
       deadline: null,
     });
   }
@@ -293,7 +294,7 @@ export default function FilterUniSelection() {
             <div>
               <p className="text-gray-700">Country</p>
               <select
-                className="bg-white text-gray-400 w-full border border-gray-300 rounded-lg"
+                className="bg-white text-gray-400 w-full border border-gray-300 rounded-lg h-10 pl-1"
                 value={filters.country}
                 onChange={e =>
                   setFilters(filter => ({ ...filter, country: e.target.value }))
@@ -530,61 +531,99 @@ export default function FilterUniSelection() {
             {/* Target Discipline Filter */}
             <div>
               <p className="text-gray-700">Target Discipline</p>
-              <select
-                className="bg-white text-gray-400 w-full border border-gray-300 rounded-lg"
-                value={filters.discipline}
-                onChange={e =>
-                  setFilters(filter => ({ ...filter, discipline: e.target.value }))
+              <Select
+                isMulti
+                options={[
+                  { value: "Interior Design", label: "Interior Design" },
+                  { value: "Computer Science", label: "Computer Science" },
+                  { value: "Engineering", label: "Engineering" },
+                  { value: "Business", label: "Business" },
+                ]}
+                value={filters.discipline.map(d => ({ value: d, label: d }))}
+                onChange={selectedOptions =>
+                  setFilters(filter => ({
+                    ...filter,
+                    discipline: selectedOptions ? selectedOptions.map(option => option.value) : []
+                  }))
                 }
-              >
-                {/* ADD MORE TARGET DISCIPLINES AS NEEDED */}
-                <option value="">Choose Discipline</option>
-                <option value="Interior Design">Interior Design</option>
-              </select>
+                className="w-full text-gray-400"
+                placeholder="Choose Disciplines"
+                styles={{
+                  indicatorSeparator: () => ({ display: 'none' })
+                }}
+              />
             </div>
-            {filters.discipline && (
-              <div className="flex items-center bg-black rounded-2xl w-fit px-3 mt-2">
-                <p className="text-gray-300 text-md">{filters.discipline}</p>
-                <button
-                  className="bg-black px-1"
-                  onClick={() => setFilters(filter => ({ ...filter, discipline: "" }))}
-                  type="button"
+            <div className="flex flex-wrap gap-2 mt-2">
+              {filters.discipline.map((disc, i) => (
+                <div
+                  key={i}
+                  className="flex items-center bg-black text-white rounded-2xl px-3 py-1"
                 >
-                  &times;
-                </button>
-              </div>
-            )}   
+                  <span className="mr-2">{disc}</span>
+                  <button
+                    onClick={() =>
+                      setFilters(filter => ({
+                        ...filter,
+                        discipline: filter.discipline.filter(d => d !== disc)
+                      }))
+                    }
+                    className="text-white hover:text-red-400"
+                  >
+                    &times;
+                  </button>
+                </div>
+              ))}
+            </div>
             {/* Divider */}
             <hr className="border-gray-300 mt-5 mb-5" />
 
             {/* Target Major Filter */}
-            <div>
+            <div className="mt-6">
               <p className="text-gray-700">Target Major</p>
-              <select
-                className="bg-white text-gray-400 w-full border border-gray-300 rounded-lg"
-                value={filters.major}
-                onChange={e =>
-                  setFilters(filter => ({ ...filter, major: e.target.value }))
+              <Select
+                isMulti
+                options={[
+                  { value: "Fashion", label: "Fashion" },
+                  { value: "Digital Marketing", label: "Digital Marketing" },
+                  { value: "Accounting", label: "Accounting" },
+                  { value: "AI", label: "AI" },
+                ]}
+                value={filters.major.map(m => ({ value: m, label: m }))}
+                onChange={selectedOptions =>
+                  setFilters(filter => ({
+                    ...filter,
+                    major: selectedOptions ? selectedOptions.map(option => option.value) : []
+                  }))
                 }
-              >
-                {/* ADD MORE MAJOR DISCIPLINES AS NEEDED */}
-                <option value="">Choose Major</option>
-                <option value="Fashion">Fashion</option>
-                <option value="Digital Marketing">Digital Marketing</option>
-              </select>
+                className="w-full text-gray-400"
+                placeholder="Choose Majors"
+                styles={{
+                  indicatorSeparator: () => ({ display: 'none' })
+                }}
+              />
             </div>
-            {filters.major && (
-              <div className="flex items-center bg-black rounded-2xl w-fit px-3 mt-2">
-                <p className="text-gray-300 text-md">{filters.major}</p>
-                <button
-                  className="bg-black px-1"
-                  onClick={() => setFilters(filter => ({ ...filter, major: "" }))}
-                  type="button"
+
+            <div className="flex flex-wrap gap-2 mt-2">
+              {filters.major.map((mjr, i) => (
+                <div
+                  key={i}
+                  className="flex items-center bg-black text-white rounded-2xl px-3 py-1"
                 >
-                  &times;
-                </button>
-              </div>
-            )}    
+                  <span className="mr-2">{mjr}</span>
+                  <button
+                    onClick={() =>
+                      setFilters(filter => ({
+                        ...filter,
+                        major: filter.major.filter(m => m !== mjr)
+                      }))
+                    }
+                    className="text-white hover:text-red-400"
+                  >
+                    &times;
+                  </button>
+                </div>
+              ))}
+            </div>
             {/* Divider */}
             <hr className="border-gray-300 mt-5 mb-5" />
 
@@ -599,7 +638,7 @@ export default function FilterUniSelection() {
                 dateFormat="MMMM yyyy"
                 showMonthYearPicker
                 placeholderText="Choose Deadline Date"
-                className="bg-white text-gray-400 w-[253px] border border-gray-300 rounded-lg px-2 cursor-pointer"
+                className="bg-white text-gray-400 w-[253px] border border-gray-300 rounded-lg px-2 cursor-pointer h-10"
                 onKeyDown={e => e.preventDefault()}
               />
             </div>
