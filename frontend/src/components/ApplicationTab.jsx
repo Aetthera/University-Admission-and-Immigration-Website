@@ -8,11 +8,16 @@ import ApplicationPreviewCard from "./ApplicationPreviewCard.jsx";
 import ProgressDetails from "./ProgressDetails";
 import FileUploader from "./FileUploader.jsx";
 import DocumentTable from "./DocumentTable.jsx";
+import ApplicationListView from "./ApplicationListView.jsx";
 
 export default function ApplicationTab() {
     const [universities, setUniversities] = useState([]);
     const [selectedUniversity, setSelectedUniversity] = useState(null);
     const [isUniversityOpen, setIsUniversityOpen] = useState(false);
+
+    const instructionRef = useRef(null);
+    const [shouldPulse, setShouldPulse] = useState(false);
+
 
     const [programs, setPrograms] = useState([]);
     const [filteredPrograms, setFilteredPrograms] = useState([]);
@@ -32,6 +37,16 @@ export default function ApplicationTab() {
     const handleDelete = (id) => {
         setUploadedFiles((prev) => prev.filter((doc) => doc.id !== id));
     };
+
+    const [applications, setApplications] = useState([]);
+
+    // 
+    useEffect(() => {
+        fetch("/data/applications.json")
+            .then((res) => res.json())
+            .then(setApplications);
+    }, []);
+
 
     // Fetch universities
     useEffect(() => {
@@ -76,10 +91,11 @@ export default function ApplicationTab() {
     useEffect(() => {
         if (selectedUniversity && selectedProgram) {
             setActiveTab("detailView");
-        } else if (activeTab === "detailView") {
-            setActiveTab(null);
+        } else {
+            setActiveTab("all");  // 👈 fallback
         }
     }, [selectedUniversity, selectedProgram]);
+
 
     useEffect(() => {
         fetch("/data/schoolDetails.json")
@@ -101,9 +117,16 @@ export default function ApplicationTab() {
 
         <>
 
-            <p className="flex justify-center p-[60px] text-black text-lg text-center">
-                Select your school and program <br />to view your application details.
-            </p>
+            <p
+  ref={instructionRef}
+  className={`instruction-text flex justify-center p-[60px] text-black text-lg text-center transition-all duration-300 
+    ${shouldPulse ? 'animate-pulse-shake' : ''}`}
+>
+  Select your school and program <br />to view your application details.
+</p>
+
+
+
 
             <section className="flex flex-col gap-5 w-full min-h-[1000px] bg-white rounded-[40px] shadow-[0_4px_30px_rgba(0,0,0,0.03)]">
 
@@ -163,8 +186,16 @@ export default function ApplicationTab() {
                         <BasicRoundedButton
                             label="Detail View"
                             isSelected={activeTab === "detailView"}
-                            onClick={() => setActiveTab(activeTab === "detailView" ? null : "detailView")}
+                            onClick={() => {
+                                if (!selectedUniversity || !selectedProgram) {
+                                    setShouldPulse(true);
+                                    setTimeout(() => setShouldPulse(false), 600); // reset after animation
+                                    return;
+                                }
+                                setActiveTab(activeTab === "detailView" ? null : "detailView");
+                            }}
                         />
+
 
                         {/* See All btn */}
                         <BasicRoundedButton
@@ -217,94 +248,115 @@ export default function ApplicationTab() {
 
                 </div>
 
-                {/* PART 1 /// Top */}
-                <div className="py-[40px]">
 
-                    {application && (
-                        <p className="text-sm text-gray-500 text-center">
-                            Application created on{" "}
-                            {new Date(application.createdAt).toLocaleString(undefined, {
-                                year: "numeric",
-                                month: "long",
-                                day: "numeric",
-                                hour: "numeric",
-                                minute: "2-digit"
-                            })}
-                        </p>
-                    )}
+                {activeTab !== "all" && (
 
-                </div>
+                    <>
 
-                {/* PART 1 /// Bottom */}
-                <div className="flex flex-row justify-between items-center w-full max-w-6xl mx-auto px-[90px] pb-[40px]">
+                        {/* PART 1 /// Top */}
+                        <div className="py-[40px]">
 
-                    {/* Left - School Details */}
-                    <div className="">
-                        {!school ? (
-                            <p className="text-gray-500">Loading...</p>
-                        ) : (
-                            <section className="bg-white p-6">
-                                <SchoolDetails school={school} />
-                            </section>
-                        )}
+                            {application && (
+                                <p className="text-sm text-gray-500 text-center">
+                                    Application created on{" "}
+                                    {new Date(application.createdAt).toLocaleString(undefined, {
+                                        year: "numeric",
+                                        month: "long",
+                                        day: "numeric",
+                                        hour: "numeric",
+                                        minute: "2-digit"
+                                    })}
+                                </p>
+                            )}
+
+                        </div>
+
+                        {/* PART 1 /// Bottom */}
+                        <div className="flex flex-row justify-between items-center w-full max-w-6xl mx-auto px-[90px] pb-[40px]">
+
+                            {/* Left - School Details */}
+                            <div className="">
+                                {!school ? (
+                                    <p className="text-gray-500">Loading...</p>
+                                ) : (
+                                    <section className="bg-white p-6">
+                                        <SchoolDetails school={school} />
+                                    </section>
+                                )}
+                            </div>
+
+                            {/* Right - Application Image Preview */}
+                            <div className="w-[300px]">
+                                <ApplicationPreviewCard
+                                    imageUrl="/uploads/college-application-preview.png"
+                                    pdfUrl="/uploads/college-application.pdf"
+                                    uploadedAt="June 27, 2025"
+                                />
+
+                            </div>
+
+                        </div>
+
+                        {/* Separater */}
+                        <div className="w-[90%] h-[2px] bg-gray-200 mx-auto my-10"></div>
+
+                        {/* PART 2 /// Progress Details */}
+                        <div className="flex flex-col justify-center items-center">
+                            <h2 className="text-3xl font-normal text-center text-black ">Progress Details</h2>
+                            <ProgressDetails />
+                        </div>
+                    </>
+
+                )}
+
+                {activeTab == "all" && (
+
+                    <ApplicationListView applications={applications} />
+
+                )}
+
+
+
+
+            </section>
+
+            {activeTab !== "all" && (
+
+                <section className="flex flex-col items-center gap-5 w-full min-h-[1000px] bg-white rounded-[40px] shadow-[0_4px_30px_rgba(0,0,0,0.03)] mt-3">
+
+                    <h1 className="w-full pl-[30px] pt-[30px] text-3xl">Related Documents</h1>
+
+                    {/* Upload Files */}
+                    <div className="flex w-[95%] h-[400px] mt-[10px]">
+                        <FileUploader
+                            onConfirmUpload={(newDoc) => {
+                                setUploadedFiles((prev) => {
+                                    if (prev.length >= 10) {
+                                        alert("You can only upload a maximum of 10 files.");
+                                        return prev;
+                                    }
+                                    return [...prev, newDoc];
+                                });
+                            }}
+
+                        />
+
+
                     </div>
 
-                    {/* Right - Application Image Preview */}
-                    <div className="w-[300px]">
-                        <ApplicationPreviewCard
-                            imageUrl="/uploads/college-application-preview.png"
-                            pdfUrl="/uploads/college-application.pdf"
-                            uploadedAt="June 27, 2025"
+                    <div className="w-[90%]">
+                        <DocumentTable
+                            documents={uploadedFiles}
+                            onDelete={(id) => {
+                                setUploadedFiles((prev) => prev.filter((doc) => doc.id !== id));
+                            }}
                         />
 
                     </div>
 
-                </div>
+                </section>
 
-                {/* Separater */}
-                <div className="w-[90%] h-[2px] bg-gray-200 mx-auto my-10"></div>
-
-                {/* PART 2 /// Progress Details */}
-                <div className="flex flex-col justify-center items-center">
-                    <h2 className="text-3xl font-normal text-center text-black ">Progress Details</h2>
-                    <ProgressDetails />
-                </div>
-
-            </section>
-
-            <section className="flex flex-col items-center gap-5 w-full min-h-[1000px] bg-white rounded-[40px] shadow-[0_4px_30px_rgba(0,0,0,0.03)] mt-3">
-
-                <h1 className="w-full pl-[30px] pt-[30px] text-3xl">Related Documents</h1>
-
-                {/* Upload Files */}
-                <div className="flex w-[95%] h-[400px] mt-[10px]">
-                    <FileUploader
-                        onConfirmUpload={(newDoc) => {
-                            setUploadedFiles((prev) => {
-                                if (prev.length >= 10) {
-                                    alert("You can only upload a maximum of 10 files.");
-                                    return prev;
-                                }
-                                return [...prev, newDoc];
-                            });
-                        }}
-
-                    />
-
-
-                </div>
-
-                <div className="w-[90%]">
-                    <DocumentTable
-                        documents={uploadedFiles}
-                        onDelete={(id) => {
-                            setUploadedFiles((prev) => prev.filter((doc) => doc.id !== id));
-                        }}
-                    />
-
-                </div>
-
-            </section>
+            )}
 
         </>
 
