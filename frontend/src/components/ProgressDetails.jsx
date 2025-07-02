@@ -29,10 +29,10 @@ const progressSteps = [
 
 export default function ProgressDetails() {
     return (
-        <div className="w-full max-w-6xl px-[120px] py-[80px] space-y-6">
+        <div className="w-full max-w-6xl px-[120px] py-[80px] space-y-6 text-black ">
 
             {/* Header */}
-            <div className="flex justify-between text-left">
+            <div className="flex justify-between text-left text-black ">
                 <div className="w-1/3 font-roboto font-semibold">Steps</div>
                 <div className="w-1/3 text-center font-roboto font-semibold">Date</div>
                 <div className="w-1/3 text-right font-roboto font-semibold">Status</div>

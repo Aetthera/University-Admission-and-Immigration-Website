@@ -48,7 +48,7 @@ export default function DocumentTable({ documents, onDelete }) {
                             <div className="absolute inset-0 hidden group-hover:flex items-center justify-center w-10 h-10 rounded-md bg-gray-100 text-red-500 hover:text-red-600">
 
                                 {doc.status === "Sent" && (
-                                    <button onClick={() => onDelete(doc.id)} className="w-10 h-10 flex items-center justify-center m-[0px] p-[0px]">
+                                    <button onClick={() => onDelete(doc.id)} className="w-10 h-10 flex items-center justify-center m-[0px] p-[0px] bg-white">
                                         <Trash2 className="w-5 h-5" />
                                     </button>
                                 )}
@@ -83,7 +83,7 @@ export default function DocumentTable({ documents, onDelete }) {
                     </div>
 
                     {/* Status */}
-                    <div className="flex justify-end w-1/4 mt-[-5px] text-sm text-right">
+                    <div className="flex justify-end w-1/4 mt-[-5px] text-black  text-sm text-right">
                         <DocumentStatusTracker currentStage={doc.status} />
                     </div>
                 </div>

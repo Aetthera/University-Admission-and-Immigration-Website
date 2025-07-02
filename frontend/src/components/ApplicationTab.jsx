@@ -101,7 +101,7 @@ export default function ApplicationTab() {
 
         <>
 
-            <p className="flex justify-center p-[60px] text-lg text-center">
+            <p className="flex justify-center p-[60px] text-black text-lg text-center">
                 Select your school and program <br />to view your application details.
             </p>
 
@@ -266,7 +266,7 @@ export default function ApplicationTab() {
 
                 {/* PART 2 /// Progress Details */}
                 <div className="flex flex-col justify-center items-center">
-                    <h2 className="text-3xl font-normal text-center">Progress Details</h2>
+                    <h2 className="text-3xl font-normal text-center text-black ">Progress Details</h2>
                     <ProgressDetails />
                 </div>
 

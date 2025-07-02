@@ -81,10 +81,10 @@ export default function FileUploader({ onConfirmUpload }) {
                         : "border-dashed border-gray-300 bg-gray-100 hover:border-gray-400"
                 }`}
         >
-            <Upload className="w-12 h-12 mb-4" />
+            <Upload className="w-12 h-12 mb-4 text-black" />
             {!file ? (
                 <>
-                    <p className="text-lg font-semibold">Drag and Drop</p>
+                    <p className="text-lg font-semibold text-black ">Drag and Drop</p>
                     <p className="text-sm text-gray-600">or tap to browse files</p>
                 </>
             ) : (
