@@ -17,7 +17,7 @@ export default function ReviewCard({ name, image, review, stars = 5 }) {
         ));
 
     return (
-        <div className="bg-white p-9 rounded-[3vh] shadow-sm border border-gray-240 h-[35vh] w-[35vh] flex flex-col gap-5">
+        <div className="bg-white p-9 rounded-[6vh] shadow-sm border border-gray-240 h-[35vh] w-[35vh] flex flex-col gap-5 text-black">
             <div className="flex items-center space-x-4">
                 <img src={image} alt={name} className="w-10 h-10 rounded-full object-cover" />
                 <div>

@@ -8,44 +8,44 @@ import Performance from './components/Performance';
 import ContactUs from './components/ContactUs'
 
 function App() {
-  return (
-    <>
+    return (
+        <>
 
-    <Header />
+            <Header />
 
-    {/* Hero Section */}
-    <div>
-      <Hero/>
-    </div>
+            {/* Hero Section */}
+            <div>
+                <Hero />
+            </div>
 
-    {/* Card Section */}
-    <div>
-      <CardSection/>
-    </div>
+            {/* Card Section */}
+            <div>
+                <CardSection />
+            </div>
 
-    {/* Client Review Section */}
-    <div>
-      <CustomerReview/>
-    </div>
+            {/* Client Review Section */}
+            <div className="bg-white">
+                <CustomerReview />
+            </div>
 
-    {/* Get Consultation Section */}
-    <div>
-      <GetConsultation/>
-    </div>
+            {/* Get Consultation Section */}
+            <div>
+                <GetConsultation />
+            </div>
 
-    {/* Performance Section */}
-    <div>
-      <Performance/>
-    </div>
+            {/* Performance Section */}
+            <div className="bg-white">
+                <Performance />
+            </div>
 
-    {/* Get in touch Section */}
-    <div>
-      <ContactUs/>
-    </div>
+            {/* Get in touch Section */}
+            <div>
+                <ContactUs />
+            </div>
 
-      <Footer />
-    </>
-  );
+            <Footer />
+        </>
+    );
 }
 
 export default App;
