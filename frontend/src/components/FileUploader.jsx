@@ -51,6 +51,9 @@ export default function FileUploader({ onConfirmUpload }) {
 
     const handleConfirm = () => {
         if (file && onConfirmUpload) {
+            const isValid = file.name && file.type;
+            if (!isValid) return;
+
             onConfirmUpload({
                 id: Date.now().toString(),
                 name: file.name,
@@ -63,6 +66,7 @@ export default function FileUploader({ onConfirmUpload }) {
         setFile(null);
         setPreviewName("");
     };
+
 
 
 

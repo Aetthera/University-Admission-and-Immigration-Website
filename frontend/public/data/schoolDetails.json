@@ -1,12 +1,28 @@
-{
-  "name": "Collège Lasalle",
-  "diplomaType": "DEC",
-  "address": "2000 St-Catherine, Montreal HR9 U9I",
-  "addressLink": "https://www.google.com/maps?q=2000+St-Catherine,+Montreal+HR9+U9I",
-  "schoolLink": "https://collegelasalle.com/details",
-  "tuition": 19812.0,
-  "semesters": 6,
-  "years": 2.5,
-  "startDate": "Jan 2025",
-  "endDate": "May 2027"
-}
+[
+    {
+        "id": "1",
+        "name": "Collège Lasalle",
+        "diplomaType": "DEC",
+        "address": "2000 St-Catherine, Montreal, QC",
+        "addressLink": "https://www.google.com/maps?q=2000+St-Catherine,+Montreal",
+        "schoolLink": "https://collegelasalle.com/details",
+        "tuition": 19812.0,
+        "semesters": 6,
+        "years": 2.5,
+        "startDate": "Jan 2025",
+        "endDate": "May 2027"
+    },
+    {
+        "id": "2",
+        "name": "Vanier College",
+        "diplomaType": "DEC",
+        "address": "821 Ste-Croix, Saint-Laurent, QC",
+        "addressLink": "https://www.google.com/maps?q=821+Ste-Croix,+Saint-Laurent",
+        "schoolLink": "https://vaniercollege.qc.ca",
+        "tuition": 18400.0,
+        "semesters": 6,
+        "years": 2.5,
+        "startDate": "Fall 2025",
+        "endDate": "Spring 2028"
+    }
+]

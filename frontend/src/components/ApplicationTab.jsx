@@ -11,6 +11,7 @@ import DocumentTable from "./DocumentTable.jsx";
 import ApplicationListView from "./ApplicationListView.jsx";
 
 export default function ApplicationTab() {
+    const [documentStatus, setDocumentStatus] = useState([]);
     const [universities, setUniversities] = useState([]);
     const [selectedUniversity, setSelectedUniversity] = useState(null);
     const [isUniversityOpen, setIsUniversityOpen] = useState(false);
@@ -28,6 +29,15 @@ export default function ApplicationTab() {
 
     const [school, setSchool] = useState(null);
     const [application, setApplication] = useState(null);
+    const [allSchoolDetails, setAllSchoolDetails] = useState([]);
+
+    const [appliedUniversities, setAppliedUniversities] = useState([]);
+    const currentAppDocuments = documentStatus.filter(
+        doc => doc.applicationId === application?.id && doc.name && doc.createdAt
+    );
+
+
+
 
     // File Uploader
     const [uploadedFiles, setUploadedFiles] = useState([]);
@@ -39,6 +49,50 @@ export default function ApplicationTab() {
     };
 
     const [applications, setApplications] = useState([]);
+
+    const handleApplicationSelect = (app) => {
+        const university = universities.find(u => u.id === app.schoolId);
+        const matchedSchool = allSchoolDetails.find(s => s.id === app.schoolId);
+        setSchool(matchedSchool);
+
+
+
+        const filtered = programs.filter(p => p.universityId === app.schoolId);
+        const matchedProgram = filtered.find(p => p.name === app.programName);
+
+        if (!university || !matchedProgram) {
+            console.warn("University or Program not found.");
+            return;
+        }
+
+        // Sequential state setting to avoid React batching
+        setSelectedUniversity(null);
+        setSelectedProgram(null);
+        setFilteredPrograms([]);
+
+        // Delay to give React time to reset states first
+        setTimeout(() => {
+            setSelectedUniversity(university);  // triggers the useEffect that sets filteredPrograms
+            setTimeout(() => {
+                setFilteredPrograms(filtered);   // manually set filtered programs to be safe
+                setSelectedProgram(matchedProgram);
+                setApplication(app);
+                setSchool(matchedSchool);
+                setActiveTab("detailView");
+            }, 10);
+        }, 10);
+    };
+
+
+
+
+    useEffect(() => {
+        fetch("/data/schoolDetails.json")
+            .then((res) => res.json())
+            .then(setAllSchoolDetails);
+    }, []);
+
+
 
     // 
     useEffect(() => {
@@ -69,11 +123,11 @@ export default function ApplicationTab() {
                 (program) => program.universityId === selectedUniversity.id
             );
             setFilteredPrograms(filtered);
-            setSelectedProgram(null); // Reset program selection
         } else {
             setFilteredPrograms([]);
         }
     }, [selectedUniversity, programs]);
+
 
     // Close both dropdowns on outside click
     useEffect(() => {
@@ -91,10 +145,12 @@ export default function ApplicationTab() {
     useEffect(() => {
         if (selectedUniversity && selectedProgram) {
             setActiveTab("detailView");
-        } else {
-            setActiveTab("all");  // 👈 fallback
+        } else if (activeTab === "detailView") {
+            // don't forcefully reset to 'all' unless the user deselected
+            setActiveTab("all");
         }
-    }, [selectedUniversity, selectedProgram]);
+    }, [selectedUniversity?.id, selectedProgram?.name]);
+
 
 
     useEffect(() => {
@@ -111,6 +167,27 @@ export default function ApplicationTab() {
             });
     }, []);
 
+    useEffect(() => {
+        fetch("/data/applications.json")
+            .then((res) => res.json())
+            .then((data) => {
+                setApplications(data);
+
+                // Extract schoolIds from applications
+                const uniqueIds = [...new Set(data.map(app => app.schoolId))];
+
+                // Match against universities list
+                const matchedUniversities = universities.filter(u => uniqueIds.includes(u.id));
+                setAppliedUniversities(matchedUniversities);
+            });
+    }, [universities]);
+
+    useEffect(() => {
+        fetch("/data/documentStatus.json")
+            .then(res => res.json())
+            .then(setDocumentStatus);
+    }, []);
+
 
 
     return (
@@ -118,12 +195,12 @@ export default function ApplicationTab() {
         <>
 
             <p
-  ref={instructionRef}
-  className={`instruction-text flex justify-center p-[60px] text-black text-lg text-center transition-all duration-300 
+                ref={instructionRef}
+                className={`instruction-text flex justify-center p-[60px] text-black text-lg text-center transition-all duration-300 
     ${shouldPulse ? 'animate-pulse-shake' : ''}`}
->
-  Select your school and program <br />to view your application details.
-</p>
+            >
+                Select your school and program <br />to view your application details.
+            </p>
 
 
 
@@ -287,11 +364,14 @@ export default function ApplicationTab() {
 
                             {/* Right - Application Image Preview */}
                             <div className="w-[300px]">
-                                <ApplicationPreviewCard
-                                    imageUrl="/uploads/college-application-preview.png"
-                                    pdfUrl="/uploads/college-application.pdf"
-                                    uploadedAt="June 27, 2025"
-                                />
+                                {application && (
+                                    <ApplicationPreviewCard
+                                        imageUrl={application.previewImageUrl}
+                                        pdfUrl={application.pdfUrl}
+                                        uploadedAt={new Date(application.createdAt).toLocaleDateString()}
+                                    />
+                                )}
+
 
                             </div>
 
@@ -309,11 +389,15 @@ export default function ApplicationTab() {
 
                 )}
 
-                {activeTab == "all" && (
-
-                    <ApplicationListView applications={applications} />
-
+                {activeTab === "all" && (
+                    <ApplicationListView
+                        applications={applications}
+                        universities={appliedUniversities}
+                        onSelectApplication={handleApplicationSelect}
+                    />
                 )}
+
+
 
 
 
@@ -328,7 +412,7 @@ export default function ApplicationTab() {
 
                     {/* Upload Files */}
                     <div className="flex w-[95%] h-[400px] mt-[10px]">
-                        <FileUploader
+                        {/* <FileUploader
                             onConfirmUpload={(newDoc) => {
                                 setUploadedFiles((prev) => {
                                     if (prev.length >= 10) {
@@ -339,18 +423,42 @@ export default function ApplicationTab() {
                                 });
                             }}
 
+                        /> */}
+
+                        <FileUploader
+                            onConfirmUpload={(newDoc) => {
+                                if (!application) return alert("No application selected.");
+
+                                const doc = {
+                                    ...newDoc,
+                                    id: Date.now().toString(),
+                                    applicationId: application.id,
+                                    status: "Sent"
+                                };
+
+                                setDocumentStatus(prev => [...prev, doc]);
+                            }}
                         />
+
 
 
                     </div>
 
                     <div className="w-[90%]">
-                        <DocumentTable
+                        {/* <DocumentTable
                             documents={uploadedFiles}
                             onDelete={(id) => {
                                 setUploadedFiles((prev) => prev.filter((doc) => doc.id !== id));
                             }}
+                        /> */}
+
+                        <DocumentTable
+                            documents={currentAppDocuments}
+                            onDelete={(id) => {
+                                setDocumentStatus(prev => prev.filter(doc => doc.id !== id));
+                            }}
                         />
+
 
                     </div>
 
