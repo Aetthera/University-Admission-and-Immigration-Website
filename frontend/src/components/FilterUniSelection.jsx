@@ -762,7 +762,7 @@ export default function FilterUniSelection() {
           <button
             onClick={() => setCurrentPage(page => page - 1)}
             disabled={currentPage === 1}
-            className="text-black px-4 py-2 bg-white border rounded hover:bg-blue-500 hover:text-white"
+            className="text-black px-4 py-2 bg-white border-gray-400 rounded hover:bg-blue-500 hover:text-white"
           >
             Previous
           </button>
@@ -770,7 +770,7 @@ export default function FilterUniSelection() {
             <button
               key={i}
               onClick={() => setCurrentPage(i + 1)}
-              className={`text-black px-4 py-2 border rounded ${currentPage === i + 1 ? 'bg-blue-500 text-white' : 'bg-white hover:bg-gray-200'}`}
+              className={`text-black px-4 py-2 border-gray-400 rounded ${currentPage === i + 1 ? 'bg-blue-500 text-white' : 'bg-white hover:bg-gray-200'}`}
             >
               {i + 1}
             </button>
@@ -778,7 +778,7 @@ export default function FilterUniSelection() {
           <button
             onClick={() => setCurrentPage(page => page + 1)}
             disabled={currentPage === totalPages}
-            className="text-black px-4 py-2 bg-white border rounded hover:bg-blue-500 hover:text-white"
+            className="text-black px-4 py-2 bg-white border-gray-400 rounded hover:bg-blue-500 hover:text-white"
           >
             Next
           </button>
