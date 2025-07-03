@@ -109,14 +109,6 @@ export default function FilterUniSelection() {
     return matchType && matchCountry && matchTuition; // ADD "&& matchDeadline" WHEN DEADLINE VARIABLE IS IMPLEMENTED
   });
 
-  // Pagination states
-  const [currentPage, setCurrentPage] = useState(1);
-  const universitiesPerPage = 21;
-
-  // Pagination logic
-  const indexOfLast = currentPage * universitiesPerPage;
-  const indexOfFirst = indexOfLast - universitiesPerPage;
-
   // Sort universities based 'SORT BY' filters
   let sortedUniversities = [...filteredUniversities];
 
@@ -147,7 +139,14 @@ export default function FilterUniSelection() {
       return 0;
     });
   }
+  
+  // Pagination states
+  const [currentPage, setCurrentPage] = useState(1);
+  const universitiesPerPage = 21;
 
+  // Pagination logic
+  const indexOfLast = currentPage * universitiesPerPage;
+  const indexOfFirst = indexOfLast - universitiesPerPage;
 
   const currentUniversities = sortedUniversities.slice(indexOfFirst, indexOfLast);
   const totalPages = Math.ceil(filteredUniversities.length / universitiesPerPage);
