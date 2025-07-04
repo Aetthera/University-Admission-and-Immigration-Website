@@ -8,7 +8,7 @@ import BannerSearchSection from "./components/BannerSearchSection";
 import FilterUniSelection from "./components/FilterUniSelection";
 
 // Components from feature/homepage (not yet used, but preserved)
-import Hero from "./components/Hero";
+//import Hero from "./components/Hero";
 import CardSection from "./components/CardSection";
 import CustomerReview from "./components/CustomerReview";
 import GetConsultation from "./components/GetConsultation";
