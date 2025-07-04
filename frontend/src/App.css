@@ -40,3 +40,37 @@
 .read-the-docs {
   color: #888;
 }
+
+@keyframes pulseAndShake {
+  0% {
+    transform: scale(1) translateX(0);
+    color: inherit;
+  }
+  10% {
+    transform: scale(1.05) translateX(-4px);
+    color: red;
+  }
+  25% {
+    transform: scale(1.1) translateX(4px);
+  }
+  40% {
+    transform: scale(1.08) translateX(-3px);
+  }
+  55% {
+    transform: scale(1.05) translateX(3px);
+  }
+  70% {
+    transform: scale(1.02) translateX(-2px);
+  }
+  85% {
+    transform: scale(1.01) translateX(2px);
+  }
+  100% {
+    transform: scale(1) translateX(0);
+    color: inherit;
+  }
+}
+
+.animate-pulse-shake {
+  animation: pulseAndShake 0.6s ease-in-out;
+}

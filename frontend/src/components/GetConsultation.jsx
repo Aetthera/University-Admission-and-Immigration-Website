@@ -16,7 +16,7 @@ export default function GetConsultation() {
 
             {/* Foreground content on the left (on top) */}
             <div
-                className="absolute top-0 left-0 h-full w-full z-10 bg-contain bg-left bg-no-repeat"
+                className="absolute top-0 left-0 h-full w-full z-10 bg-contain bg-left bg-no-repeat text-black"
                 style={{ backgroundImage: `url(${Background})` }}
             >
                 <SectionWrapper className="flex flex-col justify-start items-start gap-10 py-[100px] !pl-[75px]">

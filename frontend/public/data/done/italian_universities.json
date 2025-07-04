@@ -1,0 +1,497 @@
+[
+    {
+        "name": "University of Bologna",
+        "city": "Bologna",
+        "region": "Emilia-Romagna",
+        "country": "Italy",
+        "students": 79999,
+        "founded": 1088,
+        "description": "The University of Bologna is widely recognized as the oldest university in the Western world, founded in 1088. It has played a crucial role in shaping European higher education and continues to stand as a pillar of academic excellence. Located in Bologna, a city rich in cultural and historical significance, the university hosts nearly 80,000 students across a broad range of disciplines. It is particularly well-known for its programs in the humanities, law, engineering, and medicine. The university fosters a strong research culture and maintains international collaborations with institutions around the world. Its historic architecture, vibrant student life, and academic prestige make it a highly sought-after destination for students both in Italy and globally."
+    },
+    {
+        "name": "Sapienza University of Rome",
+        "city": "Rome",
+        "region": "Lazio",
+        "country": "Italy",
+        "students": 100155,
+        "founded": 1303,
+        "description": "Sapienza University of Rome is one of the largest universities in Europe by enrollment, with over 100,000 students. Founded in 1303, it has a rich history and is deeply integrated into the academic and cultural life of the Italian capital. The university offers a wide range of programs in disciplines such as humanities, science, engineering, and political sciences. Known for its contributions to research, innovation, and scholarship, Sapienza hosts numerous research centers and has been a driving force in Italy\u2019s academic reputation. Its location in Rome offers students access to countless historical sites, museums, and governmental institutions, enhancing both academic and personal development."
+    },
+    {
+        "name": "University of Milan",
+        "city": "Milan",
+        "region": "Lombardy",
+        "country": "Italy",
+        "students": 65234,
+        "founded": 1924,
+        "description": "The University of Milan is a prestigious public teaching and research university located in the vibrant city of Milan. Founded in 1924, it has rapidly developed a strong academic profile with approximately 65,000 students enrolled. The university is renowned for its faculties of medicine, law, political science, and economics. Its research output and international programs make it a leading institution in Italy. Milan's position as a financial and industrial hub also provides students with ample opportunities for internships and employment. The university contributes significantly to the cultural and intellectual landscape of Milan through partnerships, public lectures, and events."
+    },
+    {
+        "name": "University of Padua",
+        "city": "Padua",
+        "region": "Veneto",
+        "country": "Italy",
+        "students": 62876,
+        "founded": 1222,
+        "description": "Founded in 1222, the University of Padua is one of the oldest and most respected institutions in Italy and Europe. It was established as a place of free thought, and this spirit continues to shape its identity. With over 62,000 students, the university offers programs in a broad array of fields, including law, medicine, engineering, and the sciences. It is particularly known for its emphasis on academic rigor and research excellence. The university\u2019s historic campus and cutting-edge facilities offer a unique blend of tradition and innovation. Padua\u2019s academic community is internationally engaged, promoting student exchange and collaborative projects across borders."
+    },
+    {
+        "name": "University of Turin",
+        "city": "Turin",
+        "region": "Piedmont",
+        "country": "Italy",
+        "students": 80000,
+        "founded": 1404,
+        "description": "The University of Turin, established in 1404, is one of the oldest and most prestigious universities in Italy. It is located in the city of Turin, a major cultural and economic center in northern Italy. The university is noted for its excellence in the fields of law, economics, medicine, and social sciences. Throughout its history, it has fostered a strong academic tradition, while also embracing modernization and innovation. Turin's rich architectural and cultural environment provides an ideal backdrop for learning and student engagement. With a commitment to inclusivity and internationalization, the University of Turin attracts scholars from around the world."
+    },
+    {
+        "name": "University of Pisa",
+        "city": "Pisa",
+        "state": "Tuscany",
+        "country": "Italy",
+        "students": 49108,
+        "founded": 1343,
+        "website": "https://www.unipi.it",
+        "description": "The University of Pisa, founded in 1343, is one of the oldest and most prestigious universities in Italy. Located in the picturesque city of Pisa in Tuscany, the university is renowned for its research excellence and historical legacy. The university offers a wide range of programs across multiple disciplines, including sciences, engineering, humanities, law, and medicine. It has a long-standing tradition of fostering critical thinking, innovation, and academic freedom. The university's strong international collaborations and its prominent alumni, which include Galileo Galilei, further highlight its global importance. With a student population of over 49,000, the university fosters a vibrant academic community supported by advanced research centers, state-of-the-art laboratories, and historical libraries. The University of Pisa is a significant member of the Italian higher education system and plays a key role in scientific research and cultural development. Its picturesque location, combined with a high-quality education system, makes it a popular choice for both domestic and international students. The university also contributes to the development of the region through various innovation and sustainability initiatives."
+    },
+    {
+        "name": "Polytechnic University of Milan",
+        "city": "Milan",
+        "state": "Lombardy",
+        "country": "Italy",
+        "students": 48645,
+        "founded": 1863,
+        "website": "https://www.polimi.it",
+        "description": "The Polytechnic University of Milan (Politecnico di Milano) is Italy\u2019s largest technical university and one of the most prestigious institutions for engineering, architecture, and industrial design. Founded in 1863, it has played a key role in Italy\u2019s industrial and technological development. Situated in Milan, the university is recognized for combining innovation with practical applications in various fields of science and engineering. With over 48,000 students, it provides a vibrant academic environment with strong links to industry, research, and entrepreneurship. Politecnico di Milano offers a wide array of undergraduate, graduate, and doctoral programs and is consistently ranked among the top technical universities in Europe. Its curriculum emphasizes cutting-edge research, sustainability, and interdisciplinary learning. The university is also active in international exchange programs and research collaborations, hosting students and scholars from around the globe. Milan\u2019s dynamic urban and cultural setting enhances the university experience, making it a prime destination for aspiring engineers, architects, and designers."
+    },
+    {
+        "name": "Federico II University of Naples",
+        "city": "Naples",
+        "state": "Campania",
+        "country": "Italy",
+        "students": 73553,
+        "founded": 1224,
+        "website": "https://www.unina.it",
+        "description": "The Federico II University of Naples, established in 1224 by Emperor Frederick II, is one of the world\u2019s oldest public universities. Located in the historic city of Naples, it remains a major center of academic excellence and innovation in Southern Italy. With over 73,000 students, the university offers a comprehensive range of disciplines including law, medicine, engineering, sciences, and humanities. The university\u2019s historic roots are combined with a strong commitment to modern research and global engagement. Federico II University is renowned for its advanced research in fields like robotics, medicine, and technology. The campus includes historical buildings as well as modern laboratories and facilities, creating a unique blend of tradition and innovation. The university plays an important role in regional development and serves as a hub for cultural exchange. Its rich academic tradition, diverse student population, and historic setting make it a unique and respected institution in Europe."
+    },
+    {
+        "name": "University of Florence",
+        "city": "Florence",
+        "state": "Tuscany",
+        "country": "Italy",
+        "students": 51400,
+        "founded": 1321,
+        "website": "https://www.unifi.it",
+        "description": "The University of Florence, founded in 1321, is a prominent public university located in the heart of the Renaissance city of Florence. With a deep-rooted history in arts, culture, and sciences, it offers a broad array of programs across fields such as humanities, economics, engineering, medicine, and natural sciences. The university has a long-standing tradition of excellence in research and education, supported by a faculty of leading scholars and researchers. Its central location provides students access to world-renowned museums, archives, and libraries. The University of Florence is dedicated to promoting international collaboration, innovation, and sustainability. It hosts a significant number of exchange students and partners with institutions across Europe and beyond. Through interdisciplinary programs and cutting-edge research, it prepares graduates for leadership roles in academia, industry, and public service. Florence\u2019s rich artistic and cultural heritage enhances the educational experience, making it a compelling destination for students worldwide."
+    },
+    {
+        "name": "University of Genoa",
+        "city": "Genoa",
+        "state": "Liguria",
+        "country": "Italy",
+        "students": 36728,
+        "founded": 1481,
+        "website": "https://www.unige.it",
+        "description": "The University of Genoa (Universit\u00e0 degli Studi di Genova) is a historic public university in Liguria, founded in 1481. It is one of Italy\u2019s oldest universities and serves as a major center for research and education in Northern Italy. The university offers a diverse range of programs in the fields of engineering, sciences, humanities, economics, and law. With more than 36,000 students, it maintains a strong commitment to quality teaching and research. Its strategic coastal location supports marine science and engineering disciplines, and the university is involved in numerous international research projects. The campus includes a blend of historic architecture and modern facilities, contributing to a vibrant academic atmosphere. The University of Genoa fosters innovation and social responsibility and plays a key role in regional economic development. It is known for fostering community engagement and global awareness, preparing its graduates for a rapidly changing world."
+    },
+    {
+        "name": "Catholic University of the Sacred Heart",
+        "city": "Milan",
+        "state": "Lombardy",
+        "country": "Italy",
+        "students": 40000,
+        "founded": 1921,
+        "website": "https://www.unicatt.it",
+        "description": "Catholic University of the Sacred Heart (Universit\u00e0 Cattolica del Sacro Cuore) is the largest private university in Europe, based in Milan, Lombardy. Established in 1921, it is renowned for its emphasis on liberal arts, philosophy, economics, and social sciences. The university holds a deep connection to Catholic educational values, aiming to blend academic rigor with ethical and moral responsibility. Its faculties are spread across various cities including Milan, Rome, Brescia, Piacenza, and Cremona. The Milan campus is the main site and offers an environment that integrates classical architecture with modern academic facilities. The university boasts strong industry and international ties, offering diverse programs in both Italian and English. It is particularly respected for its programs in economics, psychology, communication, law, and medicine. With a commitment to interdisciplinary learning, research excellence, and social impact, the Catholic University plays a vital role in the cultural and academic life of Italy and attracts students from around the globe seeking a values-based and high-quality European education."
+    },
+    {
+        "name": "University of Pavia",
+        "city": "Pavia",
+        "state": "Lombardy",
+        "country": "Italy",
+        "students": 23849,
+        "founded": 1361,
+        "website": "https://web.unipv.it/",
+        "description": "The University of Pavia (Universit\u00e0 degli Studi di Pavia) is one of the oldest higher education institutions in Europe, founded in 1361. Located in the northern city of Pavia in the Lombardy region, the university combines a deep historical heritage with modern academic excellence. It offers a wide array of undergraduate, graduate, and doctoral programs across diverse disciplines including medicine, engineering, law, humanities, and natural sciences. Pavia is well known for its Collegio system, which provides residential colleges that foster community learning and extracurricular development. The university has a strong research orientation and maintains international collaborations with universities and research centers worldwide. It has produced numerous notable alumni including Nobel laureates and prominent scientists. The picturesque city of Pavia, combined with an engaging academic setting, makes the university a top choice for both Italian and international students seeking a balanced education in a historic environment."
+    },
+    {
+        "name": "Polytechnic University of Turin",
+        "city": "Turin",
+        "state": "Piedmont",
+        "country": "Italy",
+        "students": 38800,
+        "founded": 1859,
+        "website": "https://www.polito.it/",
+        "description": "The Polytechnic University of Turin (Politecnico di Torino) is Italy\u2019s oldest technical university and a leading European institution in engineering and architecture. Founded in 1859 in the industrial city of Turin, it has played a central role in Italy's technological and economic development. It offers a broad spectrum of programs in fields such as civil engineering, computer science, aerospace, and urban planning, attracting students from all over the world. The university is recognized for its emphasis on innovation, research excellence, and practical application of knowledge. It partners with numerous companies and international institutions to offer joint research opportunities and internship programs. Its sprawling campus features state-of-the-art laboratories and incubators for startups. Polytechnic University of Turin is a gateway for students aiming to build successful careers in technical and applied sciences, known for producing highly skilled engineers and designers."
+    },
+    {
+        "name": "University of Rome Tor Vergata",
+        "city": "Rome",
+        "state": "Lazio",
+        "country": "Italy",
+        "students": 44000,
+        "founded": 1982,
+        "website": "https://web.uniroma2.it/",
+        "description": "The University of Rome Tor Vergata (Universit\u00e0 degli Studi di Roma Tor Vergata) is a modern public university located in the southeastern suburbs of Rome. Established in 1982, it is part of a new generation of Italian universities built with a vision for modern infrastructure, innovation, and internationalization. The university offers a wide range of academic disciplines, including economics, engineering, law, humanities, and medicine. Tor Vergata places significant emphasis on scientific and applied research, hosting advanced research centers and hospitals such as the Policlinico Tor Vergata. It collaborates extensively with European and global academic partners, offering many programs in English, especially at the graduate level. The green and spacious campus is modeled after American universities, fostering a welcoming and collaborative environment. Tor Vergata continues to grow its global reputation, attracting students for its commitment to academic quality and innovation."
+    },
+    {
+        "name": "University of Palermo",
+        "city": "Palermo",
+        "state": "Sicily",
+        "country": "Italy",
+        "students": 50000,
+        "founded": 1806,
+        "website": "https://www.unipa.it/",
+        "description": "The University of Palermo (Universit\u00e0 degli Studi di Palermo) is a prestigious public university in Sicily, established in 1806. Located in the vibrant and historic city of Palermo, it serves as a major center for higher education and research in southern Italy. The university offers a comprehensive range of academic programs across disciplines such as law, economics, medicine, science, and humanities. Its campus integrates historic architecture with modern research facilities, and its central location provides students with easy access to the cultural and social life of Palermo. Palermo University emphasizes international cooperation and hosts partnerships with institutions across Europe and the Mediterranean. It promotes innovation through local and international research projects, particularly in environmental sciences, marine biology, and social policy. The university\u2019s commitment to community engagement and sustainable development underscores its mission to support both academic growth and societal impact in the region."
+    },
+    {
+        "name": "University of Trento",
+        "city": "Trento",
+        "state": "Trentino-South Tyrol",
+        "country": "Italy",
+        "students": 16239,
+        "founded": 1962,
+        "website": "https://www.unitn.it/",
+        "description": "The University of Trento is a modern and innovative public university known for its strong focus on research, academic excellence, and internationalization. Located in the picturesque city of Trento in northern Italy, the university was founded in 1962 and has since established itself as one of the top institutions in the country. It offers a wide range of undergraduate, graduate, and doctoral programs in disciplines such as engineering, social sciences, humanities, and natural sciences. The university collaborates with numerous international institutions, promoting student and faculty exchanges and research partnerships. Its vibrant campus life and commitment to sustainability and innovation make it an attractive choice for both Italian and international students."
+    },
+    {
+        "name": "University of Bari",
+        "city": "Bari",
+        "state": "Apulia",
+        "country": "Italy",
+        "students": 60000,
+        "founded": 1924,
+        "website": "https://www.uniba.it/",
+        "description": "The University of Bari, officially known as the University of Bari Aldo Moro, is one of the largest and most prominent universities in southern Italy. Founded in 1924 and named after the distinguished Italian statesman Aldo Moro, the university is located in the coastal city of Bari. It offers a broad spectrum of academic programs across multiple disciplines, including law, medicine, humanities, economics, and sciences. The institution is recognized for its contributions to academic research and regional development. Its vibrant student life, commitment to quality education, and central role in the local community make it a key player in the Italian higher education landscape."
+    },
+    {
+        "name": "University of Perugia",
+        "city": "Perugia",
+        "state": "Umbria",
+        "country": "Italy",
+        "students": 26732,
+        "founded": 1308,
+        "website": "https://www.unipg.it/",
+        "description": "The University of Perugia, established in 1308, is one of the oldest universities in Italy. Located in the historic and culturally rich city of Perugia, the university has a longstanding tradition of academic excellence and scholarly achievement. It offers a wide variety of degree programs in the humanities, sciences, economics, law, and engineering. The university is particularly noted for its internationalization efforts, hosting numerous foreign students and offering programs in English. With a strong focus on research and innovation, the University of Perugia continues to be a center of academic and scientific excellence."
+    },
+    {
+        "name": "University of Parma",
+        "city": "Parma",
+        "state": "Emilia-Romagna",
+        "country": "Italy",
+        "students": 30000,
+        "founded": 1117,
+        "website": "https://www.unipr.it/",
+        "description": "The University of Parma is one of Italy\u2019s oldest institutions, dating back to 1117. Located in the culturally vibrant city of Parma, the university is renowned for its strong academic traditions and quality teaching. It offers a diverse range of programs across faculties such as law, medicine, engineering, economics, and the humanities. The university maintains strong ties with local industries and international partners, promoting both research and professional development. Its historic roots combined with a forward-looking approach make it an esteemed institution in Italian higher education."
+    },
+    {
+        "name": "University of Catania",
+        "city": "Catania",
+        "state": "Sicily",
+        "country": "Italy",
+        "students": 44338,
+        "founded": 1434,
+        "website": "https://www.unict.it/",
+        "description": "Founded in 1434, the University of Catania is the oldest university in Sicily and one of the oldest in Italy. Situated in the coastal city of Catania, the university offers a dynamic academic environment and a rich history of learning and innovation. With a broad range of study programs in areas such as law, engineering, humanities, and natural sciences, the University of Catania is a major educational and research hub in southern Italy. The institution values diversity, interdisciplinary learning, and community engagement, making it a significant contributor to regional and national development."
+    },
+    {
+        "name": "University of Siena",
+        "city": "Siena",
+        "region": "Tuscany",
+        "country": "Italy",
+        "students": 20000,
+        "founded": 1240,
+        "website": "https://www.unisi.it",
+        "description": "The University of Siena, established in 1240, is one of the oldest and most prestigious universities in Italy. Located in the picturesque Tuscan city of Siena, the university boasts a rich historical heritage and a strong academic tradition. It is well known for its humanities, economics, and medical programs, attracting students from around the world. With a strong focus on research and innovation, the University of Siena provides modern facilities, a vibrant academic community, and international partnerships that foster exchange opportunities and collaboration. Its compact campus and student-friendly atmosphere make it an ideal destination for those seeking an immersive learning environment steeped in tradition and culture."
+    },
+    {
+        "name": "University of Modena and Reggio Emilia",
+        "city": "Modena",
+        "region": "Emilia-Romagna",
+        "country": "Italy",
+        "students": 20000,
+        "founded": 1175,
+        "website": "https://www.unimore.it",
+        "description": "Founded in 1175, the University of Modena and Reggio Emilia (UNIMORE) is one of Italy\u2019s oldest and most respected academic institutions. It is spread across two cities\u2014Modena and Reggio Emilia\u2014and is known for its dynamic research environment and commitment to academic excellence. The university offers a broad array of programs in fields like engineering, economics, medicine, and law. With a student population that continues to grow, UNIMORE stands out for its close ties with the region's industrial and cultural sectors, making it a leader in knowledge transfer and applied research. The campus fosters a student-centered approach, international collaboration, and a supportive community atmosphere."
+    },
+    {
+        "name": "University of Trieste",
+        "city": "Trieste",
+        "region": "Friuli-Venezia Giulia",
+        "country": "Italy",
+        "students": 17900,
+        "founded": 1877,
+        "website": "https://www.units.it",
+        "description": "The University of Trieste, located in northeastern Italy, was founded in 1877 and is recognized for its excellence in science and international relations. With strong departments in physics, mathematics, medicine, and social sciences, the university collaborates closely with leading research centers and institutes in the Trieste Science System. It plays a major role in regional and international academic networks. The university promotes diversity, innovation, and intercultural dialogue, making it a hub for academic and cultural exchange. It offers cutting-edge facilities and vibrant student life in a coastal city known for its intellectual history and multiculturalism."
+    },
+    {
+        "name": "University of Milano-Bicocca",
+        "city": "Milan",
+        "region": "Lombardy",
+        "country": "Italy",
+        "students": 33741,
+        "founded": 1998,
+        "website": "https://www.unimib.it",
+        "description": "The University of Milano-Bicocca, established in 1998, is a young and rapidly growing institution located in the metropolitan area of Milan. It stands out for its modern campus, interdisciplinary approach, and strong emphasis on research and innovation. The university offers a wide range of programs across science, economics, sociology, education, and health sciences. Milano-Bicocca fosters international mobility and partnerships with universities and industries across the globe. Despite its recent foundation, the university has quickly earned a strong academic reputation and attracts students seeking an urban academic experience in one of Italy\u2019s most dynamic cities."
+    },
+    {
+        "name": "University of Verona",
+        "city": "Verona",
+        "region": "Veneto",
+        "country": "Italy",
+        "students": 23000,
+        "founded": 1959,
+        "website": "https://www.univr.it",
+        "description": "The University of Verona, founded in 1959, is a leading institution in the Veneto region and has gained recognition for its academic excellence and quality of teaching. It offers programs in medicine, humanities, economics, law, and sciences. The university is known for its strong connections with local institutions and businesses, offering students practical opportunities and internships. Set in the beautiful and historic city of Verona, the university provides a high-quality educational environment enriched by a vibrant cultural and social scene. Its international orientation and supportive campus facilities make it an attractive option for both Italian and foreign students."
+    },
+    {
+        "name": "University of Ferrara",
+        "city": "Ferrara",
+        "state": "Emilia-Romagna",
+        "country": "Italy",
+        "students": 22800,
+        "founded": 1391,
+        "website": "https://www.unife.it",
+        "description": "The University of Ferrara, located in the historic city of Ferrara in the Emilia-Romagna region, is one of the oldest universities in Italy, founded in 1391. Known for its blend of tradition and innovation, the university offers a broad array of programs in the arts and sciences, engineering, law, and medicine. The campus is deeply rooted in the Renaissance heritage of its surroundings, with a commitment to preserving cultural heritage while driving forward academic research and education. With over 22,000 students, the university fosters a dynamic learning environment, encouraging interdisciplinary collaboration and global engagement. Its research centers are recognized nationally and internationally for contributions in fields such as architecture, biotechnology, and legal studies. The University of Ferrara emphasizes both academic rigor and practical application, preparing students for success in a competitive global market. It also promotes student involvement in social initiatives and offers various support services including housing, internships, and career advising. With a mission centered on knowledge transfer and sustainable development, it maintains partnerships with numerous academic institutions and industries across Europe and beyond. The university\u2019s strong sense of community, commitment to quality education, and inspiring historical context make it an attractive destination for both domestic and international students."
+    },
+    {
+        "name": "University of Salerno",
+        "city": "Salerno",
+        "state": "Campania",
+        "country": "Italy",
+        "students": 33332,
+        "founded": 1944,
+        "website": "https://www.unisa.it",
+        "description": "The University of Salerno, located in the Campania region of southern Italy, was officially founded in 1944, though its origins trace back to a prestigious medical school in the Middle Ages. Today, it is a modern and vibrant academic institution that ranks among Italy\u2019s most dynamic universities. With over 33,000 students, the university operates two main campuses in Fisciano and Baronissi, offering a comprehensive range of programs in humanities, sciences, engineering, medicine, law, and economics. The university is known for its cutting-edge facilities, including modern lecture halls, labs, libraries, and student housing. It fosters strong connections with regional businesses and international partners, promoting applied research, innovation, and entrepreneurial development. As part of its mission to ensure inclusivity and accessibility, the University of Salerno provides extensive student services including scholarships, job placement, tutoring, and cultural events. The university is also recognized for its sustainability initiatives, digital transformation, and campus security. Salerno\u2019s location near the Amalfi Coast makes it a picturesque and culturally rich place for students to live and study. The institution\u2019s emphasis on quality education, social engagement, and global outlook contributes to its growing reputation both in Italy and abroad."
+    },
+    {
+        "name": "University of Cagliari",
+        "city": "Cagliari",
+        "state": "Sardinia",
+        "country": "Italy",
+        "students": 26069,
+        "founded": 1620,
+        "website": "https://www.unica.it",
+        "description": "The University of Cagliari, located in the capital city of the island of Sardinia, was established in 1620 and is one of the oldest academic institutions in Italy. It is a major educational and research hub in the Mediterranean region, known for its commitment to academic excellence and regional development. The university serves over 26,000 students and offers a wide range of undergraduate and graduate programs across faculties such as engineering, humanities, social sciences, law, and medicine. With its strong focus on research and innovation, it hosts several research centers and laboratories that are active in European and international projects. The university is engaged in addressing social and environmental challenges, with research initiatives in renewable energy, archaeology, marine biology, and linguistics. Its strategic location on the island allows for a unique blend of cultural heritage and scientific exploration. The University of Cagliari provides robust student services including housing, transport, scholarships, and career guidance. It also supports international mobility through Erasmus and bilateral agreements. Cagliari\u2019s natural beauty and historic charm add to the enriching student experience. The university continues to evolve as a center of intellectual and cultural exchange, fostering knowledge and community impact."
+    },
+    {
+        "name": "Roma Tre University",
+        "city": "Rome",
+        "state": "Lazio",
+        "country": "Italy",
+        "students": 34700,
+        "founded": 1992,
+        "website": "https://www.uniroma3.it",
+        "description": "Roma Tre University, located in the historic capital of Rome, is one of Italy\u2019s youngest public universities, established in 1992. Despite its relatively recent founding, it has rapidly grown in size and prestige, developing into a vibrant academic center with a strong focus on research, internationalization, and social engagement. Roma Tre comprises numerous departments including architecture, education, engineering, economics, humanities, and law. The university emphasizes interdisciplinary study and active collaboration with industries, government institutions, and global academic networks. With a mission rooted in sustainability, equality, and innovation, it supports numerous initiatives in environmental science, cultural preservation, digital transformation, and civil rights. Roma Tre is known for its inclusive policies and strong student support services, including orientation, internships, and job placement programs. It fosters an open and dynamic campus environment, encouraging debate, cultural exchange, and civic responsibility. Located in the heart of Rome, students benefit from proximity to Italy\u2019s political and cultural institutions, as well as international organizations. Roma Tre University has earned recognition for its commitment to academic rigor, social equity, and preparing students for the challenges of the 21st century."
+    },
+    {
+        "name": "University of Messina",
+        "city": "Messina",
+        "state": "Sicily",
+        "country": "Italy",
+        "students": 24780,
+        "founded": 1548,
+        "website": "https://www.unime.it",
+        "description": "The University of Messina, located in the Sicilian city of Messina, is one of Italy\u2019s historic universities, founded in 1548. It is a key academic institution in southern Italy, known for its blend of tradition and innovation in education and research. With nearly 25,000 students, the university offers a comprehensive array of degree programs in disciplines including the humanities, engineering, life sciences, law, economics, and medicine. It features modern campuses, well-equipped laboratories, and strong support services for students. The university places a strong emphasis on research and internationalization, participating in numerous European Union projects and hosting international scholars. Its medical school and affiliated hospital are leaders in healthcare education and clinical research in the region. Located at the crossroads of Europe and the Mediterranean, the University of Messina serves as a cultural bridge and fosters community engagement and regional development. It supports sustainability, entrepreneurship, and inclusive education, and has partnerships with universities and institutions around the world. The University of Messina continues to uphold its mission of fostering knowledge, integrity, and global awareness through a student-centered approach and dynamic learning environment."
+    },
+    {
+        "name": "University of Udine",
+        "city": "Udine",
+        "state": "Friuli-Venezia Giulia",
+        "country": "Italy",
+        "students": 15300,
+        "founded": 1978,
+        "website": "https://www.uniud.it/",
+        "description": "The University of Udine, founded in 1978, is a prominent academic institution in northeastern Italy. It was established as part of the reconstruction efforts following the 1976 Friuli earthquake, symbolizing the region\u2019s resilience and commitment to progress. The university offers a broad spectrum of academic disciplines, including engineering, economics, medicine, and humanities. Known for its modern infrastructure and international outlook, it supports student mobility and research partnerships across Europe and beyond. The university emphasizes innovation and entrepreneurship, fostering strong connections with local industries and global academic networks. Its location in Udine, a city rich in history and culture, enhances the student experience with a blend of academic excellence and vibrant social life. The University of Udine is a dynamic hub for higher education, contributing significantly to regional development and global scholarship."
+    },
+    {
+        "name": "Ca' Foscari University of Venice",
+        "city": "Venice",
+        "state": "Veneto",
+        "country": "Italy",
+        "students": 23000,
+        "founded": 1868,
+        "website": "https://www.unive.it/",
+        "description": "Ca' Foscari University of Venice, founded in 1868, is one of Italy's most prestigious institutions for economics, languages, and international studies. Located in the historic heart of Venice, the university offers a unique academic environment enriched by centuries of cultural heritage. Its diverse curriculum spans economics, management, humanities, and sciences, with a strong emphasis on cross-cultural and multilingual education. Ca' Foscari is renowned for fostering international exchange and research collaborations, attracting students and scholars from around the world. The university is deeply integrated into Venice's cultural landscape, offering unparalleled access to historic archives, museums, and global events like the Venice Biennale. With a commitment to sustainability, innovation, and academic excellence, Ca' Foscari continues to shape future leaders and thinkers on a global scale."
+    },
+    {
+        "name": "University of Calabria",
+        "city": "Cosenza",
+        "state": "Calabria",
+        "country": "Italy",
+        "students": 35000,
+        "founded": 1972,
+        "website": "https://www.unical.it/",
+        "description": "The University of Calabria, established in 1972, is a leading public university located in southern Italy. Designed with a unique campus model inspired by American universities, it provides a cohesive academic environment where students live and study in close proximity. Offering programs across engineering, science, social sciences, and the humanities, the university is noted for its interdisciplinary approach and modern facilities. The campus hosts innovative research centers and promotes internationalization through partnerships and student exchange agreements. Committed to regional development, Unical actively engages with local communities and industries, providing research-driven solutions to societal challenges. The University of Calabria stands out for its integration of academic rigor, vibrant campus life, and dedication to advancing knowledge and opportunity in southern Italy."
+    },
+    {
+        "name": "University of Brescia",
+        "city": "Brescia",
+        "state": "Lombardy",
+        "country": "Italy",
+        "students": 16800,
+        "founded": 1982,
+        "website": "https://www.unibs.it/",
+        "description": "The University of Brescia, founded in 1982, is a dynamic and growing institution in northern Italy. It offers a wide range of programs in medicine, engineering, economics, and law, catering to a diverse student body. The university is recognized for its commitment to quality education, research innovation, and strong connections with local and international communities. Its medical school and affiliated hospitals are especially well-regarded, contributing significantly to public health and clinical research. The campus environment supports interdisciplinary learning and encourages entrepreneurship through technology transfer and business incubators. With a focus on sustainability and social responsibility, the University of Brescia prepares students to be active contributors to society and the global workforce."
+    },
+    {
+        "name": "Polytechnical University of Marche",
+        "city": "Ancona",
+        "state": "Marche",
+        "country": "Italy",
+        "students": 17500,
+        "founded": 1969,
+        "website": "https://www.univpm.it/",
+        "description": "The Polytechnical University of Marche, located in Ancona and established in 1969, is a center of excellence in science and technology. It offers programs in engineering, medicine, agriculture, and economics, blending theoretical knowledge with hands-on application. The university is known for fostering innovation through close collaboration with regional industries and public institutions. Its research centers support cutting-edge work in areas such as environmental sustainability, biomedicine, and materials science. Students benefit from an engaging learning environment, supportive faculty, and access to modern laboratories and infrastructure. With a strong commitment to international collaboration and regional impact, the Polytechnical University of Marche plays a key role in advancing education, research, and innovation in central Italy."
+    },
+    {
+        "name": "Bocconi University",
+        "city": "Milan",
+        "state": "Lombardy",
+        "country": "Italy",
+        "students": 14700,
+        "founded": 1902,
+        "website": "https://www.unibocconi.eu/",
+        "description": "Bocconi University, located in Milan, is one of Europe\u2019s leading institutions in economics, management, finance, and law. Established in 1902, Bocconi has consistently been ranked among the top business schools in the world. Its commitment to academic excellence, innovative teaching, and global outlook has earned it an international reputation. Bocconi is especially known for its rigorous programs in business and economics, attracting students from all over the world. The university maintains strong ties with the business community and offers numerous opportunities for internships, research, and global exchange. Its faculty includes prominent scholars and industry experts. The urban campus is embedded in the dynamic city of Milan, offering students access to Italy\u2019s financial and commercial capital. Bocconi graduates are known for their analytical abilities, entrepreneurial spirit, and international perspectives, often going on to assume leadership roles in business, policy, and academia. Bocconi also houses the SDA Bocconi School of Management, a globally acclaimed business school offering MBA and executive education programs."
+    },
+    {
+        "name": "University of Aquila",
+        "city": "L'Aquila",
+        "state": "Abruzzo",
+        "country": "Italy",
+        "students": 18000,
+        "founded": 1596,
+        "website": "https://www.univaq.it/",
+        "description": "The University of L'Aquila, founded in 1596, is a prominent public research institution situated in central Italy. It offers a wide range of academic programs across disciplines such as engineering, mathematics, computer science, natural sciences, and humanities. L\u2019Aquila is well known for its engineering and physical science departments, which are involved in national and European research projects. The university has made significant strides in areas such as earthquake engineering, renewable energy, and computational modeling. After the devastating 2009 earthquake, the university played a crucial role in the city\u2019s rebuilding efforts and continues to be at the heart of its revitalization. Its compact and student-friendly environment, combined with a strong academic curriculum, makes it a valuable destination for both Italian and international students. The university also promotes interdisciplinary research and technological innovation, contributing to the scientific and socio-economic development of the Abruzzo region."
+    },
+    {
+        "name": "International School for Advanced Studies",
+        "city": "Trieste",
+        "state": "Friuli-Venezia Giulia",
+        "country": "Italy",
+        "students": 300,
+        "founded": 1978,
+        "website": "https://www.sissa.it/",
+        "description": "The International School for Advanced Studies (SISSA), based in Trieste, is a prestigious postgraduate institution dedicated to cutting-edge research in the fields of physics, mathematics, and neuroscience. Founded in 1978, SISSA is known for fostering an interdisciplinary and international academic environment. Its selective admission and rigorous training programs attract outstanding doctoral students and postdoctoral researchers from around the globe. The institution emphasizes theoretical and computational research and has established collaborations with numerous international research organizations. SISSA's faculty and alumni have significantly contributed to advancements in quantum physics, string theory, and cognitive neuroscience. Its location in Trieste places it within a scientific ecosystem that includes other prominent institutions such as the ICTP and AREA Science Park. SISSA aims to push the boundaries of human knowledge through fundamental research, while also training future leaders in science and academia."
+    },
+    {
+        "name": "Normal School of Pisa",
+        "city": "Pisa",
+        "state": "Tuscany",
+        "country": "Italy",
+        "students": 600,
+        "founded": 1810,
+        "website": "https://www.sns.it/en",
+        "description": "The Scuola Normale Superiore (Normal School of Pisa) is a highly selective higher education institution renowned for academic excellence in the humanities, sciences, and social sciences. Established in 1810 by Napoleon, it was modeled after the \u00c9cole Normale Sup\u00e9rieure in Paris. This elite university is part of Italy\u2019s network of superior graduate schools and is known for producing a high concentration of intellectuals, scientists, and government leaders. The school offers fully funded programs for a small number of highly competitive students, selected through rigorous national entrance exams. Located in the historic city of Pisa, the school maintains a close relationship with the University of Pisa and the Sant\u2019Anna School of Advanced Studies. Its research centers and advanced study programs contribute to Italy\u2019s scholarly and scientific output. With an emphasis on critical thinking, innovation, and public service, the Normal School of Pisa continues to shape Italy\u2019s academic landscape."
+    },
+    {
+        "name": "University of Sassari",
+        "city": "Sassari",
+        "state": "Sardinia",
+        "country": "Italy",
+        "students": 18000,
+        "founded": 1558,
+        "website": "https://www.uniss.it/",
+        "description": "The University of Sassari is one of Italy\u2019s oldest institutions, having been established in 1558. Located in the city of Sassari on the island of Sardinia, the university is known for its strong programs in veterinary medicine, agricultural sciences, architecture, and humanities. It plays a central role in promoting education and research in the Sardinian region, contributing to local development and cultural preservation. The university offers undergraduate, graduate, and doctoral programs and engages in numerous international exchange agreements. It is committed to fostering inclusion, environmental sustainability, and regional engagement. The university maintains several research institutes and partnerships that reflect its dedication to multidisciplinary inquiry and practical innovation. Its campus blends historical architecture with modern facilities, offering students an enriching academic and cultural experience in a unique Mediterranean setting."
+    },
+    {
+        "name": "Carlo Bo University of Urbino",
+        "city": "Urbino",
+        "region": "Marche",
+        "country": "Italy",
+        "students": 22000,
+        "founded": 1506,
+        "description": "Carlo Bo University of Urbino, located in the historical city of Urbino in the Marche region, is one of Italy\u2019s oldest universities. Founded in 1506, it has a long tradition of academic excellence, particularly in the humanities, law, and social sciences. The university is named after Carlo Bo, a noted Italian literary critic and former rector. With around 22,000 students, the university maintains a vibrant academic community supported by dedicated faculty and staff. Its picturesque hilltop campus is embedded in a UNESCO World Heritage Site, offering a unique blend of history, culture, and education. The university promotes interdisciplinary learning and emphasizes international collaboration, drawing students and faculty from across Europe. Urbino itself is a student-friendly city, with a strong cultural atmosphere that includes museums, theaters, and festivals. The university\u2019s research output and educational quality have earned it respectable positions in both national and global rankings. In addition to traditional programs, Carlo Bo University actively supports innovation and digital transformation in higher education. The institution's commitment to sustainability and community outreach is reflected in its local partnerships and social projects. Whether you're drawn to classical studies or modern digital communication, the University of Urbino offers an enriching environment for academic and personal growth.",
+        "website": "https://www.uniurb.it/"
+    },
+    {
+        "name": "G. d'Annunzio University of Chieti",
+        "city": "Chieti",
+        "region": "Abruzzo",
+        "country": "Italy",
+        "students": 24716,
+        "founded": 1965,
+        "description": "G. d'Annunzio University of Chieti\u2013Pescara is a public research university situated in the central Italian regions of Abruzzo. Established in 1965, the university has two main campuses: one in Chieti, focusing on medicine, psychology, and sciences, and another in Pescara, which hosts departments such as architecture, business, and humanities. The university is named after the Italian writer and poet Gabriele D\u2019Annunzio. With approximately 24,716 students, it is known for its multidisciplinary approach and growing reputation in health and life sciences. The modern facilities include a university hospital, which plays a central role in both medical education and healthcare delivery in the region. The campus features state-of-the-art research labs, lecture halls, and student services. Its academic programs are closely aligned with industry needs and regional development, fostering practical skills and entrepreneurship. The university has numerous international agreements and exchange programs, supporting global engagement and mobility. Known for its inclusive and welcoming environment, G. d'Annunzio University offers diverse cultural and academic opportunities, contributing significantly to the intellectual and economic growth of the Abruzzo region.",
+        "website": "https://www.unich.it/"
+    },
+    {
+        "name": "University of Salento",
+        "city": "Lecce",
+        "region": "Apulia",
+        "country": "Italy",
+        "students": 19401,
+        "founded": 1966,
+        "description": "The University of Salento is located in Lecce, a historic city in southern Italy\u2019s Apulia region. Founded in 1966, it is a public institution dedicated to fostering cultural, scientific, and technological development. The university has about 19,401 enrolled students and offers programs across a wide array of disciplines including engineering, humanities, law, economics, social sciences, and environmental sciences. With a growing emphasis on internationalization, the University of Salento collaborates with over 300 institutions worldwide. Its research centers specialize in areas such as nanotechnology, archeology, and marine biology, making it a hub for innovation in Southern Italy. The campus is equipped with modern facilities and laboratories, ensuring students have access to cutting-edge resources and technologies. The university supports a strong culture of inclusion and student participation, with numerous extracurricular opportunities and community projects. Situated near the beautiful Adriatic coast, Lecce provides a rich cultural and natural backdrop for academic life. The University of Salento is increasingly recognized for its research contributions, particularly in sustainable development and Mediterranean studies, reinforcing its strategic role in the academic landscape of southern Europe.",
+        "website": "https://www.unisalento.it/"
+    },
+    {
+        "name": "University of Campania Luigi Vanvitelli",
+        "city": "Caserta",
+        "region": "Campania",
+        "country": "Italy",
+        "students": 25000,
+        "founded": 1991,
+        "description": "The University of Campania Luigi Vanvitelli is a relatively young but fast-growing public university located in the Campania region of southern Italy, with major campuses in Caserta and Naples. Named after the famous 18th-century architect Luigi Vanvitelli, the university was established in 1991 and currently enrolls around 25,000 students. It offers a wide range of undergraduate and graduate programs in medicine, engineering, law, psychology, economics, and humanities. The university operates multiple research centers and hospitals, providing hands-on opportunities and clinical training to students, particularly in the medical and healthcare fields. Known for its emphasis on interdisciplinary learning and regional development, the university collaborates extensively with local institutions, businesses, and public organizations. Its vibrant academic environment is enriched by cultural events, student clubs, and community outreach programs. While rooted in tradition, the university embraces innovation, with a strong focus on digital transformation and sustainability. Its strategic location between historic Caserta and bustling Naples allows students to explore rich cultural heritage alongside modern urban amenities. The University of Campania Luigi Vanvitelli stands out as a dynamic institution supporting both academic excellence and societal impact.",
+        "website": "https://www.unicampania.it/"
+    },
+    {
+        "name": "University of Insubria",
+        "city": "Varese",
+        "region": "Lombardy",
+        "country": "Italy",
+        "students": 10300,
+        "founded": 1998,
+        "description": "The University of Insubria, established in 1998, is a relatively young public university located in the Lombardy region, with campuses in Varese and Como. Despite its youth, it has quickly developed a strong academic reputation, particularly in medical sciences, economics, law, environmental studies, and computer science. The university's structure is designed to promote interdisciplinary studies and strong collaboration between departments. The student population is diverse and international, benefiting from a supportive academic environment and state-of-the-art facilities. Insubria University places a high emphasis on research and innovation, actively participating in European research projects and collaborating with industries and public institutions. Sustainability, health, and technology are among its strategic areas of focus. The region itself offers students the charm of Northern Italy, including proximity to the Alps, lakes, and metropolitan hubs like Milan. Insubria\u2019s community values openness, accessibility, and real-world engagement, making it an ideal setting for both academic growth and personal development. Its programs are tailored to the evolving job market, ensuring graduates are well-prepared for national and international careers.",
+        "website": "https://www.uninsubria.eu/"
+    },
+    {
+        "name": "Sant'Anna School of Advanced Studies",
+        "city": "Pisa",
+        "region": "Tuscany",
+        "country": "Italy",
+        "students": 1000,
+        "founded": 1987,
+        "website": "https://www.santannapisa.it/",
+        "description": "Sant'Anna School of Advanced Studies in Pisa is a prestigious public university institute offering advanced education and research in applied sciences. It emphasizes interdisciplinary approaches and fosters strong links between academia, industry, and government. With a highly selective admissions process, Sant'Anna trains future leaders in fields such as economics, law, engineering, and medical sciences. Students benefit from a personalized education path and extensive research opportunities in both national and international settings. The school is renowned for its compact, elite academic community and rigorous academic standards."
+    },
+    {
+        "name": "University of Camerino",
+        "city": "Camerino",
+        "region": "Marche",
+        "country": "Italy",
+        "students": 8600,
+        "founded": 1727,
+        "website": "https://www.unicam.it/",
+        "description": "The University of Camerino, located in the Marche region, has a long-standing academic tradition dating back to the 14th century and officially established in 1727. It is known for its commitment to innovation, student-centered teaching, and sustainability. Offering a range of undergraduate and graduate programs across disciplines such as science, architecture, pharmacy, and law, the university provides a close-knit, supportive academic environment. It actively promotes internationalization and collaborative research, making it a welcoming place for both Italian and international students seeking a high-quality education in a small-town setting."
+    },
+    {
+        "name": "University of Eastern Piedmont",
+        "city": "Vercelli",
+        "region": "Piedmont",
+        "country": "Italy",
+        "students": 5000,
+        "founded": 1998,
+        "website": "https://www.uniupo.it/",
+        "description": "The University of Eastern Piedmont, officially established in 1998, is a dynamic and modern public university based in the cities of Vercelli, Alessandria, and Novara in northern Italy. The institution is structured into several departments including economics, law, medicine, and humanities, providing a well-rounded education rooted in both tradition and innovation. Known for its research productivity and international collaborations, the university supports student development through integrated academic resources, modern infrastructure, and a strong emphasis on employability and social responsibility."
+    },
+    {
+        "name": "University of Bergamo",
+        "city": "Bergamo",
+        "region": "Lombardy",
+        "country": "Italy",
+        "students": 16000,
+        "founded": 1968,
+        "website": "https://www.unibg.it/",
+        "description": "The University of Bergamo, founded in 1968, is a vibrant institution located in the economically strong Lombardy region. It offers a variety of programs in humanities, economics, engineering, and law. The university is deeply connected with the surrounding territory and industry, making it a strategic hub for innovation and knowledge transfer. Known for its international outlook, the University of Bergamo engages in numerous Erasmus and research exchange programs. Its urban and historical campus blends traditional academic values with forward-looking research and teaching initiatives."
+    },
+    {
+        "name": "Vita-Salute San Raffaele University",
+        "city": "Milan",
+        "region": "Lombardy",
+        "country": "Italy",
+        "students": 3900,
+        "founded": 1996,
+        "website": "https://www.unisr.it/",
+        "description": "Vita-Salute San Raffaele University in Milan is a private university founded in 1996 and associated with the San Raffaele Hospital. It specializes in medicine, psychology, and philosophy, and is renowned for its strong link between clinical practice and academic research. The university is distinguished by its integration of ethical, scientific, and humanistic disciplines. Students at San Raffaele receive top-tier education in a highly technological environment with access to one of Italy\u2019s most advanced hospitals. It fosters an interdisciplinary approach to learning and aims to train competent professionals with a strong sense of responsibility and global perspective."
+    }
+]
