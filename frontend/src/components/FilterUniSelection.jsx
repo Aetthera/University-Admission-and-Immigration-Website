@@ -204,7 +204,7 @@ export default function FilterUniSelection() {
 
 
   return (
-    <div className="flex w-full bg-[#F5F5F5] px-6 py-3">
+    <div className="flex w-full bg-[#F5F5F5] px-6 pt-20 pb-20">
       {/* Filter Section */}
       <div className="max-w-[300px] w-full h-fit bg-[#FFFFFF] p-6 rounded-[30px] mr-6">
         {/* Sort By Filter */}

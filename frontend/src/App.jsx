@@ -8,7 +8,7 @@ import BannerSearchSection from "./components/BannerSearchSection";
 import FilterUniSelection from "./components/FilterUniSelection";
 
 // Components from feature/homepage (not yet used, but preserved)
-import Hero from "./components/Hero";
+//import Hero from "./components/Hero";
 import CardSection from "./components/CardSection";
 import CustomerReview from "./components/CustomerReview";
 import GetConsultation from "./components/GetConsultation";
@@ -32,8 +32,6 @@ function App() {
   return (
     <Router>
       <Header />
-      <BannerSearchSection />
-      <FilterUniSelection />
 
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -43,6 +41,7 @@ function App() {
         <Route path="/application" element={<ApplicationTab />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/applications" element={<ApplicationsPage />} />
+        <Route path="/universitySelection" element={<FilterUniSelection />} />
       </Routes>
 
       <Footer />

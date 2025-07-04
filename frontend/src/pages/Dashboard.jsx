@@ -15,7 +15,7 @@ const Dashboard = () => {
       <DashboardNav />
 
         {/* Top Counters */}
-        <section className="grid grid-cols-3 gap-4 mb-8 text-center">
+        <section className="grid grid-cols-3 gap-4 mb-8 text-center text-black">
           {['Approved', 'Unread', 'Saved'].map((label, index) => (
             <div key={index} className="bg-white shadow rounded-lg p-6">
               <div className="text-3xl font-bold">{index + 1}</div>
@@ -25,7 +25,7 @@ const Dashboard = () => {
         </section>
 
         {/* Application Progress Timeline */}
-        <section className="bg-white p-6 rounded-lg shadow mb-8">
+        <section className="bg-white p-6 rounded-lg shadow mb-8 text-black">
           <h2 className="text-lg font-semibold mb-4">Application Progress</h2>
           <div className="flex items-center justify-between text-sm">
             {["Sent", "Received", "Processing", "Complete"].map((stage, i) => (
@@ -38,7 +38,7 @@ const Dashboard = () => {
         </section>
 
         {/* Applications and Documents */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 text-black">
           {["My Applications", "My Documents"].map((title, i) => (
             <div key={i} className="bg-white shadow rounded-lg p-6">
               <h2 className="text-lg font-semibold mb-4">{title}</h2>
@@ -59,7 +59,7 @@ const Dashboard = () => {
         </section>
 
         {/* Saved Institutions */}
-        <section className="bg-white p-6 rounded-lg shadow mb-8">
+        <section className="bg-white p-6 rounded-lg shadow mb-8 text-black">
           <h2 className="text-lg font-semibold mb-4">My Saved Institutions</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[1, 2, 3].map(i => (
