@@ -1,8 +1,15 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from './components/Header';
-import Footer from './components/Footer';
-import BannerSearchSection from './components/BannerSearchSection';
-import FilterUniSelection from './components/FilterUniSelection';
+
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import BannerSearchSection from "./components/BannerSearchSection";
+import FilterUniSelection from "./components/FilterUniSelection";
+
+// Imported but not yet used in any route (preserved from university-selection-elaheh)
+import AdmissionProcess from "./components/UniversitySelection/AdmissionProcess";
+import NewsletterSection from "./components/UniversitySelection/NewsletterSection";
+import ContactUs from "./components/ContactUs";
 
 import HomePage from "./pages/HomePage";
 import UniversityList from "./pages/UniversityList";
