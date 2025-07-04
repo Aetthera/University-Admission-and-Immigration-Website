@@ -6,11 +6,19 @@ import Footer from "./components/Footer";
 import BannerSearchSection from "./components/BannerSearchSection";
 import FilterUniSelection from "./components/FilterUniSelection";
 
-// Imported but not yet used in any route (preserved from university-selection-elaheh)
+// Components from feature/homepage (not yet used, but preserved)
+import Hero from "./components/Hero";
+import CardSection from "./components/CardSection";
+import CustomerReview from "./components/CustomerReview";
+import GetConsultation from "./components/GetConsultation";
+import Performance from "./components/Performance";
+
+// Shared
 import AdmissionProcess from "./components/UniversitySelection/AdmissionProcess";
 import NewsletterSection from "./components/UniversitySelection/NewsletterSection";
 import ContactUs from "./components/ContactUs";
 
+// Pages
 import HomePage from "./pages/HomePage";
 import UniversityList from "./pages/UniversityList";
 import UniversityDetails from "./pages/UniversityDetails";
