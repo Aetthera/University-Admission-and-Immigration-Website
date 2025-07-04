@@ -1,0 +1,263 @@
+[
+  {
+    "name": "University of Oslo",
+    "city": "Oslo",
+    "country": "Norway",
+    "students": 26650,
+    "founded": 1811,
+    "description": "The University of Oslo, founded in 1811, is Norway\u2019s oldest and most prestigious higher education institution. Located in the nation\u2019s capital, it offers a diverse array of programs across humanities, sciences, and social sciences. Known for its rigorous academics and strong research output, it plays a leading role in shaping public discourse and innovation in Norway. The university houses several leading research centers and has produced numerous Nobel laureates. It is an epicenter of academic excellence and global cooperation, welcoming students from around the world. With a focus on sustainability, equality, and interdisciplinary collaboration, the University of Oslo continues to be a forward-looking institution grounded in tradition.",
+    "website": "https://www.uio.no/english/"
+  },
+  {
+    "name": "University of Bergen",
+    "city": "Bergen",
+    "country": "Norway",
+    "students": 16900,
+    "founded": 1946,
+    "description": "The University of Bergen is a leading public university located in the scenic city of Bergen. Established in 1946, it is renowned for its strong focus on marine research, climate studies, and social sciences. The university promotes international collaboration and interdisciplinary learning, with many programs taught in English. It offers state-of-the-art facilities and is deeply integrated with the surrounding environment, supporting innovative research with real-world impact. With a student-centric approach and vibrant campus life, the University of Bergen provides a nurturing academic environment. Its coastal location adds unique perspectives to fields like environmental studies, oceanography, and policy development.",
+    "website": "https://www.uib.no/en"
+  },
+  {
+    "name": "Norwegian University of Science and Technology (NTNU)",
+    "city": "Trondheim",
+    "country": "Norway",
+    "students": 42031,
+    "founded": 1996,
+    "description": "NTNU is Norway's primary institution for engineering and technology, although it offers comprehensive programs in sciences, medicine, arts, and humanities. Based in Trondheim, it was established in 1996 through a merger but traces its academic roots back to 1910. NTNU is known for fostering innovation and entrepreneurial thinking, housing many of Norway\u2019s major research laboratories. It maintains strong industry partnerships, particularly with energy and maritime sectors. With over 40,000 students and campuses in Gj\u00f8vik and \u00c5lesund, NTNU is a leader in interdisciplinary and international education. It is highly committed to sustainability, technological advancement, and contributing to the UN's Sustainable Development Goals.",
+    "website": "https://www.ntnu.edu/"
+  },
+  {
+    "name": "UiT The Arctic University of Norway",
+    "city": "Troms\u00f8",
+    "country": "Norway",
+    "students": 17808,
+    "founded": 1968,
+    "description": "UiT The Arctic University of Norway is the northernmost university in the world, offering a unique Arctic perspective on global challenges. Founded in 1968 in Troms\u00f8, it emphasizes research in climate change, indigenous studies, marine biology, and sustainable development. UiT has expanded across Northern Norway with campuses in Alta, Narvik, and Hammerfest, ensuring regional relevance and accessibility. The university welcomes international collaboration and fosters inclusion, innovation, and open science. It serves as a key academic partner in polar research and Arctic governance. UiT\u2019s strategic location makes it central to the growing dialogue on Arctic geopolitics and environmental science.",
+    "website": "https://en.uit.no/"
+  },
+  {
+    "name": "Norwegian University of Life Sciences (NMBU)",
+    "city": "\u00c5s",
+    "country": "Norway",
+    "students": 6345,
+    "founded": 1859,
+    "description": "The Norwegian University of Life Sciences (NMBU) is a specialized university located in \u00c5s, dedicated to sustainable development and environmental stewardship. Established in 1859, it combines life sciences, veterinary medicine, environmental science, and technology to address global challenges. NMBU is home to Norway\u2019s only veterinary college and several key research institutions. Its campus is surrounded by green landscapes, promoting outdoor learning and ecological awareness. NMBU fosters innovation in agriculture, climate adaptation, biodiversity, and renewable energy. With its mission to contribute to better lives and sustainable societies, it provides students with cutting-edge education and real-world impact opportunities.",
+    "website": "https://www.nmbu.no/en"
+  },
+  {
+    "name": "University of Stavanger",
+    "city": "Stavanger",
+    "country": "Norway",
+    "founded": 1994,
+    "students": 12000,
+    "description": "The University of Stavanger (UiS) is a forward-thinking and dynamic institution located in Stavanger, a city known for its strong energy sector and natural beauty. Established in 1994, UiS has rapidly grown into one of Norway\u2019s leading universities with over 12,000 students. The university emphasizes innovation, sustainability, and close ties to industry, particularly in petroleum engineering, offshore technology, and social sciences. With an international outlook, UiS fosters research and education collaboration across Europe and beyond. Its diverse student community and state-of-the-art campus make UiS an attractive choice for those looking to blend academic excellence with real-world applications. The university supports entrepreneurship and has established several research centers, reinforcing its mission to generate knowledge and opportunities for the future.",
+    "website": "https://www.uis.no"
+  },
+  {
+    "name": "University of Agder",
+    "city": "Kristiansand",
+    "country": "Norway",
+    "founded": 1994,
+    "students": 14096,
+    "description": "The University of Agder (UiA) is a modern institution with campuses in Kristiansand and Grimstad. Founded in 1994, UiA is known for its strong commitment to research, innovation, and community engagement. With over 14,000 students, UiA offers a comprehensive range of programs in engineering, business, health sciences, humanities, and more. The university is especially recognized for its focus on teacher education, renewable energy, and artificial intelligence. UiA places a high value on student well-being, offering a supportive academic environment and excellent student services. Its location along Norway's scenic southern coast provides a beautiful backdrop for learning, while also offering rich cultural and recreational opportunities. UiA encourages collaboration across disciplines and is actively involved in numerous EU-funded research projects and international partnerships.",
+    "website": "https://www.uia.no"
+  },
+  {
+    "name": "Norwegian School of Economics",
+    "city": "Bergen",
+    "country": "Norway",
+    "founded": 1936,
+    "students": 3453,
+    "description": "The Norwegian School of Economics (NHH) in Bergen is one of Norway's most prestigious business schools, with a strong international reputation. Established in 1936, NHH is known for its elite academic environment and rigorous programs in economics and business administration. With an enrollment of around 3,500 students, it offers undergraduate, master's, and PhD degrees, and is a leading contributor to economic research in the Nordic region. NHH maintains close connections with industry and government, ensuring its graduates are highly sought after in both national and international job markets. The school\u2019s emphasis on analytical thinking, innovation, and sustainability prepares students to address complex economic challenges. NHH also actively participates in exchange programs and global research initiatives.",
+    "website": "https://www.nhh.no"
+  },
+  {
+    "name": "BI Norwegian Business School",
+    "city": "Oslo",
+    "country": "Norway",
+    "founded": 1943,
+    "students": 20000,
+    "description": "BI Norwegian Business School is one of Europe\u2019s largest business schools and the only one in Norway with the prestigious Triple Crown accreditation (EQUIS, AMBA, AACSB). Founded in 1943 and located in Oslo, BI is a private institution renowned for its high-quality education in management, finance, and economics. It offers a wide range of bachelor\u2019s, master\u2019s, MBA, and executive education programs in both Norwegian and English. BI is dedicated to producing research with impact and graduates who are well-equipped for leadership in the global economy. Its modern campus, international faculty, and strong ties with the corporate world create a dynamic and inspiring learning environment. With strategic partnerships and a focus on digital innovation, BI continues to shape the future of business education in Norway and beyond.",
+    "website": "https://www.bi.edu"
+  },
+  {
+    "name": "University College of Southeast Norway",
+    "city": "Kongsberg",
+    "country": "Norway",
+    "founded": 2016,
+    "students": 17067,
+    "description": "University College of Southeast Norway (now part of the University of South-Eastern Norway, USN) was established in 2016 through the merger of several regional colleges. With campuses in cities like Kongsberg, Notodden, and Porsgrunn, USN is one of the largest universities in Norway, catering to over 17,000 students. The institution focuses on applied research and professional education, especially in fields like technology, teacher training, health sciences, and maritime studies. USN prides itself on strong collaboration with local industries and communities, helping to drive innovation and economic development in southeastern Norway. Its flexible learning options and commitment to accessibility make it a popular choice for students across the country. USN continues to evolve as a major contributor to Norway\u2019s educational and technological landscape.",
+    "website": "https://www.usn.no"
+  },
+  {
+    "name": "Western Norway University of Applied Sciences",
+    "city": "Bergen",
+    "country": "Norway",
+    "students": 17000,
+    "founded": 2017,
+    "description": "Western Norway University of Applied Sciences (HVL) is a relatively new institution, founded in 2017, but it has quickly established itself as a key player in the Norwegian higher education landscape. With campuses spread across several cities in Western Norway, including Bergen, it offers a diverse range of programs, particularly in teacher education, engineering, health sciences, and social sciences. HVL emphasizes practical training and regional cooperation, making it a strong choice for students seeking applied learning and professional readiness. Its modern facilities, innovative research initiatives, and strategic partnerships with local industries help students gain hands-on experience in their fields. The university also focuses on sustainability, digitalization, and public health as key research and teaching areas. HVL continues to grow rapidly and plays an important role in addressing regional and national development needs in Norway.",
+    "website": "https://www.hvl.no/en/"
+  },
+  {
+    "name": "Nord University",
+    "city": "Bod\u00f8",
+    "country": "Norway",
+    "students": 12000,
+    "founded": 2015,
+    "description": "Nord University, established in 2015, is located primarily in Bod\u00f8 and has multiple campuses across Northern and Central Norway. The university plays a pivotal role in advancing knowledge and innovation in the High North, particularly in disciplines like aquaculture, business, and biosciences. It serves as an educational and research hub for regional development, offering education programs in areas such as nursing, education, and social sciences. Nord is known for its research in sustainable blue economy, Arctic ecosystems, and business innovation. The university encourages close collaboration with local communities and industries and places emphasis on inclusion, diversity, and cross-disciplinary approaches. Its commitment to open access, environmental sustainability, and practical solutions to global challenges reflects its mission to equip students and researchers with the tools to impact both their regions and the world.",
+    "website": "https://www.nord.no/en"
+  },
+  {
+    "name": "Norwegian School of Sport Sciences",
+    "city": "Oslo",
+    "country": "Norway",
+    "students": 1600,
+    "founded": 1968,
+    "description": "The Norwegian School of Sport Sciences (NIH), based in Oslo and founded in 1968, is the country's leading institution dedicated to physical education, sports science, and health promotion. With a mission to foster excellence in sport and physical activity, NIH offers a range of undergraduate and graduate programs that combine practical skills with theoretical knowledge. Research at NIH spans across multiple fields including biomechanics, physiology, psychology, and coaching science. The school is deeply involved in promoting public health, physical education policy, and elite sports development in Norway. NIH is also known for its collaborations with national sports organizations, including the Norwegian Olympic and Paralympic Committee. Its modern campus, equipped with labs and training facilities, provides students and researchers with a dynamic environment for both academic and athletic growth. NIH maintains a strong international reputation and continues to contribute significantly to sport science globally.",
+    "website": "https://www.nih.no/en/"
+  },
+  {
+    "name": "Ostfold University College",
+    "city": "Halden",
+    "country": "Norway",
+    "students": 7000,
+    "founded": 1994,
+    "description": "Ostfold University College, established in 1994, is located in the southeastern town of Halden with an additional campus in Fredrikstad. The college offers a wide variety of academic programs including teacher education, engineering, business, computer science, and health studies. It maintains a strong regional focus, providing high-quality education closely aligned with labor market needs. Ostfold places strong emphasis on innovative teaching methods, digital tools in education, and applied research. The institution is particularly active in interdisciplinary research, including welfare services, IT, and renewable energy technologies. It has steadily grown its profile both locally and internationally through exchange programs, European partnerships, and academic conferences. Students benefit from modern facilities and a collaborative learning environment designed to foster both academic success and community engagement.",
+    "website": "https://www.hiof.no/english/"
+  },
+  {
+    "name": "Kristiania University College",
+    "city": "Oslo",
+    "country": "Norway",
+    "students": 19000,
+    "founded": 2016,
+    "description": "Kristiania University College, located in Oslo and established in 2016, is a forward-thinking private institution with deep historical roots dating back to 1914. It was formed through the merger of several older colleges and has quickly emerged as one of the largest independent universities in Norway. Kristiania offers a wide array of undergraduate and graduate programs in communication, business, design, health, technology, and arts. Known for its innovation, creative environment, and flexible learning paths, Kristiania embraces new teaching technologies and interdisciplinary approaches. The university maintains close ties with industry partners, fostering a practical and entrepreneurial spirit in its students. Kristiania's vibrant campus life, research initiatives, and international collaborations make it an attractive choice for students seeking dynamic and career-focused education.",
+    "website": "https://www.kristiania.no/en/"
+  },
+  {
+    "name": "Oslo Metropolitan University",
+    "city": "Oslo",
+    "country": "Norway",
+    "founded": 2018,
+    "students": 8600,
+    "description": "Oslo Metropolitan University, commonly referred to as OsloMet, is a young and vibrant institution located in the capital of Norway. Despite being established as a university only in 2018, it has a long-standing academic history rooted in its predecessor institutions. OsloMet is known for its emphasis on applied sciences and professional studies, offering a wide range of programs in health sciences, technology, education, and social sciences. The university focuses heavily on interdisciplinary research and collaboration with public and private sectors, making it a key player in addressing societal challenges. OsloMet has quickly become a preferred destination for students who seek practical and relevant education aligned with labor market needs. Its urban campus and dynamic learning environment attract both local and international students interested in contributing to the development of modern Norwegian society.",
+    "website": "https://www.oslomet.no/en"
+  },
+  {
+    "name": "Inland Norway University of Applied Sciences",
+    "city": "Elverum",
+    "country": "Norway",
+    "founded": 1994,
+    "students": 14900,
+    "description": "Inland Norway University of Applied Sciences (INN University) serves a diverse student population across several campuses in the scenic regions of Hedmark and Oppland. Since its formation through the merger of several regional colleges, INN University has prioritized practical education, teacher training, and sustainable development. The university offers programs in subjects such as ecology, film and media, business, and health. Its strong connection with local industries and communities helps students gain real-world experience and increase employability. With a mission to support regional growth, INN University blends academic knowledge with field expertise to promote innovative thinking and professional practice. The university is particularly appealing to students who want a more personal, community-based study environment with access to nature and modern learning facilities.",
+    "website": "https://www.inn.no/english"
+  },
+  {
+    "name": "University Centre in Svalbard (UNIS)",
+    "city": "Longyearbyen",
+    "country": "Norway",
+    "founded": 1993,
+    "students": 550,
+    "description": "The University Centre in Svalbard (UNIS) is the world's northernmost higher education institution, located in Longyearbyen on the Svalbard archipelago. Specializing in Arctic studies, UNIS offers courses in Arctic biology, geology, geophysics, and technology. Founded in 1993, UNIS is a unique collaboration platform for international researchers and students, making it a hub for cutting-edge Arctic science. With its field-based learning and close proximity to Arctic ecosystems, glaciers, and climate research stations, UNIS attracts students from all over the world. Courses are taught in English, and all students must be enrolled in partner universities to attend. The university supports interdisciplinary research that contributes to sustainable development and climate knowledge, making it a key contributor in the global conversation on Arctic change.",
+    "website": "https://www.unis.no/"
+  },
+  {
+    "name": "Volda University College",
+    "city": "Volda",
+    "country": "Norway",
+    "founded": 1894,
+    "students": 4500,
+    "description": "Volda University College (HVO) is a renowned institution in western Norway, particularly known for its strong programs in journalism, media studies, education, and social sciences. With a history dating back to 1894, HVO maintains a strong tradition of teacher education. Today, it combines this heritage with modern facilities and innovative teaching practices. Located in a scenic fjord landscape, the college offers a close-knit and student-friendly environment, ideal for immersive learning. HVO also organizes the annual 'DocsPorten' documentary festival and is deeply involved in cultural events. The college collaborates with international universities to offer exchange opportunities, making it a popular choice among students who value both academic rigor and a strong sense of community.",
+    "website": "https://www.hivolda.no/"
+  },
+  {
+    "name": "Molde University College",
+    "city": "Molde",
+    "country": "Norway",
+    "founded": 1994,
+    "students": 2400,
+    "description": "Molde University College, also known as Specialized University in Logistics, is a leading institution in Norway for logistics, supply chain management, and economics. Founded in 1994, it has developed into an internationally recognized research hub in these fields. Located in the picturesque coastal town of Molde, the college provides a high-quality education in bachelor\u2019s, master\u2019s, and PhD programs. With strong ties to both academia and industry, Molde University College ensures its students benefit from applied research and practical case studies. Its modern campus, vibrant student life, and focus on internationalization make it an attractive destination for those pursuing business and technology-related disciplines in a uniquely beautiful natural setting.",
+    "website": "https://www.himolde.no/english/"
+  },
+  {
+    "name": "Oslo School of Architecture and Design",
+    "city": "Oslo",
+    "country": "Norway",
+    "founded": 1961,
+    "students": 800,
+    "description": "The Oslo School of Architecture and Design (AHO) is Norway\u2019s premier institution for architecture, urbanism, design, and landscape architecture. With its origin dating back to 1961, AHO delivers high-quality, research-based education through a dynamic and interdisciplinary environment. The school offers master's programmes that combine technical precision with artistic creativity, giving students tools to tackle complex problems in urban and rural settings. Despite its relatively small size, AHO is known globally for its robust design and architecture output and strong industry engagement. Its campus fosters creative innovation through studio-based learning, critical thinking, and hands-on projects that push students to explore sustainable and pragmatic design solutions. AHO maintains close collaboration with other academic institutions and the industry, frequently participating in international design competitions and research. The school's vision is grounded in developing future-oriented professionals equipped to address contemporary architectural challenges in society. Through a rigorous curriculum and cutting-edge research labs, AHO nurtures a new generation of thinkers and makers who redefine spatial design and environmental stewardship.",
+    "website": "https://aho.no"
+  },
+  {
+    "name": "Norwegian Academy of Music",
+    "city": "Oslo",
+    "country": "Norway",
+    "founded": 1973,
+    "students": 770,
+    "description": "The Norwegian Academy of Music (NMH) is Norway\u2019s leading institution for higher education in music. Established in 1973, NMH has consistently set the benchmark for music education in the country. The academy offers a wide range of undergraduate, graduate, and doctoral programs across classical, jazz, folk, and contemporary music, including conducting, music education, and composition. With an emphasis on performance and academic excellence, NMH combines practical training with theoretical studies, allowing students to become highly skilled and reflective musicians. The faculty consists of world-renowned performers, educators, and researchers who foster creativity and critical engagement with the arts. Its modern facilities include concert halls, recording studios, and rehearsal rooms, providing students with professional-grade spaces to develop their craft. Located in Oslo, NMH also engages actively with the cultural life of the city through public performances, festivals, and collaborations with national and international institutions. The academy's dedication to innovation and its strong research environment position it as a global hub for musical excellence and exploration.",
+    "website": "https://nmh.no"
+  },
+  {
+    "name": "MF Norwegian School of Theology, Religion and Society",
+    "city": "Oslo",
+    "country": "Norway",
+    "founded": 1907,
+    "students": 1300,
+    "description": "MF Norwegian School of Theology, Religion and Society (MF) is one of the oldest and most respected theological institutions in Norway, established in 1907. Originally founded to provide academic theological education, MF has since expanded its scope to include a broad range of subjects within religion, philosophy, ethics, and social sciences. It offers bachelor\u2019s, master\u2019s, and Ph.D. programs, attracting students interested in both religious vocation and secular academic careers. MF is known for its commitment to scholarly excellence and a welcoming, dialogue-based environment that values diversity of belief and thought. The institution maintains close ties with the Church of Norway, yet encourages open academic inquiry and interdisciplinary collaboration. Located in Oslo, MF serves as a hub for international research in theology and religious studies. With a focus on critical thinking and ethical engagement, MF aims to educate reflective professionals who contribute meaningfully to both religious and civic life. Its small, community-oriented environment supports personalized mentoring, fostering a strong sense of academic and personal development.",
+    "website": "https://mf.no"
+  },
+  {
+    "name": "Oslo National Academy of the Arts",
+    "city": "Oslo",
+    "country": "Norway",
+    "founded": 1996,
+    "students": 600,
+    "description": "The Oslo National Academy of the Arts (KHiO) is Norway\u2019s largest and most prestigious art academy, established in 1996 through a merger of several independent art schools. Located in a former factory complex along the Akerselva River, KHiO houses over 500 students and offers bachelor's, master's, and doctoral programs in visual arts, design, theatre, dance, and opera. Its interdisciplinary environment encourages artistic innovation and collaboration, making it a cornerstone of Norway\u2019s creative education landscape. KHiO\u2019s mission is to develop forward-thinking artists who push the boundaries of their disciplines. The faculty includes practicing artists, directors, designers, and scholars, providing both technical mastery and critical depth. With state-of-the-art facilities, exhibition spaces, and international partnerships, KHiO provides a platform for students to engage globally while being rooted in local artistic traditions. It plays a vital role in shaping Norway's cultural future and holds a unique position as both an educational and artistic institution.",
+    "website": "https://khio.no"
+  },
+  {
+    "name": "Sami University College",
+    "city": "Guovdageaidnu",
+    "country": "Norway",
+    "founded": 1989,
+    "students": 270,
+    "description": "S\u00e1mi University College (S\u00e1mi allaskuvla) is the foremost institution for higher education and research based on S\u00e1mi language, culture, and societal perspectives. Founded in 1989 and located in Guovdageaidnu (Kautokeino), in Norway\u2019s northern Finnmark region, the university plays a critical role in Indigenous education and language revitalization. S\u00e1mi University College offers bachelor\u2019s and master\u2019s programs in S\u00e1mi language, literature, teacher education, journalism, and Indigenous studies. As a key contributor to the global Indigenous academic community, the university emphasizes decolonial approaches and knowledge systems grounded in S\u00e1mi epistemologies. With a bilingual environment where both S\u00e1mi and Norwegian are used, the university fosters the transmission of Indigenous knowledge to future generations. Its small student body benefits from personalized support and direct access to expert S\u00e1mi scholars and elders. S\u00e1mi allaskuvla also collaborates internationally with other Indigenous institutions, ensuring that S\u00e1mi perspectives have a voice in global academic discourse.",
+    "website": "https://samas.no"
+  },
+  {
+    "name": "VID Specialized University",
+    "city": "Oslo",
+    "country": "Norway",
+    "founded": 2016,
+    "students": 6000,
+    "description": "VID Specialized University is a private, accredited institution in Oslo with a strong foundation in Christian values. It offers education in health sciences, social sciences, theology, and leadership. VID emphasizes practice-based education, research excellence, and international partnerships. Despite being one of Norway’s newer institutions, it has quickly built a reputation for high-quality instruction and student-focused learning. VID is known for its contribution to professional education in nursing, diakonia, and religious studies. The institution supports a diverse academic community and prioritizes sustainability and ethical responsibility in all programs.",
+    "website": "https://www.vid.no/"
+  },
+  {
+    "name": "NLA - School of Religion, Education and Intercultural Studies",
+    "city": "Bergen",
+    "country": "Norway",
+    "founded": 1968,
+    "students": 2500,
+    "description": "NLA University College is a Christian-based private college headquartered in Bergen, with campuses in Oslo and Kristiansand. Founded in 1968, NLA offers degrees in education, journalism, music, and theology. It promotes intercultural understanding and ethical values through a Christian worldview. Known for small class sizes and personalized attention, NLA focuses on forming reflective professionals who are committed to human dignity and democratic values. It partners with international institutions and encourages global perspectives. NLA also emphasizes interdisciplinary collaboration and community engagement in teaching and research.",
+    "website": "https://www.nla.no/"
+  },
+  {
+    "name": "Queen Maud University College for Early Childhood Education",
+    "city": "Trondheim",
+    "country": "Norway",
+    "founded": 1947,
+    "students": 1200,
+    "description": "Queen Maud University College of Early Childhood Education (QMUC) is a prominent Norwegian institution in Trondheim, dedicated exclusively to early childhood teacher education. Founded in 1947, QMUC plays a key role in developing pedagogical approaches and research related to early childhood care and education. The college offers bachelor’s, master’s, and further education programs focused on children's development, learning environments, and inclusive practices. QMUC is known for its high academic standards and its commitment to promoting well-being and holistic growth in children through teacher training.",
+    "website": "https://www.dmmh.no/"
+  },
+  {
+    "name": "Lovisenberg Diaconal College",
+    "city": "Oslo",
+    "country": "Norway",
+    "founded": 1994,
+    "students": 1000,
+    "description": "Lovisenberg Diaconal College is a private nursing college in Oslo affiliated with the Norwegian diaconal tradition. Founded in 1994, the college builds on more than a century of nursing education in Norway, continuing the legacy of Florence Nightingale-inspired care. The institution focuses on nursing, healthcare ethics, and leadership in health services. It maintains close collaboration with Lovisenberg Diaconal Hospital, giving students direct access to clinical training and mentorship. The college integrates theory and practice in a values-based framework rooted in compassion, professionalism, and service.",
+    "website": "https://www.ldh.no/"
+  }
+]

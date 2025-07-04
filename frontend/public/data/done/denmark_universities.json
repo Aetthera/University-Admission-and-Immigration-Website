@@ -1,0 +1,245 @@
+[
+  {
+    "name": "University of Copenhagen",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "students": 37000,
+    "founded": 1479,
+    "description": "The University of Copenhagen, founded in 1479, is Denmark\u2019s oldest and largest university. Renowned for its historical significance and academic excellence, the university consistently ranks among the best in Europe and the world. It offers a comprehensive range of programs in humanities, social sciences, health, natural sciences, and law. The university fosters a strong research environment with extensive international collaboration, and is especially recognized for advancements in climate science, biomedical research, and legal studies. Located in the heart of Denmark\u2019s capital, the University of Copenhagen boasts a dynamic student life and a commitment to sustainability and innovation.",
+    "website": "https://www.ku.dk/english/"
+  },
+  {
+    "name": "Aarhus University",
+    "city": "Aarhus",
+    "country": "Denmark",
+    "students": 33020,
+    "founded": 1928,
+    "description": "Aarhus University, established in 1928, is one of Denmark\u2019s premier public research institutions. It is highly respected both nationally and internationally for its strong academic programs and cutting-edge research. With more than 33,000 students, Aarhus University excels in fields such as business, science, engineering, health, and the arts. The university emphasizes interdisciplinary approaches, sustainability, and societal impact. Its attractive campus in Aarhus offers a vibrant and collaborative atmosphere, ideal for students and researchers seeking both academic excellence and a rich cultural experience.",
+    "website": "https://international.au.dk/"
+  },
+  {
+    "name": "Technical University of Denmark (DTU)",
+    "city": "Kongens Lyngby",
+    "country": "Denmark",
+    "students": 11100,
+    "founded": 1829,
+    "description": "The Technical University of Denmark (DTU), founded in 1829, is internationally acclaimed for its contributions to science and technology. As Denmark\u2019s leading engineering institution, DTU offers innovative programs in areas such as sustainable energy, biotechnology, computer science, and environmental engineering. It maintains strong ties to industry, and students benefit from hands-on experience and project-based learning. Located in Kongens Lyngby near Copenhagen, DTU provides state-of-the-art laboratories and a thriving research culture aimed at addressing global challenges through technological advancement.",
+    "website": "https://www.dtu.dk/english"
+  },
+  {
+    "name": "University of Southern Denmark (SDU)",
+    "city": "Odense",
+    "country": "Denmark",
+    "students": 32000,
+    "founded": 1966,
+    "description": "The University of Southern Denmark (SDU), founded in 1966, is a forward-thinking university with campuses across the country, headquartered in Odense. It offers a broad spectrum of programs ranging from engineering and natural sciences to humanities and health sciences. SDU is known for its research impact, entrepreneurial focus, and engagement with local and international communities. It maintains partnerships with global universities and fosters a collaborative environment for innovation, diversity, and critical inquiry.",
+    "website": "https://www.sdu.dk/en"
+  },
+  {
+    "name": "Aalborg University",
+    "city": "Aalborg",
+    "country": "Denmark",
+    "students": 20353,
+    "founded": 1974,
+    "description": "Aalborg University (AAU), established in 1974, is celebrated for its problem-based learning model and applied research. Located primarily in Aalborg with campuses in Esbjerg and Copenhagen, AAU specializes in engineering, social sciences, IT, and health sciences. Its interdisciplinary approach, strong industry links, and international collaborations make it a top choice for students interested in practical innovation. AAU aims to equip graduates with critical thinking and real-world problem-solving skills in a global context.",
+    "website": "https://www.en.aau.dk/"
+  },
+  {
+    "name": "Copenhagen Business School",
+    "city": "Frederiksberg",
+    "country": "Denmark",
+    "students": 20100,
+    "founded": 1917,
+    "description": "Copenhagen Business School (CBS) is one of the largest business schools in Europe and is internationally renowned for its rigorous academic programs and strong ties with the business world. Located in Frederiksberg, CBS was established in 1917 and focuses on economics, business administration, and social sciences. It offers a wide array of undergraduate, graduate, and doctoral programs in both Danish and English, attracting students from around the globe. CBS integrates theoretical knowledge with real-world applications, making it a hub for future leaders and innovators.",
+    "website": "https://www.cbs.dk"
+  },
+  {
+    "name": "Roskilde University",
+    "city": "Roskilde",
+    "country": "Denmark",
+    "students": 7610,
+    "founded": 1972,
+    "description": "Roskilde University (RUC) was founded in 1972 and is known for its alternative approach to education and research. Situated in Roskilde, the university promotes interdisciplinary studies and problem-oriented project work. RUC emphasizes group collaboration and critical thinking, providing degrees in natural sciences, social sciences, and humanities. With a diverse student body and strong focus on innovation, RUC remains at the forefront of reforming traditional university education in Denmark.",
+    "website": "https://ruc.dk"
+  },
+  {
+    "name": "IT University of Copenhagen",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "students": 2500,
+    "founded": 1999,
+    "description": "The IT University of Copenhagen (ITU) is Denmark\u2019s leading institution for education and research in information technology. Established in 1999, ITU offers a wide range of programs in digital design, data science, software development, and cybersecurity. Its compact size allows for close collaboration between students and faculty, and its curriculum is strongly aligned with industry trends, preparing graduates to excel in both academic and commercial tech environments.",
+    "website": "https://en.itu.dk"
+  },
+  {
+    "name": "Royal Danish Academy of Fine Arts, School of Visual Arts",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "students": 200,
+    "founded": 1754,
+    "description": "Founded in 1754, the Royal Danish Academy of Fine Arts, School of Visual Arts is one of the oldest and most prestigious institutions of art education in Europe. Located in the heart of Copenhagen, it offers intensive training in visual arts including painting, sculpture, and media art. The Academy focuses on artistic research and critical discourse, and plays an important role in shaping Denmark\u2019s contemporary art scene.",
+    "website": "https://kunstakademiet.dk"
+  },
+  {
+    "name": "Aarhus School of Architecture",
+    "city": "Aarhus",
+    "country": "Denmark",
+    "students": 700,
+    "founded": 1965,
+    "description": "The Aarhus School of Architecture is a renowned institution dedicated to architectural education and innovation. Established in 1965 and located in Denmark\u2019s second-largest city, it emphasizes creative experimentation, spatial design, and sustainability. The school combines strong theoretical foundations with hands-on studio work, enabling students to become forward-thinking architects and designers who shape the built environment.",
+    "website": "https://aarch.dk"
+  },
+  {
+    "name": "University of Greenland",
+    "city": "Nuuk",
+    "country": "Denmark",
+    "students": 650,
+    "founded": 1987,
+    "description": "The University of Greenland, situated in Nuuk, is the only university in Greenland. Founded in 1987, it provides higher education primarily in the social sciences and humanities, and plays a crucial role in the development of local research and academic excellence. It offers programs in areas such as language, culture, social science, and administration. Due to its remote location and relatively small population, it has a smaller student body of about 650 students. The university is integral to preserving Greenlandic heritage and supports academic collaboration with Danish institutions.",
+    "website": "https://uni.gl/"
+  },
+  {
+    "name": "Danish School of Media and Journalism",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "students": 4000,
+    "founded": 2008,
+    "description": "The Danish School of Media and Journalism (DMJX), located in Copenhagen, is Denmark's foremost institution for media and journalism education. Established in 2008 through the merger of existing schools, it focuses on journalism, communication, media production, and design. DMJX collaborates internationally, offering English-language programs and exchange opportunities. The school is recognized for its hands-on training, project-based learning, and emphasis on ethics and innovation in journalism. Students benefit from modern facilities and a strong network of media professionals.",
+    "website": "https://www.dmjx.dk/"
+  },
+  {
+    "name": "Lillebaelt Academy",
+    "city": "Odense",
+    "country": "Denmark",
+    "students": 11500,
+    "founded": 2009,
+    "description": "Lillebaelt Academy, located in Odense, Denmark, was founded in 2009 and has since merged into UCL University College. It previously provided professional bachelor programs and academy profession degrees in fields such as business, IT, and technology. The institution was known for its strong industry links and focus on applied sciences, offering students practical training and internships. Despite the merger, its legacy continues through continued applied education offered by UCL in the region.",
+    "website": "https://www.ucl.dk/"
+  },
+  {
+    "name": "Royal Danish Academy of Fine Arts, Schools of Architecture, Design and Conservation",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "students": 2000,
+    "founded": 2011,
+    "description": "The Royal Danish Academy of Fine Arts, Schools of Architecture, Design and Conservation (KADK), is a prestigious institution located in Copenhagen, Denmark. Officially restructured in 2011, its history traces back to the 18th century. KADK offers programs in architecture, design, and preservation, and is renowned for merging artistic vision with academic rigor. Students benefit from access to cutting-edge facilities, world-class faculty, and international collaborations. The academy emphasizes sustainability, cultural heritage, and experimental practices in the creative industries.",
+    "website": "https://kadk.dk/"
+  },
+  {
+    "name": "Design School Kolding",
+    "city": "Kolding",
+    "country": "Denmark",
+    "students": 380,
+    "founded": 2010,
+    "description": "Design School Kolding, founded in 2010 and located in Kolding, Denmark, is an internationally recognized institution for design education and research. It offers programs in communication design, industrial design, fashion design, and accessory design. The school emphasizes sustainability, social innovation, and interdisciplinary collaboration. Students at Design School Kolding engage in real-world design challenges, often working closely with industry and public partners. The school is also a member of Cumulus, the global association of art and design education and research.",
+    "website": "https://www.designskolenkolding.dk/"
+  },
+  {
+    "name": "Business Academy Aarhus",
+    "city": "Viby",
+    "country": "Denmark",
+    "students": 4500,
+    "founded": 2009,
+    "description": "Business Academy Aarhus provides applied sciences education focused on business and technology. Located in Viby, it offers a range of professional bachelor's and AP degree programs designed to meet labor market demands. The academy collaborates closely with local companies and institutions to offer practical experience to students.",
+    "website": "https://www.baaa.dk/"
+  },
+  {
+    "name": "Zealand Institute of Business and Technology",
+    "city": "K\u00f8ge",
+    "country": "Denmark",
+    "students": 9000,
+    "founded": 2008,
+    "description": "Zealand Institute of Business and Technology offers a variety of business, IT, and engineering programs tailored to industry needs. With campuses across the Zealand region, the institution focuses on hands-on learning, innovation, and global partnerships, preparing students for diverse career paths in a competitive environment.",
+    "website": "https://www.zealand.dk/"
+  },
+  {
+    "name": "Copenhagen Business Academy",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "students": 7200,
+    "founded": 2009,
+    "description": "Copenhagen Business Academy (Cphbusiness) is one of Denmark\u2019s largest business academies. It delivers professional programs in areas such as business, finance, service, and IT. Located in the capital, it emphasizes practical knowledge, entrepreneurship, and collaboration with companies to ensure career-ready graduates.",
+    "website": "https://www.cphbusiness.dk/"
+  },
+  {
+    "name": "Danish National Academy of Music",
+    "city": "Odense",
+    "country": "Denmark",
+    "students": 400,
+    "founded": 2010,
+    "description": "The Danish National Academy of Music in Odense nurtures musicians and composers through specialized music education. As part of the University of Southern Denmark, it supports classical and contemporary music development, emphasizing performance, research, and international collaboration.",
+    "website": "https://www.sdu.dk/en/om_sdu/institutter_centre/musikkonservatorium"
+  },
+  {
+    "name": "Royal Danish Academy of Music",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "students": 400,
+    "founded": 1867,
+    "description": "The Royal Danish Academy of Music in Copenhagen is one of the oldest institutions of higher education in music in Denmark. It offers programs in classical and modern music disciplines and is renowned for its artistic and academic excellence, supporting a vibrant cultural scene.",
+    "website": "https://english.dkdm.dk/"
+  },
+  {
+    "name": "Copenhagen School of Design and Technology",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "students": 2500,
+    "founded": 2008,
+    "description": "Copenhagen School of Design and Technology (KEA) is a renowned institution offering education within design, technology, and business. Established in 2008, KEA blends academic knowledge with practical experience and industry collaboration, preparing students for real-world challenges. With a focus on sustainability, innovation, and creativity, KEA attracts both domestic and international students. It offers a variety of professional bachelor's degrees and academy profession programs, primarily in English and Danish.",
+    "website": "https://kea.dk"
+  },
+  {
+    "name": "Royal Academy of Music",
+    "city": "Aarhus",
+    "country": "Denmark",
+    "students": 2500,
+    "founded": 1927,
+    "description": "The Royal Academy of Music in Aarhus is Denmark's leading conservatory for classical music education. Founded in 1927, it has grown into a prominent institution that emphasizes both artistic development and academic excellence. The academy offers bachelor's and master's programs, nurturing musicians, composers, and music teachers. Its faculty includes internationally recognized performers and researchers. The academy also hosts numerous concerts, fostering an inspiring environment for aspiring musicians.",
+    "website": "https://musikkons.dk"
+  },
+  {
+    "name": "Danish National School of Performing Arts",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "students": 2500,
+    "founded": 1968,
+    "description": "The Danish National School of Performing Arts (DDSKS) is Denmark\u2019s foremost institution for theater and performing arts education. With campuses in Copenhagen and other major cities, DDSKS offers a wide range of bachelor and master programs in acting, directing, choreography, playwriting, and scenography. The school emphasizes creative experimentation and interdisciplinary collaboration. Founded in 1968, DDSKS has educated many of Denmark\u2019s most prominent artists.",
+    "website": "https://ddsks.dk"
+  },
+  {
+    "name": "International Business Academy",
+    "city": "Kolding",
+    "country": "Denmark",
+    "students": 4630,
+    "founded": 1992,
+    "description": "International Business Academy (IBA) in Kolding is known for its strong international focus and partnerships with universities worldwide. Established in 1992, IBA offers programs in international business, marketing, finance, and e-commerce. Students benefit from modern facilities, global exchange opportunities, and an education grounded in real-world business practices. IBA\u2019s flexible learning options include full-time, part-time, and online studies.",
+    "website": "https://www.iba.dk"
+  },
+  {
+    "name": "Dania Academy",
+    "city": "Randers",
+    "country": "Denmark",
+    "students": 2500,
+    "founded": 2009,
+    "description": "Dania Academy is a practice-oriented higher education institution located in Randers, Denmark. Founded in 2009, it offers applied degrees primarily in business, IT, and technology. Dania emphasizes hands-on learning, internships, and industry collaboration. The academy offers English-taught programs aimed at international students, preparing graduates for careers in global and local markets. Dania is known for its supportive learning environment and close student-teacher interaction.",
+    "website": "https://eadania.com"
+  },
+  {
+    "name": "Business Academy Southwest",
+    "city": "Esbjerg",
+    "country": "Denmark",
+    "students": 6000,
+    "founded": 2008,
+    "description": "Business Academy Southwest (EASV) is a higher education institution in Esbjerg, Denmark, focused on applied sciences and professional bachelor programs. Founded in 2008, EASV offers programs in business, IT, and engineering, all designed to prepare students for real-world careers through a practical approach to learning. The academy maintains strong ties with industries, offering internships, project-based collaboration, and career-oriented education. Its mission is to create job-ready graduates equipped with both theoretical knowledge and hands-on experience. With a modern campus and dedicated faculty, EASV is a hub for students seeking innovation, entrepreneurship, and technical excellence.",
+    "website": "https://www.easv.dk/en"
+  },
+  {
+    "name": "Business Academy MidtVest",
+    "city": "Herning",
+    "country": "Denmark",
+    "students": 2500,
+    "founded": 2009,
+    "description": "Business Academy MidtVest (EAMV) is a Danish institution located in Herning, offering practical and career-focused higher education programs. Established in 2009, it provides AP degrees and bachelor-level programs in areas such as marketing, finance, and technology. The academy emphasizes industry relevance and student employability, incorporating internships and hands-on learning into its curriculum. EAMV is known for its close collaboration with businesses, ensuring students gain experience aligned with market needs. The campus fosters innovation and entrepreneurial thinking, serving as a key educational institution in central Denmark for students aiming to transition smoothly into the workforce.",
+    "website": "https://www.eamv.dk/english"
+  }
+]

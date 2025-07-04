@@ -1,0 +1,752 @@
+[
+  {
+    "name": "Harvard University",
+    "city": "Cambridge",
+    "state": "Massachusetts",
+    "country": "United States",
+    "founded": 1636,
+    "students": 21000,
+    "website": "https://www.harvard.edu",
+    "description": "Harvard University, founded in 1636, is the oldest institution of higher learning in the United States and consistently ranked among the world\u2019s top universities. It offers programs across law, medicine, business, sciences, and humanities."
+  },
+  {
+    "name": "Stanford University",
+    "city": "Stanford",
+    "state": "California",
+    "country": "United States",
+    "founded": 1885,
+    "students": 16000,
+    "website": "https://www.stanford.edu",
+    "description": "Stanford University is a premier private research university in California\u2019s Silicon Valley, known globally for its entrepreneurial environment and excellence in engineering, computer science, and business."
+  },
+  {
+    "name": "University of Michigan - Ann Arbor",
+    "city": "Ann Arbor",
+    "state": "Michigan",
+    "country": "United States",
+    "founded": 1817,
+    "students": 46000,
+    "website": "https://umich.edu",
+    "description": "The University of Michigan, located in Ann Arbor, is one of the oldest public universities in the U.S., known for its research strength, academic rigor, and large, vibrant campus life."
+  },
+  {
+    "name": "Cornell University",
+    "city": "Ithaca",
+    "state": "New York",
+    "country": "United States",
+    "founded": 1865,
+    "students": 25000,
+    "website": "https://www.cornell.edu",
+    "description": "Cornell University, an Ivy League institution, combines a strong liberal arts core with world-class science and engineering programs, and is known for its diverse student body and beautiful upstate New York campus."
+  },
+  {
+    "name": "University of California - Berkeley",
+    "city": "Berkeley",
+    "state": "California",
+    "country": "United States",
+    "founded": 1868,
+    "students": 45000,
+    "website": "https://www.berkeley.edu",
+    "description": "UC Berkeley is one of the world\u2019s leading public universities, renowned for research excellence, progressive activism, and innovation in fields like computer science, economics, and engineering."
+  },
+  {
+    "name": "Massachusetts Institute of Technology (MIT)",
+    "city": "Cambridge",
+    "state": "Massachusetts",
+    "country": "United States",
+    "founded": 1861,
+    "students": 11500,
+    "website": "https://www.mit.edu",
+    "description": "MIT is a world-renowned university specializing in science, engineering, and technology. It is famous for its cutting-edge research and its close ties to entrepreneurship and industry."
+  },
+  {
+    "name": "Columbia University",
+    "city": "New York City",
+    "state": "New York",
+    "country": "United States",
+    "founded": 1754,
+    "students": 33000,
+    "website": "https://www.columbia.edu",
+    "description": "Columbia University, an Ivy League school in Manhattan, is known for its strong programs in journalism, medicine, business, and law, and its global research initiatives."
+  },
+  {
+    "name": "University of Washington - Seattle",
+    "city": "Seattle",
+    "state": "Washington",
+    "country": "United States",
+    "founded": 1861,
+    "students": 56000,
+    "website": "https://www.washington.edu",
+    "description": "The University of Washington in Seattle is one of the nation\u2019s top public research universities, especially recognized for its leadership in medicine, engineering, and computer science."
+  },
+  {
+    "name": "Johns Hopkins University",
+    "city": "Baltimore",
+    "state": "Maryland",
+    "country": "United States",
+    "founded": 1876,
+    "students": 26000,
+    "website": "https://www.jhu.edu",
+    "description": "Johns Hopkins University, founded in 1876 in Baltimore, Maryland, is a world leader in research and higher education. It is especially renowned for its medical, public health, and international studies programs."
+  },
+  {
+    "name": "Yale University",
+    "city": "New Haven",
+    "state": "Connecticut",
+    "country": "United States",
+    "founded": 1701,
+    "students": 14000,
+    "website": "https://www.yale.edu",
+    "description": "Yale University, an Ivy League institution in New Haven, Connecticut, is one of the oldest and most prestigious universities in the U.S., known for its rigorous academics, historic campus, and strong alumni network."
+  },
+  {
+    "name": "University of California - Los Angeles (UCLA)",
+    "city": "Los Angeles",
+    "state": "California",
+    "country": "United States",
+    "founded": 1919,
+    "students": 47000,
+    "website": "https://www.ucla.edu",
+    "description": "UCLA is one of the most prestigious public research universities in the U.S., offering top-ranked programs in engineering, film, business, and the sciences. Its vibrant Los Angeles campus reflects diversity and innovation."
+  },
+  {
+    "name": "University of Pennsylvania",
+    "city": "Philadelphia",
+    "state": "Pennsylvania",
+    "country": "United States",
+    "founded": 1740,
+    "students": 23000,
+    "website": "https://www.upenn.edu",
+    "description": "The University of Pennsylvania, located in Philadelphia, is a historic Ivy League university known for its leadership in business, medicine, and law, and for integrating academic theory with real-world practice."
+  },
+  {
+    "name": "University of Wisconsin - Madison",
+    "city": "Madison",
+    "state": "Wisconsin",
+    "country": "United States",
+    "founded": 1848,
+    "students": 45000,
+    "website": "https://www.wisc.edu",
+    "description": "UW-Madison is a flagship public university known for excellence in research, education, and outreach. It offers strong programs in engineering, agriculture, and public affairs, and boasts a lively student life."
+  },
+  {
+    "name": "University of Minnesota - Twin Cities",
+    "city": "Minneapolis",
+    "state": "Minnesota",
+    "country": "United States",
+    "founded": 1851,
+    "students": 50000,
+    "website": "https://twin-cities.umn.edu",
+    "description": "The University of Minnesota\u2019s Twin Cities campus is one of the largest and most comprehensive public research universities in the country, excelling in science, engineering, public health, and education."
+  },
+  {
+    "name": "University of Chicago",
+    "city": "Chicago",
+    "state": "Illinois",
+    "country": "United States",
+    "founded": 1890,
+    "students": 17000,
+    "website": "https://www.uchicago.edu",
+    "description": "The University of Chicago is a private research university known for its core curriculum and deep intellectual culture. It excels in economics, law, political science, and mathematics."
+  },
+  {
+    "name": "Pennsylvania State University",
+    "city": "University Park",
+    "state": "Pennsylvania",
+    "country": "United States",
+    "founded": 1855,
+    "students": 89000,
+    "website": "https://www.psu.edu",
+    "description": "Penn State is a large public university system known for its research, athletics, and strong engineering and agricultural programs. Its main campus in University Park is the academic and cultural heart of the system."
+  },
+  {
+    "name": "New York University (NYU)",
+    "city": "New York City",
+    "state": "New York",
+    "country": "United States",
+    "founded": 1831,
+    "students": 54000,
+    "website": "https://www.nyu.edu",
+    "description": "NYU is a private university in the heart of Manhattan, known for strong programs in law, arts, business, and social sciences, with a globally diverse student body and campuses abroad."
+  },
+  {
+    "name": "Ohio State University",
+    "city": "Columbus",
+    "state": "Ohio",
+    "country": "United States",
+    "founded": 1870,
+    "students": 61000,
+    "website": "https://www.osu.edu",
+    "description": "The Ohio State University is one of the largest public universities in the U.S., with strengths in business, engineering, and health sciences, and a major NCAA athletic presence."
+  },
+  {
+    "name": "University of Illinois at Urbana-Champaign",
+    "city": "Champaign",
+    "state": "Illinois",
+    "country": "United States",
+    "founded": 1867,
+    "students": 56000,
+    "website": "https://illinois.edu",
+    "description": "UIUC is a top-tier public research university known for innovation in engineering, computer science, and library science. It has a large international student population and strong entrepreneurial culture."
+  },
+  {
+    "name": "University of California - San Diego",
+    "city": "San Diego",
+    "state": "California",
+    "country": "United States",
+    "founded": 1960,
+    "students": 42000,
+    "website": "https://www.ucsd.edu",
+    "description": "UC San Diego is a leading public research university recognized for excellence in science, oceanography, engineering, and public health. Its location and innovative spirit foster a strong startup culture."
+  },
+  {
+    "name": "Princeton University",
+    "city": "Princeton",
+    "state": "New Jersey",
+    "country": "United States",
+    "founded": 1746,
+    "students": 8500,
+    "website": "https://www.princeton.edu",
+    "description": "Princeton University is a prestigious Ivy League research university known for its rigorous academics and beautiful campus in Princeton, New Jersey."
+  },
+  {
+    "name": "University of Southern California",
+    "city": "Los Angeles",
+    "state": "California",
+    "country": "United States",
+    "founded": 1880,
+    "students": 47000,
+    "website": "https://www.usc.edu",
+    "description": "USC is a major private research university in Los Angeles known for strong programs in film, business, and engineering."
+  },
+  {
+    "name": "University of Florida",
+    "city": "Gainesville",
+    "state": "Florida",
+    "country": "United States",
+    "founded": 1853,
+    "students": 52000,
+    "website": "https://www.ufl.edu",
+    "description": "A top-ranked public university known for research excellence, innovation, and strong athletic programs."
+  },
+  {
+    "name": "University of North Carolina at Chapel Hill",
+    "city": "Chapel Hill",
+    "state": "North Carolina",
+    "country": "United States",
+    "founded": 1789,
+    "students": 30000,
+    "website": "https://www.unc.edu",
+    "description": "UNC-Chapel Hill is a top public university offering strong liberal arts and research-focused programs."
+  },
+  {
+    "name": "Northwestern University",
+    "city": "Evanston",
+    "state": "Illinois",
+    "country": "United States",
+    "founded": 1851,
+    "students": 22000,
+    "website": "https://www.northwestern.edu",
+    "description": "A private research university known for journalism, law, business, and the arts."
+  },
+  {
+    "name": "University of Texas at Austin",
+    "city": "Austin",
+    "state": "Texas",
+    "country": "United States",
+    "founded": 1883,
+    "students": 51000,
+    "website": "https://www.utexas.edu",
+    "description": "UT Austin is a leading public research university known for academic strength and its vibrant city life."
+  },
+  {
+    "name": "Duke University",
+    "city": "Durham",
+    "state": "North Carolina",
+    "country": "United States",
+    "founded": 1838,
+    "students": 16000,
+    "website": "https://www.duke.edu",
+    "description": "A prestigious private university known for its programs in medicine, law, and public policy."
+  },
+  {
+    "name": "University of California - Davis",
+    "city": "Davis",
+    "state": "California",
+    "country": "United States",
+    "founded": 1905,
+    "students": 39000,
+    "website": "https://www.ucdavis.edu",
+    "description": "UC Davis is a public university known for agriculture, veterinary medicine, and biological sciences."
+  },
+  {
+    "name": "Rutgers University - New Brunswick",
+    "city": "New Brunswick",
+    "state": "New Jersey",
+    "country": "United States",
+    "founded": 1766,
+    "students": 50000,
+    "website": "https://www.rutgers.edu",
+    "description": "Rutgers is the largest public university in New Jersey with strong programs in science and humanities."
+  },
+  {
+    "name": "University of Maryland - College Park",
+    "city": "College Park",
+    "state": "Maryland",
+    "country": "United States",
+    "founded": 1856,
+    "students": 41000,
+    "website": "https://www.umd.edu",
+    "description": "UMD is a public research university near Washington D.C. known for engineering and public policy."
+  },
+  {
+    "name": "Michigan State University",
+    "city": "East Lansing",
+    "state": "Michigan",
+    "country": "United States",
+    "founded": 1855,
+    "students": 50000,
+    "website": "https://msu.edu",
+    "description": "MSU is a top public university known for agriculture, education, and international studies."
+  },
+  {
+    "name": "Purdue University",
+    "city": "West Lafayette",
+    "state": "Indiana",
+    "country": "United States",
+    "founded": 1869,
+    "students": 50000,
+    "website": "https://www.purdue.edu",
+    "description": "Purdue is a leading engineering and STEM-focused university with a global research footprint."
+  },
+  {
+    "name": "University of Pittsburgh",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "country": "United States",
+    "founded": 1787,
+    "students": 28000,
+    "website": "https://www.pitt.edu",
+    "description": "A research-heavy public university with strengths in health sciences and humanities."
+  },
+  {
+    "name": "University of Arizona",
+    "city": "Tucson",
+    "state": "Arizona",
+    "country": "United States",
+    "founded": 1885,
+    "students": 47000,
+    "website": "https://www.arizona.edu",
+    "description": "A major public university recognized for environmental science, space studies, and engineering."
+  },
+  {
+    "name": "Texas A&M University - College Station",
+    "city": "College Station",
+    "state": "Texas",
+    "country": "United States",
+    "founded": 1876,
+    "students": 72000,
+    "website": "https://www.tamu.edu",
+    "description": "One of the largest universities in the U.S., known for engineering, agriculture, and military tradition."
+  },
+  {
+    "name": "Boston University",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "country": "United States",
+    "founded": 1839,
+    "students": 34000,
+    "website": "https://www.bu.edu",
+    "description": "A large private university with strengths in communication, law, business, and international relations."
+  },
+  {
+    "name": "University of California - San Francisco",
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States",
+    "founded": 1864,
+    "students": 3100,
+    "website": "https://www.ucsf.edu",
+    "description": "A graduate-level health sciences university known globally for research and medical education."
+  },
+  {
+    "name": "Carnegie Mellon University",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "country": "United States",
+    "founded": 1900,
+    "students": 15000,
+    "website": "https://www.cmu.edu",
+    "description": "CMU is a global leader in computer science, robotics, engineering, and the arts."
+  },
+  {
+    "name": "Washington University in St. Louis",
+    "city": "St. Louis",
+    "state": "Missouri",
+    "country": "United States",
+    "founded": 1853,
+    "students": 16000,
+    "website": "https://wustl.edu",
+    "description": "WashU is a private research university known for strong programs in medicine, business, and social work."
+  },
+  {
+    "name": "University of Virginia",
+    "city": "Charlottesville",
+    "state": "Virginia",
+    "country": "United States",
+    "founded": 1819,
+    "students": 25000,
+    "website": "https://www.virginia.edu",
+    "description": "UVA is a top-ranked public institution founded by Thomas Jefferson, known for leadership, law, and public policy."
+  },
+  {
+    "name": "University of Utah",
+    "city": "Salt Lake",
+    "state": "Utah",
+    "country": "United States",
+    "founded": 1850,
+    "students": 34000,
+    "website": "https://www.utah.edu",
+    "description": "The University of Utah is a public research university in Salt Lake City known for medicine, business, and computer science."
+  },
+  {
+    "name": "University of California - Irvine",
+    "city": "Irvine",
+    "state": "California",
+    "country": "United States",
+    "founded": 1965,
+    "students": 36500,
+    "website": "https://uci.edu",
+    "description": "UC Irvine is a leading public university focused on science, medicine, and the arts."
+  },
+  {
+    "name": "Arizona State University - Tempe",
+    "city": "Tempe",
+    "state": "Arizona",
+    "country": "United States",
+    "founded": 1885,
+    "students": 79500,
+    "website": "https://www.asu.edu",
+    "description": "ASU is one of the largest public universities, known for innovation and online programs."
+  },
+  {
+    "name": "University of Colorado Boulder",
+    "city": "Boulder",
+    "state": "Colorado",
+    "country": "United States",
+    "founded": 1876,
+    "students": 36000,
+    "website": "https://www.colorado.edu",
+    "description": "CU Boulder is a public research university recognized for aerospace, environmental, and engineering programs."
+  },
+  {
+    "name": "California Institute of Technology",
+    "city": "Pasadena",
+    "state": "California",
+    "country": "United States",
+    "founded": 1891,
+    "students": 2200,
+    "website": "https://www.caltech.edu",
+    "description": "Caltech is a world-renowned science and engineering institute with a low student-to-faculty ratio."
+  },
+  {
+    "name": "North Carolina State University at Raleigh",
+    "city": "Raleigh",
+    "state": "North Carolina",
+    "country": "United States",
+    "founded": 1887,
+    "students": 35000,
+    "website": "https://www.ncsu.edu",
+    "description": "NC State is known for its strengths in STEM, textiles, and agricultural sciences."
+  },
+  {
+    "name": "Georgia Institute of Technology",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "country": "United States",
+    "founded": 1885,
+    "students": 42000,
+    "website": "https://www.gatech.edu",
+    "description": "Georgia Tech is a top-tier STEM-focused university known for engineering and technology leadership."
+  },
+  {
+    "name": "University of Iowa",
+    "city": "Iowa City",
+    "state": "Iowa",
+    "country": "United States",
+    "founded": 1847,
+    "students": 31000,
+    "website": "https://uiowa.edu",
+    "description": "UIowa is a major public research university famous for its Writers' Workshop and health sciences."
+  },
+  {
+    "name": "Brown University",
+    "city": "Providence",
+    "state": "Rhode Island",
+    "country": "United States",
+    "founded": 1764,
+    "students": 10000,
+    "website": "https://www.brown.edu",
+    "description": "Brown is an Ivy League university celebrated for its open curriculum and intellectual freedom."
+  },
+  {
+    "name": "Vanderbilt University",
+    "city": "Nashville",
+    "state": "Tennessee",
+    "country": "United States",
+    "founded": 1873,
+    "students": 13000,
+    "website": "https://www.vanderbilt.edu",
+    "description": "Vanderbilt is a private research university known for education, medicine, and law."
+  },
+  {
+    "name": "Emory University",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "country": "United States",
+    "founded": 1836,
+    "students": 15000,
+    "website": "https://www.emory.edu",
+    "description": "Emory is a prestigious university with strong programs in health sciences, law, and business."
+  },
+  {
+    "name": "University of California - Santa Barbara",
+    "city": "Santa Barbara",
+    "state": "California",
+    "country": "United States",
+    "founded": 1909,
+    "students": 26000,
+    "website": "https://www.ucsb.edu",
+    "description": "UCSB is a public research university recognized for engineering, physics, and marine sciences."
+  },
+  {
+    "name": "University of Georgia",
+    "city": "Athens",
+    "state": "Georgia",
+    "country": "United States",
+    "founded": 1785,
+    "students": 39000,
+    "website": "https://www.uga.edu",
+    "description": "UGA is a flagship public university known for agriculture, business, and journalism."
+  },
+  {
+    "name": "University of Rochester",
+    "city": "Rochester",
+    "state": "New York",
+    "country": "United States",
+    "founded": 1850,
+    "students": 12000,
+    "website": "https://www.rochester.edu",
+    "description": "A private research university known for its strong programs in optics, music, and medicine."
+  },
+  {
+    "name": "Georgetown University",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "country": "United States",
+    "founded": 1789,
+    "students": 19000,
+    "website": "https://www.georgetown.edu",
+    "description": "Georgetown is a globally ranked university known for law, foreign service, and public policy."
+  },
+  {
+    "name": "Iowa State University",
+    "city": "Ames",
+    "state": "Iowa",
+    "country": "United States",
+    "founded": 1858,
+    "students": 30000,
+    "website": "https://www.iastate.edu",
+    "description": "ISU is a public university with strong programs in agriculture, engineering, and design."
+  },
+  {
+    "name": "Tufts University",
+    "city": "Medford",
+    "state": "Massachusetts",
+    "country": "United States",
+    "founded": 1852,
+    "students": 11400,
+    "website": "https://www.tufts.edu",
+    "description": "Tufts is a private research university known for international relations and medicine."
+  },
+  {
+    "name": "Virginia Polytechnic Institute and State University",
+    "city": "Blacksburg",
+    "state": "Virginia",
+    "country": "United States",
+    "founded": 1872,
+    "students": 37000,
+    "website": "https://www.vt.edu",
+    "description": "Virginia Tech is a public university with a focus on engineering, architecture, and applied sciences."
+  },
+  {
+    "name": "University of Miami",
+    "city": "Coral Gables",
+    "state": "Florida",
+    "country": "United States",
+    "founded": 1925,
+    "students": 17000,
+    "website": "https://welcome.miami.edu",
+    "description": "The University of Miami is a private research university known for medicine, business, and marine science."
+  },
+  {
+    "name": "University of Illinois at Chicago",
+    "city": "Chicago",
+    "state": "Illinois",
+    "country": "United States",
+    "founded": 1982,
+    "students": 33000,
+    "website": "https://www.uic.edu",
+    "description": "UIC is a diverse public university known for health sciences, architecture, and urban research."
+  },
+  {
+    "name": "University of Kentucky",
+    "city": "Lexington",
+    "state": "Kentucky",
+    "country": "United States",
+    "students": 30000,
+    "founded": 1865,
+    "website": "https://www.uky.edu",
+    "description": "The University of Kentucky is a public research university offering a wide array of academic programs. Known for its focus on agriculture, health, and engineering, UK serves a diverse student body across undergraduate and graduate programs."
+  },
+  {
+    "name": "University of Massachusetts - Amherst",
+    "city": "Amherst",
+    "state": "Massachusetts",
+    "country": "United States",
+    "students": 31000,
+    "founded": 1863,
+    "website": "https://www.umass.edu",
+    "description": "UMass Amherst is the flagship campus of the University of Massachusetts system. It is a leading public research university that emphasizes innovation and community engagement across disciplines."
+  },
+  {
+    "name": "Oregon State University",
+    "city": "Corvallis",
+    "state": "Oregon",
+    "country": "United States",
+    "students": 34000,
+    "founded": 1868,
+    "website": "https://www.oregonstate.edu",
+    "description": "Oregon State University is a public research university known for its programs in engineering, forestry, and marine sciences. It has a strong commitment to sustainability and outreach across Oregon."
+  },
+  {
+    "name": "Colorado State University - Fort Collins",
+    "city": "Fort Collins",
+    "state": "Colorado",
+    "country": "United States",
+    "students": 33500,
+    "founded": 1870,
+    "website": "https://www.colostate.edu",
+    "description": "Colorado State University is a land-grant university with nationally recognized programs in veterinary medicine, agriculture, and sustainability. It is located in the scenic city of Fort Collins."
+  },
+  {
+    "name": "George Washington University",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "country": "United States",
+    "students": 27000,
+    "founded": 1821,
+    "website": "https://www.gwu.edu",
+    "description": "George Washington University is a private research university located in the heart of Washington, D.C. It offers prestigious programs in law, international affairs, and political science."
+  },
+  {
+    "name": "Indiana University - Bloomington",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "country": "United States",
+    "students": 45000,
+    "founded": 1820,
+    "website": "https://www.indiana.edu/",
+    "description": "Indiana University Bloomington is the flagship campus of Indiana University, offering a wide range of undergraduate and graduate programs."
+  },
+  {
+    "name": "University of New Mexico",
+    "city": "Albuquerque",
+    "state": "New Mexico",
+    "country": "United States",
+    "students": 25500,
+    "founded": 1889,
+    "website": "https://www.unm.edu/",
+    "description": "The University of New Mexico is a public research university known for its programs in engineering, law, and medicine."
+  },
+  {
+    "name": "University of California - Santa Cruz",
+    "city": "Santa Cruz",
+    "state": "California",
+    "country": "United States",
+    "students": 19000,
+    "founded": 1965,
+    "website": "https://www.ucsc.edu/",
+    "description": "UC Santa Cruz is a public university in the University of California system known for its progressive teaching methods and natural sciences."
+  },
+  {
+    "name": "University of Houston",
+    "city": "Houston",
+    "state": "Texas",
+    "country": "United States",
+    "students": 47000,
+    "founded": 1927,
+    "website": "https://www.uh.edu/",
+    "description": "The University of Houston is a major public research university offering programs in law, business, and engineering."
+  },
+  {
+    "name": "University of Alabama at Birmingham",
+    "city": "Birmingham",
+    "state": "Alabama",
+    "country": "United States",
+    "students": 22000,
+    "founded": 1969,
+    "website": "https://www.uab.edu/",
+    "description": "UAB is a comprehensive urban university and a major center for clinical research and health care."
+  },
+  {
+    "name": "Rice University",
+    "city": "Houston",
+    "state": "Texas",
+    "country": "United States",
+    "students": 8000,
+    "founded": 1912,
+    "website": "https://www.rice.edu/",
+    "description": "Rice University is a top-tier research university known for its strong programs in science, engineering, and business."
+  },
+  {
+    "name": "University of California - Riverside",
+    "city": "Riverside",
+    "state": "California",
+    "country": "United States",
+    "students": 26000,
+    "founded": 1954,
+    "website": "https://www.ucr.edu/",
+    "description": "UC Riverside is part of the University of California system and is known for its diversity and research in environmental sciences."
+  },
+  {
+    "name": "University of South Carolina - Columbia",
+    "city": "Columbia",
+    "state": "South Carolina",
+    "country": "United States",
+    "students": 35000,
+    "founded": 1801,
+    "website": "https://www.sc.edu/",
+    "description": "The University of South Carolina is a public research university known for its business, engineering, and public health programs."
+  },
+  {
+    "name": "Brigham Young University - Provo",
+    "city": "Provo",
+    "state": "Utah",
+    "country": "United States",
+    "students": 33000,
+    "founded": 1875,
+    "website": "https://www.byu.edu/",
+    "description": "BYU is a private university sponsored by the LDS Church and is recognized for its emphasis on undergraduate education and values."
+  },
+  {
+    "name": "University of Delaware",
+    "city": "Newark",
+    "state": "Delaware",
+    "country": "United States",
+    "students": 24000,
+    "founded": 1743,
+    "website": "https://www.udel.edu/",
+    "description": "The University of Delaware is a public land-grant university known for chemical engineering, business, and education."
+  }
+]

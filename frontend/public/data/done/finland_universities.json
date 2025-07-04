@@ -1,0 +1,326 @@
+[
+  {
+    "name": "University of Helsinki",
+    "city": "Helsinki",
+    "country": "Finland",
+    "students": 31312,
+    "founded": 1640,
+    "description": "The University of Helsinki, established in 1640, is Finland's oldest and largest academic institution. As a leading multidisciplinary university, it offers a wide range of programs across the humanities, social sciences, natural sciences, medicine, and law. Known for its research excellence and global partnerships, the university plays a pivotal role in advancing education and innovation in the Nordic region. With over 31,000 students and a strong international presence, the University of Helsinki consistently ranks among the top 100 universities worldwide. It maintains a rich academic tradition while embracing modern approaches to learning, sustainability, and global challenges. Located in the vibrant capital city of Finland, the university offers students access to a dynamic urban environment rich in culture, history, and career opportunities.",
+    "website": "https://www.helsinki.fi/en"
+  },
+  {
+    "name": "University of Tampere",
+    "city": "Tampere",
+    "country": "Finland",
+    "students": 18400,
+    "founded": 1925,
+    "description": "The University of Tampere is a prominent Finnish university with a focus on research and education in society, health, and technology. Founded in 1925, it has grown to serve over 18,000 students with a reputation for academic excellence and community impact. The university is committed to solving complex global issues through interdisciplinary research, collaboration, and innovation. Located in one of Finland\u2019s most populous cities, the campus is known for its strong connections to industry, vibrant student life, and modern facilities. It promotes equal opportunities and critical thinking, attracting students and researchers from across the globe.",
+    "website": "https://www.tuni.fi/en"
+  },
+  {
+    "name": "Aalto University",
+    "city": "Espoo",
+    "country": "Finland",
+    "students": 11440,
+    "founded": 2010,
+    "description": "Aalto University, founded in 2010 through the merger of three leading Finnish institutions in technology, economics, and art, is a forward-thinking university focused on innovation and entrepreneurship. Located in Espoo, just outside Helsinki, it is known for its vibrant startup ecosystem, cutting-edge research, and interdisciplinary education. Aalto aims to shape a sustainable future by combining science, design, and business in creative ways. With modern campuses and a strong international presence, Aalto attracts ambitious students and researchers who are driven to challenge conventions and create global impact.",
+    "website": "https://www.aalto.fi/en"
+  },
+  {
+    "name": "University of Turku",
+    "city": "Turku",
+    "country": "Finland",
+    "students": 20800,
+    "founded": 1920,
+    "description": "The University of Turku is a multidisciplinary research university located in the historic city of Turku. Established in 1920, it serves over 20,000 students and is recognized for its strong academic programs, research excellence, and international collaborations. The university offers a wide variety of disciplines, including medicine, science, law, education, and humanities. With a strong emphasis on innovation and entrepreneurship, the university plays a key role in regional development and is part of the Turku Science Park. Its mission is to provide high-quality education and generate new knowledge for the benefit of society.",
+    "website": "https://www.utu.fi/en"
+  },
+  {
+    "name": "University of Oulu",
+    "city": "Oulu",
+    "country": "Finland",
+    "students": 2900,
+    "founded": 1958,
+    "description": "The University of Oulu, established in 1958, is one of the largest universities in Finland. It focuses on multidisciplinary research and education in areas such as technology, health, and environmental sciences. Located in northern Finland, the university plays a central role in Arctic research and sustainable development. It has a modern campus, a collaborative academic environment, and strong ties to international research networks. Known for its pioneering work in wireless communication and digital technologies, Oulu continues to attract global talent and drive innovation that addresses real-world challenges.",
+    "website": "https://www.oulu.fi/en"
+  },
+  {
+    "name": "University of Jyvaskyla",
+    "city": "Jyvaskyla",
+    "country": "Finland",
+    "students": 13870,
+    "founded": 1934,
+    "description": "The University of Jyvaskyla, located in central Finland, is renowned for its high-quality research, especially in education, psychology, and natural sciences. Established in 1934, the university has grown into a leading multidisciplinary institution, attracting both domestic and international students. Its commitment to educational innovation, sustainability, and digitalization aligns with Finland\u2019s progressive academic goals. Jyvaskyla offers a vibrant campus life and is known for its supportive study environment and diverse research opportunities.",
+    "website": "https://www.jyu.fi/en"
+  },
+  {
+    "name": "University of Eastern Finland",
+    "city": "Joensuu",
+    "country": "Finland",
+    "students": 15500,
+    "founded": 2010,
+    "description": "Formed by the merger of the Universities of Joensuu and Kuopio, the University of Eastern Finland (UEF) is one of the largest universities in Finland. It places strong emphasis on interdisciplinary research, especially in health sciences, environmental change, and learning. With campuses in Joensuu and Kuopio, UEF supports modern teaching methods and fosters a student-centered learning environment, offering a variety of degree programs in English.",
+    "website": "https://www.uef.fi/en"
+  },
+  {
+    "name": "Abo Akademi University",
+    "city": "Turku",
+    "country": "Finland",
+    "students": 5500,
+    "founded": 1918,
+    "description": "Abo Akademi University is the only Swedish-language multidisciplinary university in Finland. Founded in 1918 in Turku, it serves a vital role in offering higher education in Swedish. It is known for its strong humanities and social sciences departments, and its research covers topics such as minority rights, technology, and bioeconomy. It offers inclusive learning and a culturally rich environment.",
+    "website": "https://www.abo.fi/en/"
+  },
+  {
+    "name": "Lappeenranta University of Technology",
+    "city": "Lappeenranta",
+    "country": "Finland",
+    "students": 5300,
+    "founded": 1969,
+    "description": "Lappeenranta-Lahti University of Technology LUT is a pioneering science university in Finland combining technology and business. LUT focuses on sustainability and green energy, with major strengths in energy technology, business innovation, and clean water. Its entrepreneurial spirit, practical research, and strong industry ties make it a popular choice for engineering and economics students.",
+    "website": "https://www.lut.fi/en"
+  },
+  {
+    "name": "University of Vaasa",
+    "city": "Vaasa",
+    "country": "Finland",
+    "students": 6500,
+    "founded": 1966,
+    "description": "The University of Vaasa specializes in business, administrative sciences, technology, and communication. Located in the coastal city of Vaasa, the university fosters internationalization and sustainability. It collaborates with regional industries and offers a strong research environment in fields such as energy, innovation, and digital economy. The scenic campus on the seashore enhances its appeal to international students.",
+    "website": "https://www.uwasa.fi/en"
+  },
+  {
+    "name": "University of Lapland",
+    "city": "Rovaniemi",
+    "country": "Finland",
+    "students": 6000,
+    "founded": 1979,
+    "website": "https://www.ulapland.fi/EN",
+    "description": "The University of Lapland, located in Rovaniemi, is the northernmost university in the European Union. Founded in 1979, it focuses on social sciences, law, art, and tourism. With an enrollment of about 6,000 students, it plays a critical role in Arctic research and regional development. The university's research concentrates on sustainability, Arctic governance, and indigenous studies. Its art and design faculty is especially strong, with programs deeply tied to regional culture. The campus, situated just a few kilometers from the Arctic Circle, offers a unique learning environment that attracts both Finnish and international students interested in studying in a northern, multicultural setting."
+  },
+  {
+    "name": "Hanken School of Economics",
+    "city": "Helsinki",
+    "country": "Finland",
+    "students": 2600,
+    "founded": 1909,
+    "website": "https://www.hanken.fi/",
+    "description": "Hanken School of Economics is a leading, internationally accredited business school in Finland. With its main campus in Helsinki and a history dating back to 1909, Hanken specializes in economics and business education. It offers bachelor\u2019s, master\u2019s, and doctoral programs in English and Swedish, and is known for its strong connections with industry, high-quality research, and a vast global alumni network. The school is triple-accredited (EQUIS, AACSB, and AMBA), placing it among the top 1% of business schools worldwide. Hanken emphasizes entrepreneurship, responsible leadership, and global perspective, with many students participating in exchange programs and double degrees abroad."
+  },
+  {
+    "name": "University of the Arts Helsinki",
+    "city": "Helsinki",
+    "country": "Finland",
+    "students": 1935,
+    "founded": 2013,
+    "website": "https://www.uniarts.fi/en/",
+    "description": "The University of the Arts Helsinki (Uniarts Helsinki) was established in 2013 through the merger of the Finnish Academy of Fine Arts, Sibelius Academy, and Theatre Academy. Located in the capital, Helsinki, it is the top institution in Finland for arts education, covering music, theater, dance, and fine arts. Uniarts offers programs at all levels and has a reputation for academic rigor and creative innovation. Its highly selective admission and expert faculty contribute to a vibrant artistic community. The university hosts many public performances and exhibitions, enhancing cultural life in Helsinki. Uniarts is well-connected internationally, making it a desirable destination for aspiring artists and performers."
+  },
+  {
+    "name": "Turku University of Applied Sciences",
+    "city": "Turku",
+    "country": "Finland",
+    "students": 9600,
+    "founded": 1996,
+    "website": "https://www.tuas.fi/en/",
+    "description": "Turku University of Applied Sciences (TUAS) is one of the largest universities of applied sciences in Finland, with approximately 9,600 students. It was established in 1996 and is located in Turku. TUAS focuses on practical, hands-on education that meets the needs of working life and industry. Programs are offered in technology, business, health care, arts, and social services. TUAS emphasizes innovation and entrepreneurship, and students participate in real-life projects with regional businesses. The university also conducts applied research and development activities, contributing to the competitiveness of Southwest Finland."
+  },
+  {
+    "name": "Metropolia University of Applied Sciences",
+    "city": "Helsinki",
+    "country": "Finland",
+    "students": 16400,
+    "founded": 1881,
+    "website": "https://www.metropolia.fi/en",
+    "description": "Metropolia University of Applied Sciences is Finland\u2019s largest university of applied sciences, located in the Helsinki metropolitan area. It was founded in 2008 through the merger of several institutions, but its roots date back to 1881. With over 16,000 students, Metropolia offers degree programs in health care, social services, technology, business, and culture. The institution emphasizes innovation, sustainability, and digital transformation. Its campuses serve as dynamic innovation hubs, where students collaborate with industries on development projects. Metropolia is a leader in applied research and development in Finland and has strong partnerships with local municipalities and international networks."
+  },
+  {
+    "name": "HUMAK University of Applied Sciences",
+    "city": "Helsinki",
+    "country": "Finland",
+    "students": 1500,
+    "founded": 1998,
+    "description": "HUMAK University of Applied Sciences is a prominent institution in Finland focusing on civic activities, youth work, and cultural management. It offers practice-based programs and has close cooperation with national organizations and NGOs. With its student-centered education and unique fields of study, HUMAK stands out in fostering social innovation and inclusive development.",
+    "website": "https://www.humak.fi/"
+  },
+  {
+    "name": "Laurea University of Applied Sciences",
+    "city": "Vantaa",
+    "country": "Finland",
+    "students": 7400,
+    "founded": 1992,
+    "description": "Laurea University of Applied Sciences emphasizes regional development and cooperation with businesses. It offers degrees in social services, healthcare, business, and security. The university is known for its Learning by Developing (LbD) model, integrating studies with real-life projects, enhancing students' employability and problem-solving skills.",
+    "website": "https://www.laurea.fi/"
+  },
+  {
+    "name": "Sein\u00e4joki University of Applied Sciences",
+    "city": "Sein\u00e4joki",
+    "country": "Finland",
+    "students": 4800,
+    "founded": 1995,
+    "description": "Sein\u00e4joki University of Applied Sciences (SeAMK) provides versatile degree programs and is a strong player in research, development, and innovation. Located in the entrepreneurial city of Sein\u00e4joki, it fosters internationalization and practical learning in fields like business, health, technology, and food safety.",
+    "website": "https://www.seamk.fi/"
+  },
+  {
+    "name": "HAAGA-HELIA University of Applied Sciences",
+    "city": "Helsinki",
+    "country": "Finland",
+    "students": 10500,
+    "founded": 1991,
+    "description": "HAAGA-HELIA is a business-oriented university of applied sciences in Finland offering programs in business, hospitality, IT, journalism, and sports. With a strong emphasis on entrepreneurship and innovation, it maintains tight connections with the business world to ensure the relevance and impact of its education.",
+    "website": "https://www.haaga-helia.fi/"
+  },
+  {
+    "name": "Oulu University of Applied Sciences",
+    "city": "Oulu",
+    "country": "Finland",
+    "students": 9000,
+    "founded": 1992,
+    "description": "Oulu University of Applied Sciences (OAMK) is a dynamic and modern higher education institution offering a wide range of bachelor\u2019s and master\u2019s degree programs. With a strong technological focus and collaboration with businesses, OAMK supports innovation in the fields of ICT, culture, health, and engineering.",
+    "website": "https://www.oamk.fi/"
+  },
+  {
+    "name": "Savonia University of Applied Sciences",
+    "city": "Kuopio",
+    "country": "Finland",
+    "students": 6000,
+    "founded": 1998,
+    "description": "Savonia University of Applied Sciences is a dynamic institution located in Kuopio, Finland. Founded in 1998, Savonia focuses on practical and research-based education, providing high-quality academic programs in health care, business, engineering, and social services. The university emphasizes collaboration with industries, which benefits students by offering real-world training and project experiences. Savonia is known for its modern learning environments and strong regional influence, especially in Eastern Finland. With an enrollment of 6,000 students, it is a mid-sized UAS with a growing international profile. The university\u2019s mission is to empower innovation and entrepreneurship through applied research and development.",
+    "website": "https://www.savonia.fi"
+  },
+  {
+    "name": "Satakunta University of Applied Sciences",
+    "city": "Pori",
+    "country": "Finland",
+    "students": 6000,
+    "founded": 1997,
+    "description": "Satakunta University of Applied Sciences (SAMK), located in Pori, Finland, is a progressive university of applied sciences offering education focused on maritime studies, health care, social services, and technology. Founded in 1997, SAMK serves as a key educational hub in the Satakunta region. Its programs are strongly oriented towards employment and entrepreneurship. SAMK has been recognized for its smart services, robotics, and inclusive internationalization approach. With 6,000 enrolled students, SAMK maintains a close connection to industry to ensure students are prepared for the challenges of the working world.",
+    "website": "https://www.samk.fi"
+  },
+  {
+    "name": "Hame University of Applied Sciences",
+    "city": "Hameenlinna",
+    "country": "Finland",
+    "students": 7543,
+    "founded": 1995,
+    "description": "H\u00e4me University of Applied Sciences (HAMK) is a multidisciplinary and international higher education institution located in H\u00e4meenlinna, Finland. Since its establishment in 1995, HAMK has built a reputation for offering applied research-driven education in areas such as bioeconomy, technology, education, and business. HAMK emphasizes sustainability, innovation, and practical experience in all of its programs. Its student-centered approach ensures graduates are well-prepared for employment or entrepreneurial paths. HAMK's seven campuses and global partnerships reflect its dedication to diversity and digital learning.",
+    "website": "https://www.hamk.fi"
+  },
+  {
+    "name": "Arcada University of Applied Sciences",
+    "city": "Helsinki",
+    "country": "Finland",
+    "students": 2443,
+    "founded": 1998,
+    "description": "Arcada University of Applied Sciences is a vibrant institution located in Helsinki, Finland. Founded in 1998, it is a Swedish-speaking university offering a wide range of degree programs in business, media, health care, and engineering. Arcada combines theoretical knowledge with practical skills and fosters an entrepreneurial mindset among students. With just under 2,500 students, Arcada maintains a close-knit academic community focused on innovation, sustainability, and social impact. Its international partnerships and research projects contribute significantly to regional and global development.",
+    "website": "https://www.arcada.fi"
+  },
+  {
+    "name": "Jyv\u00e4skyl\u00e4 University of Applied Sciences",
+    "city": "Jyv\u00e4skyl\u00e4",
+    "country": "Finland",
+    "students": 8500,
+    "founded": 1994,
+    "description": "Jyv\u00e4skyl\u00e4 University of Applied Sciences (JAMK) is a highly regarded institution located in the city of Jyv\u00e4skyl\u00e4, Finland. Founded in 1994, JAMK is known for excellence in fields such as business, engineering, health care, and technology. The university promotes internationalization, digital transformation, and entrepreneurial culture. With an enrollment of over 8,500 students, JAMK has a robust ecosystem that supports research, innovation, and continuous learning. Its campus provides a collaborative environment where students engage with regional businesses, global partners, and interdisciplinary projects.",
+    "website": "https://www.jamk.fi"
+  },
+  {
+    "name": "Diaconia University of Applied Sciences",
+    "city": "Helsinki",
+    "country": "Finland",
+    "students": 3000,
+    "founded": 1996,
+    "description": "Diaconia University of Applied Sciences (Diak) specializes in social work, healthcare, and community development. The university combines academic knowledge with practical training to prepare students for roles that require empathy, leadership, and professional expertise in supporting communities. Diak also focuses on multiculturalism and sustainability, making it a leader in inclusive higher education in Finland. With strong ties to organizations, NGOs, and churches, Diak offers students the opportunity to gain field experience early in their studies. Its Helsinki location also provides access to a rich network of partners in both urban and rural settings.",
+    "website": "https://www.diak.fi/en/"
+  },
+  {
+    "name": "Kajaani University of Applied Sciences",
+    "city": "Kajaani",
+    "country": "Finland",
+    "students": 2200,
+    "founded": 1992,
+    "description": "Kajaani University of Applied Sciences (KAMK) offers a modern, international learning environment with a focus on game development, tourism, business, and technology. Located in northern Finland, KAMK is known for its entrepreneurial approach to education and small class sizes that ensure personalized guidance. Its acclaimed game development program has drawn global attention, while strong ties with local industries ensure hands-on learning and good employment prospects. The campus promotes sustainability and innovation, equipping students with future-ready skills. KAMK is one of Finland\u2019s most international universities in terms of student population.",
+    "website": "https://www.kamk.fi/en"
+  },
+  {
+    "name": "Novia University of Applied Sciences",
+    "city": "Vaasa",
+    "country": "Finland",
+    "students": 5000,
+    "founded": 1996,
+    "description": "Novia University of Applied Sciences is the largest Swedish-speaking university of applied sciences in Finland. With campuses in Vaasa, Turku, and other regions, Novia offers multidisciplinary degree programs in engineering, business, social services, and maritime studies. The institution emphasizes sustainability, innovation, and real-world collaboration, integrating work-life experiences into academic education. It maintains strong networks across the Nordic countries and promotes bilingualism and internationalization, creating a culturally diverse learning environment.",
+    "website": "https://www.novia.fi"
+  },
+  {
+    "name": "Lahti University of Applied Sciences",
+    "city": "Lahti",
+    "country": "Finland",
+    "students": 7000,
+    "founded": 1991,
+    "description": "Lahti University of Applied Sciences (LAMK), now part of LAB University of Applied Sciences, was known for its strengths in design, environmental engineering, and business innovation. LAMK played a key role in Lahti\u2019s development as a green city and contributed to Finland\u2019s sustainability goals through its programs and research. The university fostered collaboration with regional businesses and maintained a hands-on, project-based learning culture. Its legacy continues in LAB, with state-of-the-art facilities and active partnerships with industries and public organizations.",
+    "website": "https://www.lab.fi/en"
+  },
+  {
+    "name": "Centria University of Applied Sciences",
+    "city": "Kokkola",
+    "country": "Finland",
+    "students": 4400,
+    "founded": 1995,
+    "description": "Centria University of Applied Sciences is a dynamic, multidisciplinary university focusing on technology, business, social and health care, and culture. Based in Kokkola, Centria provides high-quality education in a compact and student-friendly environment. The university supports innovation through active research and development projects, encouraging students to participate. With a growing international student population and partnerships around the world, Centria is known for its practical orientation and community-driven approach to learning.",
+    "website": "https://www.centria.fi/en"
+  },
+  {
+    "name": "South-East Finland University of Applied Sciences",
+    "city": "Kotka",
+    "country": "Finland",
+    "students": 10000,
+    "founded": 2016,
+    "description": "South-East Finland University of Applied Sciences (Xamk) was established in 2016 and is a modern institution focusing on practical, research-based learning. With approximately 10,000 students, Xamk is one of the largest universities of applied sciences in Finland. The university emphasizes innovation, sustainability, and entrepreneurship, and is well-known for its digital learning environments and RDI activities. Xamk operates across four campuses in southeastern Finland and collaborates with numerous international partners, providing global opportunities for its students.",
+    "website": "https://www.xamk.fi"
+  },
+  {
+    "name": "Vaasa University of Applied Sciences",
+    "city": "Vaasa",
+    "country": "Finland",
+    "students": 3230,
+    "founded": 1996,
+    "description": "Vaasa University of Applied Sciences (VAMK) provides multidisciplinary education tailored to meet the needs of working life. With around 3,230 students, it offers programs in business, technology, and health care. VAMK is located in Finland\u2019s energy cluster and has strong ties with the energy sector, allowing students to benefit from close industry collaboration and practical training. The university emphasizes digitalization, internationalization, and sustainable development.",
+    "website": "https://www.vamk.fi"
+  },
+  {
+    "name": "Aland University of Applied Sciences",
+    "city": "Mariehamn",
+    "country": "Finland",
+    "students": 600,
+    "founded": 2003,
+    "description": "Located in Mariehamn on the \u00c5land Islands, Aland University of Applied Sciences is a small but dynamic institution. With around 600 students, the university provides programs in marine technology, business administration, health care, and information technology. It offers a unique maritime profile and is known for maintaining high-quality, industry-relevant education and close cooperation with the local community and businesses in the \u00c5land region.",
+    "website": "https://www.ha.ax"
+  },
+  {
+    "name": "Saimaa University of Applied Sciences",
+    "city": "Lappeenranta",
+    "country": "Finland",
+    "students": 5000,
+    "founded": 1992,
+    "description": "Saimaa University of Applied Sciences, based in Lappeenranta, offered career-focused programs in engineering, business, and social services. With approximately 5,000 students before its merger with LAB University of Applied Sciences in 2020, it had a strong reputation for fostering applied research and international exchange. The university emphasized innovation, multicultural learning environments, and sustainable development.",
+    "website": "https://www.saimia.fi"
+  },
+  {
+    "name": "Lapland University of Applied Sciences",
+    "city": "Rovaniemi",
+    "country": "Finland",
+    "students": 5500,
+    "founded": 2014,
+    "description": "Lapland University of Applied Sciences is Finland\u2019s northernmost university of applied sciences, located in Rovaniemi. Founded in 2014, it specializes in Arctic expertise, entrepreneurship, and service business. The university supports innovation in tourism, welfare, and industrial services. It emphasizes collaboration with local communities and companies, preparing its students for unique challenges in northern and international environments.",
+    "website": "https://www.lapinamk.fi"
+  },
+  {
+    "name": "Karelia University of Applied Sciences",
+    "city": "Joensuu",
+    "country": "Finland",
+    "students": 3696,
+    "founded": 1992,
+    "description": "Karelia University of Applied Sciences, located in Joensuu, Finland, is known for its practice-oriented education and strong ties to regional development. It was founded in 1992 and has since grown to become a significant institution in Eastern Finland. With an enrollment of approximately 3,696 students, Karelia UAS offers a range of bachelor's and master's programs in fields such as business, engineering, health care, and social services. The university places a strong emphasis on international cooperation and applied research, working closely with local businesses and international partners. Its mission includes promoting sustainable development, entrepreneurship, and innovation through education and R&D activities. Karelia UAS is recognized for fostering an inclusive, collaborative learning environment that integrates academic studies with real-world problem solving. The university supports both Finnish and international students with a diverse academic community, making it a dynamic hub for applied learning in the region.",
+    "website": "https://www.karelia.fi/en/"
+  }
+]
