@@ -8,6 +8,7 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Montserrat', 'sans-serif'],
+                roboto: ['Roboto', 'sans-serif'],
             },
         },
     },

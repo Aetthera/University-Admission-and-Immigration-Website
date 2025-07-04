@@ -1,3 +1,4 @@
+
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -17,6 +18,7 @@ import Performance from "./components/Performance";
 import AdmissionProcess from "./components/UniversitySelection/AdmissionProcess";
 import NewsletterSection from "./components/UniversitySelection/NewsletterSection";
 import ContactUs from "./components/ContactUs";
+import ApplicationTab from "./components/ApplicationTab";
 
 // Pages
 import HomePage from "./pages/HomePage";
@@ -36,6 +38,7 @@ function App() {
         <Route path="/universities" element={<UniversityList />} />
         <Route path="/universities/:country/:name" element={<UniversityDetails />} />
         <Route path="/universityPage" element={<UniversityPage />} />
+        <Route path="/application" element={<ApplicationTab />} />
       </Routes>
 
       <Footer />

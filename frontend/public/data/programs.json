@@ -1,0 +1,38 @@
+[
+    {
+        "id": "101",
+        "universityId": "1",
+        "name": "Programming",
+        "diplomaType": "DEC",
+        "tuition": 19812,
+        "startDate": "Jan 2025",
+        "endDate": "May 2027"
+    },
+    {
+        "id": "102",
+        "universityId": "1",
+        "name": "Graphic Design",
+        "diplomaType": "DEC",
+        "tuition": 17600,
+        "startDate": "Jan 2025",
+        "endDate": "May 2027"
+    },
+    {
+        "id": "201",
+        "universityId": "2",
+        "name": "Nursing",
+        "diplomaType": "DEC",
+        "tuition": 20500,
+        "startDate": "Fall 2025",
+        "endDate": "Spring 2028"
+    },
+    {
+        "id": "301",
+        "universityId": "3",
+        "name": "Social Science",
+        "diplomaType": "DEC",
+        "tuition": 18200,
+        "startDate": "Winter 2025",
+        "endDate": "Summer 2027"
+    }
+]
