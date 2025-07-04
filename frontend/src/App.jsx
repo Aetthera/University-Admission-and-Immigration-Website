@@ -25,6 +25,8 @@ import HomePage from "./pages/HomePage";
 import UniversityList from "./pages/UniversityList";
 import UniversityDetails from "./pages/UniversityDetails";
 import UniversityPage from './pages/UniversityPage';
+import Dashboard from './pages/Dashboard';
+import ApplicationsPage from './pages/ApplicationsPage';
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
         <Route path="/universities/:country/:name" element={<UniversityDetails />} />
         <Route path="/universityPage" element={<UniversityPage />} />
         <Route path="/application" element={<ApplicationTab />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/applications" element={<ApplicationsPage />} />
       </Routes>
 
       <Footer />
