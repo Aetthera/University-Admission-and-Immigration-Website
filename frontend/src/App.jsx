@@ -1,65 +1,48 @@
-// import Footer from './components/Footer';
-// import Header from './components/Header';
-// import CardSection from './components/CardSection';
-// import GetConsultation from './components/GetConsultation';
-// import Hero from './components/heroSection';
-// import CustomerReview from './components/customerReview';
-// import Performance from './components/Performance';
-// import ContactUs from './components/ContactUs'
 
-// function App() {
-//   return (
-//     <>
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-//     <Header />
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import BannerSearchSection from "./components/BannerSearchSection";
+import FilterUniSelection from "./components/FilterUniSelection";
 
-//     {/* Hero Section */}
-//     <div>
-//       <Hero/>
-//     </div>
+// Components from feature/homepage (not yet used, but preserved)
+import Hero from "./components/Hero";
+import CardSection from "./components/CardSection";
+import CustomerReview from "./components/CustomerReview";
+import GetConsultation from "./components/GetConsultation";
+import Performance from "./components/Performance";
 
-//     {/* Card Section */}
-//     <div>
-//       <CardSection/>
-//     </div>
+// Shared
+import AdmissionProcess from "./components/UniversitySelection/AdmissionProcess";
+import NewsletterSection from "./components/UniversitySelection/NewsletterSection";
+import ContactUs from "./components/ContactUs";
+import ApplicationTab from "./components/ApplicationTab";
 
-//     {/* Client Review Section */}
-//     <div>
-//       <CustomerReview/>
-//     </div>
-
-//     {/* Get Consultation Section */}
-//     <div>
-//       <GetConsultation/>
-//     </div>
-
-//     {/* Performance Section */}
-//     <div>
-//       <Performance/>
-//     </div>
-
-//     {/* Get in touch Section */}
-//     <div>
-//       <ContactUs/>
-//     </div>
-
-//       <Footer />
-//     </>
-//   );
-// }
-
-// export default App;
-
-
-
-// src/App.jsx
-import ApplicationTab from "./components/ApplicationTab"; // adjust path if it's in a folder
+// Pages
+import HomePage from "./pages/HomePage";
+import UniversityList from "./pages/UniversityList";
+import UniversityDetails from "./pages/UniversityDetails";
+import UniversityPage from './pages/UniversityPage';
 
 function App() {
   return (
-    <div className="min-h-screen p-8 bg-gray-100">
-      <ApplicationTab />
-    </div>
+    <Router>
+      <Header />
+      <BannerSearchSection />
+      <FilterUniSelection />
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/universities" element={<UniversityList />} />
+        <Route path="/universities/:country/:name" element={<UniversityDetails />} />
+        <Route path="/universityPage" element={<UniversityPage />} />
+        <Route path="/application" element={<ApplicationTab />} />
+      </Routes>
+
+      <Footer />
+    </Router>
   );
 }
 
