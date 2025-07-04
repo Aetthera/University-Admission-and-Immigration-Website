@@ -9,14 +9,14 @@ export default function Footer() {
         <footer className="w-full bg-[#333333] text-gray-300 pt-8 pb-4 border-t border-gray-700">
 
 
-            <div className="relative max-w-6xl mx-auto px-4 pt-10">
+            <div className="relative max-w-6xl mx-auto px-4">
 
 
                 {/* Plane Image at Bottom Left */}
                 <img
                     src={planeimg}
                     alt="Plane"
-                    className="absolute top-[-110px] left-[-300px] w-[500px] h-auto"
+                    className="absolute top-[-150px] left-[-300px] w-[500px] h-auto"
                 />
 
 

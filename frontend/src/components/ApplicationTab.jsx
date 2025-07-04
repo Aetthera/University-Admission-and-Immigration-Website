@@ -191,9 +191,9 @@ export default function ApplicationTab() {
 
 
     return (
-        
+
         <>
-            <div className="bg-white pt-10">
+
             <p
                 ref={instructionRef}
                 className={`instruction-text flex justify-center p-[60px] text-black text-lg text-center transition-all duration-300 
@@ -465,7 +465,7 @@ export default function ApplicationTab() {
                 </section>
 
             )}
-        </div>
+
         </>
 
 
